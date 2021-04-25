@@ -14,7 +14,7 @@ const TeamMember = ({ data }) => {
 				<Col xs={12} sm={6}>
 					<Image
 						className='personImg'
-						src={`${process.env.PUBLIC_URL}/assets/images/personal_image/avatar.png`}
+						src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${data.photo}`}
 						fluid
 					/>
 				</Col>

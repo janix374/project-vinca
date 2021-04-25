@@ -9,7 +9,7 @@
         "tel": "+381 (0)11 3408 629",
         "fax": "+381 (0)11 8066 425",
         "email": "ljupcoh@vin.bg.ac.rs",
-        "photo":"",
+        "photo":"avatar.png",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
@@ -48,7 +48,7 @@
         "tel": "+381 (0)11 3408 396",
         "fax": "+381 (0)11 8066 425",
         "email": "petrab@vin.bg.ac.rs",
-        "photo":"",
+        "photo":"woman.png",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
@@ -83,7 +83,7 @@
         "tel": "+381 (0)11 3408 638",
         "fax": "+381 (0)11 8066 425",
         "email": "goran79@vin.bg.ac.rs",
-        "photo":"",
+        "photo":"avatar.png",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
@@ -108,6 +108,34 @@
         "education": [
             "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
             "2004-2008 Magister in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "MM",
+        "academic_title": "Dr",
+        "job_title": "Research Associate Professor",
+        "tel": "+381",
+        "fax": "+381",
+        "email": "",
+        "photo":"avatar.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamE"
+        ],
+        "research_interest": [
+            "Nonlinear Matter Waves", 
+            "Solitons and breathers in nonlinear optical systems"
+        ],
+        "professional_positions": [
+            "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
             "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
         ]
     }

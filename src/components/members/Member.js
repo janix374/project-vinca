@@ -6,7 +6,6 @@ const Member = ({ match }) => {
 	const matchId = match.params.memberId;
 	const [teamMember, setTeamMember] = useState({});
 	const [errors, setErrors] = useState(false);
-	const [redirectPage, setRedirectPage] = useState(false);
 
 	const getDataOne = async () => {
 		try {
@@ -26,7 +25,6 @@ const Member = ({ match }) => {
 			if (member) {
 				setTeamMember(member);
 			}
-			setRedirectPage(true);
 		} catch (error) {
 			console.log('Error');
 			// console.error(error);
