@@ -1,0 +1,118 @@
+{   
+    "members": [
+
+    {
+        "id": 1,
+        "name": "Ljupčo Hadžievski",
+        "academic_title": "Dr",
+        "job_title": "Research Professor",
+        "tel": "+381 (0)11 3408 629",
+        "fax": "+381 (0)11 8066 425",
+        "email": "ljupcoh@vin.bg.ac.rs",
+        "photo":"",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Nonlinear and turbulent processes in plasma", 
+            "Relativistic laser-plasma interactions", 
+            "Nonlinear optics", 
+            "Intrinsic localized modes: solitons and breathers", 
+            "Nonlinear discrete systems"
+        ],
+        "professional_positions": [
+            "2005- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor", 
+            "2002-2005 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+            "1998-2002 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "1997-1998 Institute for Studies in Theoretical Physics Mathematics, Teheran, Iran, as a Visiting Professor",
+            "1990-1991 University of Iowa, USA, as a PhD Student",
+            "1989-1997 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "1985-1989 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student",
+            "1982-1985 Center for Application of Radioisotopes in Science and Industry, Skopje, Macedonia, as a Researcher"
+        ],
+        "education": [
+            "1991-1996 PhD in Physics, Faculty of Physics, University of Belgrade, Serbia",
+            "1985-1989 Magister in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia",
+            "1976-1982 Diploma in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Petra Beličev",
+        "academic_title": "Dr",
+        "job_title": "Research Associate Professor",
+        "tel": "+381 (0)11 3408 396",
+        "fax": "+381 (0)11 8066 425",
+        "email": "petrab@vin.bg.ac.rs",
+        "photo":"",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Nonlinear optics and photonics", 
+            "Numerical and analytical studies of continual and discrete nonlinear systems", 
+            "Solitons and breathers in nonlinear optical systems", 
+            "Fiber-optics, fiber-grating sensors", 
+            "Metamaterials"
+        ],
+        "professional_positions": [
+            "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
+            "2013-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2009-2012 PhD in Electrical Engineering, School of Electrical Engineering, Group for Nanoelectronics and Photonics, University of Belgrade, Serbia",
+            "2007-2008 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+            "2003-2007 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Goran Gligorić",
+        "academic_title": "Dr",
+        "job_title": "Research Associate Professor",
+        "tel": "+381 (0)11 3408 638",
+        "fax": "+381 (0)11 8066 425",
+        "email": "goran79@vin.bg.ac.rs",
+        "photo":"",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Nonlinear dynamics and complex systems", 
+            "Numerical and analytical studies of continual and discrete nonlinear systems", 
+            "Dynamics of localized structures in Bose-Einstein condensates", 
+            "Nonlinear Matter Waves", 
+            "Solitons and breathers in nonlinear optical systems"
+        ],
+        "professional_positions": [
+            "2015-... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
+            "2010-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "2010-2012 Max Planck Instutute for the Physics of Complex Systems, Dresden, Germany, as a Guest Scientist",
+            "2008-2010 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2004-2008 Magister in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    }
+
+    ]
+    
+   
+}
