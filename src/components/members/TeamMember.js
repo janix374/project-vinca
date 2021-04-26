@@ -72,7 +72,7 @@ const TeamMember = ({ data }) => {
 			</Row>
 			<Row>
 				<a
-					href={`/assets/pdf/cv/${data.cv}`}
+					href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
 					className='btn btn-info btn-lg active buttonPDFTeamMember'
 					role='button'
 					aria-pressed='true'
@@ -82,7 +82,7 @@ const TeamMember = ({ data }) => {
 					cv
 				</a>
 				<a
-					href={`/assets/pdf/publications/${data.publications}`}
+					href={`${process.env.PUBLIC_URL}/assets/pdf/publications/${data.publications}`}
 					className='btn btn-info btn-lg active buttonPDFTeamMember'
 					role='button'
 					aria-pressed='true'

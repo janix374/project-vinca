@@ -14,6 +14,8 @@ const TeamMembers = (props) => {
 		item.on_project.includes(teamName)
 	);
 
+	console.log(url);
+
 	return (
 		<div>
 			<ListGroup>

@@ -36,8 +36,6 @@ const Member = ({ match }) => {
 		getDataOne();
 	}, []);
 
-	console.log(Object.keys(teamMember).length);
-
 	if (errors) {
 		return (
 			<Container>

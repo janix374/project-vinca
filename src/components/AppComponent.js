@@ -1,5 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	HashRouter,
+} from 'react-router-dom';
 import NavigationComponent from './navigation/NavigationComponent';
 import Home from './home/Home';
 import Publication from './publication/Publication';
@@ -15,29 +20,47 @@ import News from './news/News';
 import NotFoundPage from './notfound/NotFoundPage';
 
 const AppComponent = () => (
-	<Router>
+	<HashRouter>
 		<div>
 			<Header />
 			<NavigationComponent />
 			<Switch>
-				<Route exact path='/' component={() => <Home />} />
+				<Route path='/' exact component={() => <Home />} />
 
-				<Route path='/about/history' component={History} />
-				<Route path='/about/gallery' component={Gallery} />
-				<Route path='/about/documents' component={Documents} />
-				<Route path='/about/contact' component={Contact} />
+				<Route path='/about/history' exact>
+					<History />
+				</Route>
+				<Route path='/about/gallery' exact>
+					<Gallery />
+				</Route>
+				<Route path='/about/documents' exact>
+					<Documents />
+				</Route>
+				<Route path='/about/contact' exact>
+					<Contact />
+				</Route>
 
-				<Route exact path='/members' component={Members} />
+				<Route exact path='/members'>
+					<Members />
+				</Route>
 				<Route exact path='/members/:memberId' component={Member} />
 
-				<Route path='/project' component={Project} />
-				<Route path='/publication' component={Publication} />
-				<Route path='/news' component={News} />
+				<Route path='/project' exact>
+					<Project />
+				</Route>
+				<Route path='/publication' exact>
+					<Publication />
+				</Route>
+				<Route path='/news' exact>
+					<News />
+				</Route>
 
-				<Route component={NotFoundPage} />
+				<Route>
+					<NotFoundPage />
+				</Route>
 			</Switch>
 		</div>
-	</Router>
+	</HashRouter>
 );
 
 export default AppComponent;
