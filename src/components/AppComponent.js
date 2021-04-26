@@ -20,7 +20,7 @@ import News from './news/News';
 import NotFoundPage from './notfound/NotFoundPage';
 
 const AppComponent = () => (
-	<HashRouter>
+	<Router>
 		<div>
 			<Header />
 			<NavigationComponent />
@@ -60,7 +60,7 @@ const AppComponent = () => (
 				</Route>
 			</Switch>
 		</div>
-	</HashRouter>
+	</Router>
 );
 
 export default AppComponent;
