@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import TeamMembers from './TeamMembers';
+import MembersList from './MembersList';
 
 const Members = () => {
 	const [teamMembers, setTeamMembers] = useState([]);
@@ -37,7 +37,7 @@ const Members = () => {
 						<Col xs={12} className=''>
 							<h3>Team A</h3>
 							<p>description</p>
-							<TeamMembers
+							<MembersList
 								data={teamMembers}
 								teamName='TeamA'
 								errors={errors}
@@ -50,7 +50,7 @@ const Members = () => {
 						<Col xs={12} className=''>
 							<h3>Team B</h3>
 							<p>description</p>
-							<TeamMembers
+							<MembersList
 								data={teamMembers}
 								teamName='TeamB'
 								errors={errors}
@@ -63,7 +63,7 @@ const Members = () => {
 						<Col xs={12} className=''>
 							<h3>Team C</h3>
 							<p>description</p>
-							<TeamMembers
+							<MembersList
 								data={teamMembers}
 								teamName='TeamC'
 								errors={errors}
@@ -74,12 +74,12 @@ const Members = () => {
 				<Col sm={6} xs={12} className='mt-5'>
 					<Row>
 						<Col xs={12} className=''>
-							<h3>Team D</h3>
+							<h3>Visitors</h3>
 							<p>description</p>
 
-							<TeamMembers
+							<MembersList
 								data={teamMembers}
-								teamName='TeamD'
+								teamName='Visitors'
 								errors={errors}
 							/>
 						</Col>
@@ -88,12 +88,12 @@ const Members = () => {
 				<Col sm={6} xs={12} className='mt-5'>
 					<Row>
 						<Col xs={12} className=''>
-							<h3>Team E</h3>
+							<h3>Collaborators</h3>
 							<p>description</p>
 
-							<TeamMembers
+							<MembersList
 								data={teamMembers}
-								teamName='TeamE'
+								teamName='Collaborators'
 								errors={errors}
 							/>
 						</Col>

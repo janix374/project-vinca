@@ -4,12 +4,13 @@
     {
         "id": 1,
         "name": "Ljupčo Hadžievski",
-        "academic_title": "Dr",
+        "academic_title": "Dr.",
         "job_title": "Research Professor",
         "tel": "+381 (0)11 3408 629",
         "fax": "+381 (0)11 8066 425",
         "email": "ljupcoh@vin.bg.ac.rs",
-        "photo":"avatar.png",
+        "personal_url": "",
+        "photo":"ljupco_hadzievski.jpg",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
@@ -42,48 +43,216 @@
 
     {
         "id": 2,
-        "name": "Petra Beličev",
-        "academic_title": "Dr",
-        "job_title": "Research Associate Professor",
-        "tel": "+381 (0)11 3408 396",
+        "name": "Milutin Stepić",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "+381 (0)11 3408 770",
         "fax": "+381 (0)11 8066 425",
-        "email": "petrab@vin.bg.ac.rs",
-        "photo":"woman.png",
+        "email": "mstepic@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"milutin_stepic.jpg",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
             "TeamB",
-            "TeamC"
+            "TeamE"
         ],
         "research_interest": [
             "Nonlinear optics and photonics", 
-            "Numerical and analytical studies of continual and discrete nonlinear systems", 
-            "Solitons and breathers in nonlinear optical systems", 
-            "Fiber-optics, fiber-grating sensors", 
-            "Metamaterials"
+            "Nonlinear dynamics",
+            "Nonlinear waveguides, couplers, arrays",
+            "Photorefractive crystals, photonic crystals and fibres",
+            "All-optical devices and communications"
         ],
         "professional_positions": [
-            "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
-            "2013-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
-            "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+            "2009- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+            "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+            "2006-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "2006-2007 National Institute of Metrology (PTB), Braunschweig, Germany, as a Postdoctoral Research Fellow",
+            "2004-2006 IPPT, Clausthal University of Technology, Clausthal-Zellerfeld, Germany, as a Postdoctoral Research Fellow",
+            "2002-2006 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2002-2004 Institute of Physics and Physics Technologies (IPPT), Clausthal University of Technology, Clausthal-Zellerfeld, Germany, as a Research Assistant",
+            "1999-2002 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant",
+            "1998-1999 'D. Maksimović' Primary-school, and EMŠ 'Zemun' High-school, both in Zemun, Serbia, as a Physics Teacher"
         ],
         "education": [
-            "2009-2012 PhD in Electrical Engineering, School of Electrical Engineering, Group for Nanoelectronics and Photonics, University of Belgrade, Serbia",
-            "2007-2008 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
-            "2003-2007 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+            "2002-2004 PhD in Natural Sciences (Physics), Institute of Physics and Physical Technologies (IPPT), Clausthal University of Technology, Germany",
+            "1999-2001 Magister in Theoretical Physics of Plasmas, Faculty of Physics, University of Belgrade, Serbia",
+            "1989-1997 Diploma in Theoretical and Experimental Physics, Faculty of Physics, University of Belgrade, Serbia"
         ]
     },
 
     {
         "id": 3,
+        "name": "Aleksandra Maluckov",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "+381 (0)11 3408 396",
+        "fax": "+381 (0)11 8066 425",
+        "email": "sandram@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Nonlinear dynamics and chaos", 
+            "Nonlinear optics", 
+            "Localization, transport and extreme events", 
+            "Cold-atom physics", 
+            "Numerical modeling"
+        ],
+        "professional_positions": [
+            "2012- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor", 
+            "2007-2012 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as an Associate Professor",
+            "2002-2007 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as an Assistant Professor",
+            "1997-2002 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as a Teaching Assistant",
+            "1992-1997 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as a Junior Assistant",
+            "1989-1997 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate"
+        ],
+        "education": [
+            "1998-2001 PhD in Physics, National Institute for Fusion Science, School of Mathematical and Physical Science, The Graduate University for Advanced Studies, Hayama, Japan",
+            "1991-1997 Magister in Physics, Faculty of Natural Sciences, University of Belgrade, Serbia",
+            "1986-1991 Diploma in Physics, Faculty of Sciences and Mathematics, University of Niš, Serbia"
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Slobodan Zdravković",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "+381 (0)11 3408 524",
+        "fax": "+381 (0)11 8066 425",
+        "email": "szdjidji@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"slobodan_zdravkovic.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Nonlinear dynamics of DNA and microtubules"
+        ],
+        "professional_positions": [
+            "2015- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor", 
+            "2011- 2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor"
+        ],
+        "education": [
+            "2004 PhD in Physics, Physics Department, Faculty of Sciences and Mathematics, University of Novi Sad, Novi Sad, Serbia.",
+            "1990 M.Sc. University of North Carolina at Chapel Hill, USA.",
+            "1978 Diploma in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Jovana Petrović",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "+381 (0)11 3408 638",
+        "fax": "+381 (0)11 8066 425",
+        "email": "jovanap@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"jovana_petrovic.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Fibre-grating sensors", 
+            "Ultrafast optics", 
+            "Femtosecond laser inscription", 
+            "Cold-atom physics", 
+            "Numerical modelling"
+        ],
+        "professional_positions": [
+            "2019- Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor", 
+            "2018-2020 Deutsches Elektronen-Synchrotron DESY,Hamburg, Germany, Laser Scientist",
+            "2013-2019 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+            "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "2010-2011 Laboratory for Nonlinear Spectroscopy (LENS), Florence, Italy, as a Postdoctoral Researcher",
+            "2007-2009 University of Oxford, UK, as a Postdoctoral Research Associate",
+            "2006-2007 Aston University, UK, as a Postdoctoral Research Fellow"
+        ],
+        "education": [
+            "2008-2009 Postgraduate Diploma in Learning and Teaching in Higher Education, Institute of Learning, University of Oxford, UK",
+            "2002-2006 PhD in Photonics, Photonics Research Group, Aston University, UK",
+            "1997-2002 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Marijana Petković",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Boško Bojović",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate Professors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 8,
         "name": "Goran Gligorić",
-        "academic_title": "Dr",
+        "academic_title": "Dr.",
         "job_title": "Research Associate Professor",
         "tel": "+381 (0)11 3408 638",
         "fax": "+381 (0)11 8066 425",
         "email": "goran79@vin.bg.ac.rs",
-        "photo":"avatar.png",
+        "personal_url": "",
+        "photo":"avatar.jpg",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
@@ -113,30 +282,844 @@
     },
 
     {
-        "id": 4,
-        "name": "MM",
-        "academic_title": "Dr",
+        "id": 9,
+        "name": "Petra Beličev",
+        "academic_title": "Dr.",
         "job_title": "Research Associate Professor",
-        "tel": "+381",
-        "fax": "+381",
-        "email": "",
-        "photo":"avatar.png",
+        "tel": "+381 (0)11 3408 396",
+        "fax": "+381 (0)11 8066 425",
+        "email": "petrab@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"avatar.jpg",
         "cv":"fakecv.pdf",
         "publications":"fakepublications.pdf",
         "on_project":[
             "TeamB",
-            "TeamE"
+            "TeamC"
         ],
         "research_interest": [
-            "Nonlinear Matter Waves", 
-            "Solitons and breathers in nonlinear optical systems"
+            "Nonlinear optics and photonics", 
+            "Numerical and analytical studies of continual and discrete nonlinear systems", 
+            "Solitons and breathers in nonlinear optical systems", 
+            "Fiber-optics, fiber-grating sensors", 
+            "Metamaterials"
         ],
         "professional_positions": [
-            "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+            "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
+            "2013-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+            "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
         ],
         "education": [
-            "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
-            "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+            "2009-2012 PhD in Electrical Engineering, School of Electrical Engineering, Group for Nanoelectronics and Photonics, University of Belgrade, Serbia",
+            "2007-2008 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+            "2003-2007 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 10,
+        "name": "Marija Ivanović",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate Professor",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "marijap@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Machine and deep learning", 
+            "Medical diagnostic devices", 
+            "Biomedical signal processing", 
+            "Electrophysiological measurements", 
+            "Fibre-grating sensors"
+        ],
+        "professional_positions": [
+            "2015- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2011-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2010-2011 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2009-2014 PhD in Fiber-optical sensors for applications in medical diagnostic, Department of Biomedical and Environmental Engineering, University of Belgrade, Serbia",
+            "2008-2009 Master Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2004-2008 Bachelor Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University in Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 11,
+        "name": "Ana Radosavljević",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate Professor",
+        "tel": "+381 (0)11 3408 396",
+        "fax": "+381 (0)11 8066 425",
+        "email": "anar@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Nonlinear dynamics", 
+            "Numerical and analytical studies of continual and discrete nonlinear systems", 
+            "Localization in complex optical systems", 
+            "Nanophotonics", 
+            "Solid state communications"
+        ],
+        "professional_positions": [
+            "2016- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2013-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2012-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2012-2015 PhD in Nanoelectronics, Optoelectronics and Laser Techniques, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2011-2012 Master Diploma in Nanoelectronics, Optoelectronics and Laser Techniques, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2007-2011 Bachelor Diploma in Electrical Engineering and Computing, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 12,
+        "name": "Danka Stojanović",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate Professor",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "dankas@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Modelling of optical properties of metamaterials and metasurfaces", 
+            "Chiral structures", 
+            "Terahertz frequency range", 
+            "Sensing applications of photonic structures"
+        ],
+        "professional_positions": [
+            "2019- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2013-2019 present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2012-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2012-2018 PhD in Nanoelectronics and photonics, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2011-2012 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+            "2006-2011 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 13,
+        "name": "Maja Nešić",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 14,
+        "name": "Marjan Miletić",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD Student",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "marjanmil@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            "Medical diagnostic devices", 
+            "Biomedical signal processing", 
+            "Image processing", 
+            "Fibre-grating sensors"
+        ],
+        "professional_positions": [
+            "2016-...present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate", 
+            "2014-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2002-2013 Master Diploma in Optoelectronics and Laser Engineering, Faculty of Electrical Engineering, Department for Optoelectronics and Laser Engineering, University of Belgrade, Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 15,
+        "name": "Jelena Kršić",
+        "academic_title": "M. Sc",
+        "job_title": "PhD Students",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 16,
+        "name": "Vladimir Atanasoski",
+        "academic_title": "M. Sc",
+        "job_title": "PhD Students",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 17,
+        "name": "Milica Matijević",
+        "academic_title": "M. Sc",
+        "job_title": "PhD Students",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 18,
+        "name": "Igor Ilić",
+        "academic_title": "Dr.",
+        "job_title": "Research Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"woman.png",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamB",
+            "TeamC"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 19,
+        "name": "Nevena Ilić Raičević",
+        "academic_title": "Dr.",
+        "job_title": "Research Assistant Professor",
+        "tel": "+381 (0)11 3408 396",
+        "fax": "+381 (0)11 8066 425",
+        "email": "nevenar@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Optical sensors", 
+            "Nanophotonics", 
+            "Photorefractive crystals and waveguides", 
+            "Nanostructures"
+        ],
+        "professional_positions": [
+            "2015-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2010-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2010-2012 Helmut Schmidt Univeristy, Hamburg, Germany, as a Research Assistant",
+            "2009-2010 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2009-2015 PhD in Nanoelectronics, Optoelectronics and Laser Techniques, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2007-2009 Master Diploma in Nanoelectronics, Optoelectronics and Laser Techniques, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2003-2007 Bachelor Diploma in Nanoelectronics, Optoelectronics and Laser Techniques, School of Electrical Engineering, University of Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 20,
+        "name": "Aleksandar Daničić",
+        "academic_title": "Dr.",
+        "job_title": "Research Assistant Professor",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "aleksandar_danicic@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"fakecv.pdf",
+        "publications":"fakepublications.pdf",
+        "on_project":[
+            "TeamA",
+            "TeamB"
+        ],
+        "research_interest": [
+            "Quantum Cascade Lasers", 
+            "Biomedical diagnostic devices", 
+            "Nonlinear processes in optical fibers", 
+            "Optical communications"
+        ],
+        "professional_positions": [
+            "2014-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2010-2014 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2008-2010 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2009-2014 PhD in Fiber-optical sensors for applications in medical diagnostic, Department of Biomedical and Environmental Engineering, University of Belgrade, Serbia",
+            "2008-2009 Master Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2004-2008 Bachelor Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University in Belgrade, Serbia"
+        ]
+    },
+
+    {
+        "id": 21,
+        "name": "Kunioki Mima",
+        "academic_title": "Prof.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www.intechopen.com/profiles/82059/Kunioki-Mima",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+           ]
+    },
+
+    {
+        "id": 22,
+        "name": "Stojan Radic",
+        "academic_title": "Prof.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "http://phosys.ucsd.edu/members.html",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 23,
+        "name": "Thomas Allsop",
+        "academic_title": "Dr.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www2.aston.ac.uk/eas/staff/a-z/dr-thomas-allsop",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Fabio Baronio",
+        "academic_title": "Dr.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www.unibs.it/dipartimenti/ingegneria-dellinformazione-elettronica-informatica-telecomunicazioni-automatica/personale-del-dipartimento/ricercatori/ing-baronio-fabio",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 25,
+        "name": "Nikita Tarasov",
+        "academic_title": "Dr.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 26,
+        "name": "Adenowo Gbadebo",
+        "academic_title": "Dr.",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www.aston.ac.uk/research/eps/aipt",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 27,
+        "name": "Morteza Kamalian Kopae",
+        "academic_title": "",
+        "job_title": "Visitors",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www.aston.ac.uk/research/eps/aipt",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Visitors"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 28,
+        "name": "Boris A. Malomed",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "http://www.eng.tau.ac.il/~malomed/",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 29,
+        "name": "Sergei K. Turitsyn",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 30,
+        "name": "Francesco Cataliotti",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 31,
+        "name": "Augusto Smerzi",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 32,
+        "name": "George Tsironis",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 33,
+        "name": "Rodrigo Vicencio",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 34,
+        "name": "Magnus Johansson",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 35,
+        "name": "Detlef Kip",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "https://www.hsu-hh.de/laser/",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 36,
+        "name": "Feng Chen",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 37,
+        "name": "Vitomir Milanović",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "http://nobel.etf.bg.ac.rs/zaposleni/?p=milanovic_vitomir",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+    },
+
+    {
+        "id": 38,
+        "name": "Jelena Radovanović",
+        "academic_title": "Prof.",
+        "job_title": "Collaborators",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "http://nobel.etf.bg.ac.rs/zaposleni/?p=radovanovic_jelena",
+        "photo":"avatar.jpg",
+        "cv":"",
+        "publications":"",
+        "on_project":[
+            "Collaborators"
+        ],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
         ]
     }
 

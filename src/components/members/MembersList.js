@@ -2,7 +2,7 @@ import React from 'react';
 import { ListGroup } from 'react-bootstrap';
 import { Link, useRouteMatch } from 'react-router-dom';
 
-const TeamMembers = (props) => {
+const MembersList = (props) => {
 	const { data, teamName, errors } = props;
 	const { url } = useRouteMatch();
 
@@ -13,8 +13,6 @@ const TeamMembers = (props) => {
 	const membersOfTeam = data.filter((item) =>
 		item.on_project.includes(teamName)
 	);
-
-	console.log(url);
 
 	return (
 		<div>
@@ -30,4 +28,4 @@ const TeamMembers = (props) => {
 		</div>
 	);
 };
-export default TeamMembers;
+export default MembersList;

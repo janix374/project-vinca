@@ -9,7 +9,7 @@ import NavigationComponent from './navigation/NavigationComponent';
 import Home from './home/Home';
 import Publication from './publication/Publication';
 import History from './about/History';
-import Gallery from './about/Gallery';
+import Gallery from './about/gallery/Gallery';
 import Documents from './about/Documents';
 import Contact from './about/Contact';
 import Project from './project/Project';
@@ -20,13 +20,14 @@ import News from './news/News';
 import NotFoundPage from './notfound/NotFoundPage';
 
 const AppComponent = () => (
-	<Router>
+	<HashRouter>
 		<div>
-			<Header />
+			<Header basename='/' />
 			<NavigationComponent />
 			<Switch>
-				<Route path='/' exact component={() => <Home />} />
-
+				<Route path='/' exact>
+					<Home />
+				</Route>
 				<Route path='/about/history' exact>
 					<History />
 				</Route>
@@ -60,7 +61,7 @@ const AppComponent = () => (
 				</Route>
 			</Switch>
 		</div>
-	</Router>
+	</HashRouter>
 );
 
 export default AppComponent;

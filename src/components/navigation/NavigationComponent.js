@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
 	<Navbar bg='light' expand='lg' className='jubotron-class'>
@@ -7,17 +8,35 @@ const Navigation = () => (
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse id='basic-navbar-nav'>
 			<Nav className='mr-auto'>
-				<Nav.Link href='/'>Home</Nav.Link>
+				<LinkContainer to='/'>
+					<Nav.Link>Home</Nav.Link>
+				</LinkContainer>
 				<NavDropdown title='About' id='basic-nav-dropdown'>
-					<NavDropdown.Item href='/about/history'>History</NavDropdown.Item>
-					<NavDropdown.Item href='/about/gallery'>Gallery</NavDropdown.Item>
-					<NavDropdown.Item href='/about/documents'>Documents</NavDropdown.Item>
-					<NavDropdown.Item href='/about/contact'>Contact</NavDropdown.Item>
+					<LinkContainer to='/about/history'>
+						<NavDropdown.Item>History</NavDropdown.Item>
+					</LinkContainer>
+					<LinkContainer to='/about/gallery'>
+						<NavDropdown.Item>Gallery</NavDropdown.Item>
+					</LinkContainer>
+					<LinkContainer to='/about/documents'>
+						<NavDropdown.Item>Documents</NavDropdown.Item>
+					</LinkContainer>
+					<LinkContainer to='/about/contact'>
+						<NavDropdown.Item>Contact</NavDropdown.Item>
+					</LinkContainer>
 				</NavDropdown>
-				<Nav.Link href='/members'>Members</Nav.Link>
-				<Nav.Link href='/project'>Project</Nav.Link>
-				<Nav.Link href='/publication'>Publication</Nav.Link>
-				<Nav.Link href='/news'>News</Nav.Link>
+				<LinkContainer to='/members'>
+					<Nav.Link>Members</Nav.Link>
+				</LinkContainer>
+				<LinkContainer to='/project'>
+					<Nav.Link>Project</Nav.Link>
+				</LinkContainer>
+				<LinkContainer to='/publication'>
+					<Nav.Link>Publication</Nav.Link>
+				</LinkContainer>
+				<LinkContainer to='/news'>
+					<Nav.Link>News</Nav.Link>
+				</LinkContainer>
 			</Nav>
 		</Navbar.Collapse>
 	</Navbar>

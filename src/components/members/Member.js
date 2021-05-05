@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import TeamMember from './TeamMember';
+import MemberList from './MemberList';
 
 const Member = ({ match }) => {
 	const matchId = match.params.memberId;
@@ -53,7 +53,7 @@ const Member = ({ match }) => {
 	return (
 		<Container>
 			{Object.keys(teamMember).length > 0 ? (
-				<TeamMember data={teamMember} />
+				<MemberList data={teamMember} />
 			) : (
 				<Row>
 					<Col>

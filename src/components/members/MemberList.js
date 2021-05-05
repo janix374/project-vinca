@@ -1,8 +1,8 @@
 import React from 'react';
-import { Image, Row, Col, ListGroup } from 'react-bootstrap';
+import { Image, Row, Col, ListGroup, Button } from 'react-bootstrap';
 
-const TeamMember = ({ data }) => {
-	const a = 'dd';
+const MemberList = ({ data }) => {
+	const a = 'cao';
 	return (
 		<div className='teamMemberContainer'>
 			<Row className='mb-4'>
@@ -12,17 +12,30 @@ const TeamMember = ({ data }) => {
 			</Row>
 			<Row>
 				<Col xs={12} sm={6}>
-					<Image
-						className='personImg'
-						src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${data.photo}`}
-						fluid
-					/>
+					<div className='personImg_container'>
+						<Image
+							className='personImg'
+							src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${data.photo}`}
+						/>
+					</div>
 				</Col>
 				<Col xs={12} sm={6}>
 					<h4>{data.job_title}</h4>
-					<p>Tel: {data.tel}</p>
-					<p>Fax: {data.fax}</p>
-					<p>Email: {data.email}</p>
+					{data.tel && <p>Tel: {data.tel}</p>}
+					{data.fax && <p>Fax: {data.fax}</p>}
+					{data.email && <p>Email: {data.email}</p>}
+					{data.personal_url && (
+						<a
+							href={`${data.personal_url}`}
+							target='_blank'
+							rel='noreferrer'
+							className='btn btn-info btn-lg active buttonPDFTeamMember'
+							role='button'
+							aria-pressed='true'
+						>
+							personal link
+						</a>
+					)}
 				</Col>
 			</Row>
 			<Row className='mt-5 mb-5'>
@@ -71,29 +84,33 @@ const TeamMember = ({ data }) => {
 				</Col>
 			</Row>
 			<Row>
-				<a
-					href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
-					className='btn btn-info btn-lg active buttonPDFTeamMember'
-					role='button'
-					aria-pressed='true'
-					target='_blank'
-					rel='noreferrer'
-				>
-					cv
-				</a>
-				<a
-					href={`${process.env.PUBLIC_URL}/assets/pdf/publications/${data.publications}`}
-					className='btn btn-info btn-lg active buttonPDFTeamMember'
-					role='button'
-					aria-pressed='true'
-					target='_blank'
-					rel='noreferrer'
-				>
-					publications
-				</a>
+				{data.cv && (
+					<a
+						href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
+						className='btn btn-info btn-lg active buttonPDFTeamMember'
+						role='button'
+						aria-pressed='true'
+						target='_blank'
+						rel='noreferrer'
+					>
+						cv
+					</a>
+				)}
+				{data.publications && (
+					<a
+						href={`${process.env.PUBLIC_URL}/assets/pdf/publications/${data.publications}`}
+						className='btn btn-info btn-lg active buttonPDFTeamMember'
+						role='button'
+						aria-pressed='true'
+						target='_blank'
+						rel='noreferrer'
+					>
+						publications
+					</a>
+				)}
 			</Row>
 		</div>
 	);
 };
 
-export default TeamMember;
+export default MemberList;
