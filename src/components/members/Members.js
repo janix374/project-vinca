@@ -1,103 +1,67 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllMembers } from '../../store/actions/membersActions';
 import MembersList from './MembersList';
+import { selectAllMembers } from '../../store/selectors/selector';
+import ErrorsMsg from '../common/ErrorsMsg';
+import LoadingComponent from '../common/LoadingComponent';
 
 const Members = () => {
-	const [teamMembers, setTeamMembers] = useState([]);
-	const [errors, setErrors] = useState(false);
-
-	const getData = async () => {
-		try {
-			const data = await fetch(
-				`${process.env.PUBLIC_URL}/db/teamMembers.json`,
-				{
-					headers: {
-						'Content-Type': 'application/json',
-						Accept: 'application/json',
-					},
-				}
-			);
-			const members = await data.json();
-			setTeamMembers(members.members);
-		} catch (error) {
-			console.log('Error');
-			setErrors(true);
-		}
-	};
+	const dispatch = useDispatch();
+	const { members: teamMembers, loading, error } = useSelector(
+		selectAllMembers
+	);
 
 	useEffect(() => {
-		getData();
-	}, []);
+		dispatch(getAllMembers());
+	}, [dispatch]);
+
+	if (error) {
+		return (
+			<ErrorsMsg>
+				<h2>Something went wrong!</h2>
+			</ErrorsMsg>
+		);
+	}
+
+	if (loading) {
+		return <LoadingComponent />;
+	}
 
 	return (
 		<Container>
 			<Row>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Team A</h3>
-							<p>description</p>
-							<MembersList
-								data={teamMembers}
-								teamName='TeamA'
-								errors={errors}
-							/>
-						</Col>
-					</Row>
+				<Col xs={12} className='membersinstitution'>
+					<h3>Vinča Institute of Nuclear Sciences</h3>
+					<MembersList
+						data={teamMembers}
+						teamName='Vinca_Institute_of_Nuclear_Sciences'
+					/>
 				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Team B</h3>
-							<p>description</p>
-							<MembersList
-								data={teamMembers}
-								teamName='TeamB'
-								errors={errors}
-							/>
-						</Col>
-					</Row>
+				<Col xs={12} className='membersinstitution'>
+					<h3>School of Electrical Engineering, University of Belgrade</h3>
+					<MembersList
+						data={teamMembers}
+						teamName='School_of_Electrical_Engineering_University_of_Belgrade'
+					/>
 				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Team C</h3>
-							<p>description</p>
-							<MembersList
-								data={teamMembers}
-								teamName='TeamC'
-								errors={errors}
-							/>
-						</Col>
-					</Row>
+				<Col xs={12} className='membersinstitution'>
+					<h3>Faculty of Sciences and Mathematics, University of Niš</h3>
+					<MembersList
+						data={teamMembers}
+						teamName='Faculty_of_Sciences_and_Mathematics_University_of_Nis'
+					/>
 				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Visitors</h3>
-							<p>description</p>
-
-							<MembersList
-								data={teamMembers}
-								teamName='Visitors'
-								errors={errors}
-							/>
-						</Col>
-					</Row>
-				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Collaborators</h3>
-							<p>description</p>
-
-							<MembersList
-								data={teamMembers}
-								teamName='Collaborators'
-								errors={errors}
-							/>
-						</Col>
-					</Row>
+				<Col xs={12} className='membersinstitution'>
+					<h3>
+						Faculty of Science, Department for Chemistry, University of
+						Kragujevac
+					</h3>
+					<MembersList
+						data={teamMembers}
+						teamName='Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac'
+					/>
 				</Col>
 			</Row>
 		</Container>

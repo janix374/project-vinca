@@ -3,7 +3,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	HashRouter,
+	// HashRouter,
 } from 'react-router-dom';
 import NavigationComponent from './navigation/NavigationComponent';
 import Home from './home/Home';
@@ -18,11 +18,12 @@ import Members from './members/Members';
 import Member from './members/Member';
 import News from './news/News';
 import NotFoundPage from './notfound/NotFoundPage';
+import Groups from './groups/Groups';
 
 const AppComponent = () => (
-	<HashRouter>
+	<Router basename='/coherence'>
 		<div>
-			<Header basename='/' />
+			<Header />
 			<NavigationComponent />
 			<Switch>
 				<Route path='/' exact>
@@ -40,12 +41,13 @@ const AppComponent = () => (
 				<Route path='/about/contact' exact>
 					<Contact />
 				</Route>
-
 				<Route exact path='/members'>
 					<Members />
 				</Route>
 				<Route exact path='/members/:memberId' component={Member} />
-
+				<Route exact path='/groups'>
+					<Groups />
+				</Route>
 				<Route path='/project' exact>
 					<Project />
 				</Route>
@@ -61,7 +63,7 @@ const AppComponent = () => (
 				</Route>
 			</Switch>
 		</div>
-	</HashRouter>
+	</Router>
 );
 
 export default AppComponent;

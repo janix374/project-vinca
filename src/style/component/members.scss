@@ -33,3 +33,18 @@
     max-height: 400px;
     overflow: hidden;
 }
+
+.membersinstitution {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.members-institution-list {
+    margin: 0 auto;
+    width: 500px;
+
+    .members-institution-list-item:hover {
+        font-weight: bold;
+    }
+}
+

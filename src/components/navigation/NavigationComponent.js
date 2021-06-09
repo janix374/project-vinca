@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
-	<Navbar bg='light' expand='lg' className='jubotron-class'>
+	<Navbar expand='lg' className='jubotron-class'>
 		<Navbar.Brand href='/'>React-Bootstrap</Navbar.Brand>
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse id='basic-navbar-nav'>
@@ -13,10 +13,10 @@ const Navigation = () => (
 				</LinkContainer>
 				<NavDropdown title='About' id='basic-nav-dropdown'>
 					<LinkContainer to='/about/history'>
-						<NavDropdown.Item>History</NavDropdown.Item>
+						<NavDropdown.Item variant='dark'>History</NavDropdown.Item>
 					</LinkContainer>
 					<LinkContainer to='/about/gallery'>
-						<NavDropdown.Item>Gallery</NavDropdown.Item>
+						<NavDropdown.Item variant='dark'>Gallery</NavDropdown.Item>
 					</LinkContainer>
 					<LinkContainer to='/about/documents'>
 						<NavDropdown.Item>Documents</NavDropdown.Item>
@@ -27,6 +27,9 @@ const Navigation = () => (
 				</NavDropdown>
 				<LinkContainer to='/members'>
 					<Nav.Link>Members</Nav.Link>
+				</LinkContainer>
+				<LinkContainer to='/groups'>
+					<Nav.Link>Groups</Nav.Link>
 				</LinkContainer>
 				<LinkContainer to='/project'>
 					<Nav.Link>Project</Nav.Link>

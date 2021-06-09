@@ -3,7 +3,7 @@ import { ListGroup } from 'react-bootstrap';
 import { Link, useRouteMatch } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-const MembersList = (props) => {
+const GroupsList = (props) => {
 	const { data, teamName } = props;
 	const { url } = useRouteMatch();
 
@@ -12,21 +12,15 @@ const MembersList = (props) => {
 	}
 
 	const membersOfTeam = data.members.filter((item) =>
-		item.institution.includes(teamName)
+		item.on_project.includes(teamName)
 	);
 
 	return (
-		<div className='members-institution-list'>
-			<ListGroup variant='flush'>
+		<div>
+			<ListGroup>
 				{membersOfTeam.map((item) => (
-					<ListGroup.Item
-						key={item.id}
-						className='members-institution-list-item'
-					>
-						<Link
-							to={`${url}/${item.id}`}
-							style={{ textDecoration: 'none', color: '#000' }}
-						>
+					<ListGroup.Item key={item.id}>
+						<Link to={`${url}/${item.id}`}>
 							{item.academic_title} {item.name} ({item.job_title})
 						</Link>
 					</ListGroup.Item>
@@ -35,4 +29,4 @@ const MembersList = (props) => {
 		</div>
 	);
 };
-export default MembersList;
+export default GroupsList;

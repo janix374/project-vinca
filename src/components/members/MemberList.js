@@ -93,7 +93,7 @@ const MemberList = ({ data }) => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						cv
+						resume
 					</a>
 				)}
 				{data.publications && (

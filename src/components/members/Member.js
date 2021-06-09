@@ -1,59 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
 import MemberList from './MemberList';
+import { getOneMember } from '../../store/actions/membersActions';
+import ErrorsMsg from '../common/ErrorsMsg';
+import LoadingComponent from '../common/LoadingComponent';
 
 const Member = ({ match }) => {
 	const matchId = match.params.memberId;
-	const [teamMember, setTeamMember] = useState({});
-	const [errors, setErrors] = useState(false);
-
-	const getDataOne = async () => {
-		try {
-			const data = await fetch(
-				`${process.env.PUBLIC_URL}/db/teamMembers.json`,
-				{
-					headers: {
-						'Content-Type': 'application/json',
-						Accept: 'application/json',
-					},
-				}
-			);
-			const members = await data.json();
-			const member = members.members.find(
-				(item) => item.id === Number(matchId)
-			);
-			if (member) {
-				setTeamMember(member);
-			}
-		} catch (error) {
-			console.log('Error');
-			// console.error(error);
-			setErrors(true);
-		}
-	};
+	const dispatch = useDispatch();
+	const { member, loading, error } = useSelector((state) => state.members);
 
 	useEffect(() => {
-		getDataOne();
-	}, []);
+		dispatch(getOneMember(matchId));
+	}, [dispatch]);
 
-	if (errors) {
-		return (
-			<Container>
-				<Row>
-					<Col>
-						<h1 className='memberNotExist'>
-							Something went wrong, try again later
-						</h1>
-					</Col>
-				</Row>
-			</Container>
-		);
+	if (error) {
+		return <ErrorsMsg>Something went wrong!</ErrorsMsg>;
+	}
+
+	if (loading) {
+		return <LoadingComponent />;
 	}
 
 	return (
 		<Container>
-			{Object.keys(teamMember).length > 0 ? (
-				<MemberList data={teamMember} />
+			{member ? (
+				<MemberList data={member} />
 			) : (
 				<Row>
 					<Col>

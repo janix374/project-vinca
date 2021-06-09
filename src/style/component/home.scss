@@ -2,7 +2,7 @@
 .slider_container {
     height: 45vh;
     width: 100%;
-    border: 1px solid black;
+    // border: 1px solid black;
     overflow: hidden;
     position: relative;
     margin: auto;
@@ -48,7 +48,7 @@
 }
 
 .slide_prev:hover, .slide_next:hover {
-    color: white;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.5s ease-in;
 }
