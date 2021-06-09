@@ -1,146 +1,650 @@
-{   
-    "members": [
-
+{
+  "members": [
     {
-        "id": 1,
-        "name": "Ljupčo Hadžievski",
-        "academic_title": "Dr",
-        "job_title": "Research Professor",
-        "tel": "+381 (0)11 3408 629",
-        "fax": "+381 (0)11 8066 425",
-        "email": "ljupcoh@vin.bg.ac.rs",
-        "photo":"avatar.png",
-        "cv":"fakecv.pdf",
-        "publications":"fakepublications.pdf",
-        "on_project":[
-            "TeamA",
-            "TeamB"
-        ],
-        "research_interest": [
-            "Nonlinear and turbulent processes in plasma", 
-            "Relativistic laser-plasma interactions", 
-            "Nonlinear optics", 
-            "Intrinsic localized modes: solitons and breathers", 
-            "Nonlinear discrete systems"
-        ],
-        "professional_positions": [
-            "2005- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor", 
-            "2002-2005 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
-            "1998-2002 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
-            "1997-1998 Institute for Studies in Theoretical Physics Mathematics, Teheran, Iran, as a Visiting Professor",
-            "1990-1991 University of Iowa, USA, as a PhD Student",
-            "1989-1997 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "1985-1989 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student",
-            "1982-1985 Center for Application of Radioisotopes in Science and Industry, Skopje, Macedonia, as a Researcher"
-        ],
-        "education": [
-            "1991-1996 PhD in Physics, Faculty of Physics, University of Belgrade, Serbia",
-            "1985-1989 Magister in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia",
-            "1976-1982 Diploma in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia"
-        ]
+      "id": 1,
+      "name": "Ljupčo Hadžievski",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "+381 (0)11 3408 629",
+      "fax": "+381 (0)11 8066 425",
+      "email": "ljupcoh@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "ljupco_hadzievski.jpg",
+      "cv": "Ljupco_Hadzievski_CV_en.pdf",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Nonlinear and turbulent processes in plasma",
+        "Relativistic laser-plasma interactions",
+        "Nonlinear optics",
+        "Intrinsic localized modes: solitons and breathers",
+        "Nonlinear discrete systems"
+      ],
+      "professional_positions": [
+        "2005- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+        "2002-2005 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+        "1998-2002 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "1997-1998 Institute for Studies in Theoretical Physics Mathematics, Teheran, Iran, as a Visiting Professor",
+        "1990-1991 University of Iowa, USA, as a PhD Student",
+        "1989-1997 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "1985-1989 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student",
+        "1982-1985 Center for Application of Radioisotopes in Science and Industry, Skopje, Macedonia, as a Researcher"
+      ],
+      "education": [
+        "1991-1996 PhD in Physics, Faculty of Physics, University of Belgrade, Serbia",
+        "1985-1989 Magister in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia",
+        "1976-1982 Diploma in Electrical Engineering, School of Electronic Engineering, University of Belgrade, Serbia"
+      ]
     },
 
     {
-        "id": 2,
-        "name": "Petra Beličev",
-        "academic_title": "Dr",
-        "job_title": "Research Associate Professor",
-        "tel": "+381 (0)11 3408 396",
-        "fax": "+381 (0)11 8066 425",
-        "email": "petrab@vin.bg.ac.rs",
-        "photo":"woman.png",
-        "cv":"fakecv.pdf",
-        "publications":"fakepublications.pdf",
-        "on_project":[
-            "TeamB",
-            "TeamC"
-        ],
-        "research_interest": [
-            "Nonlinear optics and photonics", 
-            "Numerical and analytical studies of continual and discrete nonlinear systems", 
-            "Solitons and breathers in nonlinear optical systems", 
-            "Fiber-optics, fiber-grating sensors", 
-            "Metamaterials"
-        ],
-        "professional_positions": [
-            "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
-            "2013-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
-            "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
-        ],
-        "education": [
-            "2009-2012 PhD in Electrical Engineering, School of Electrical Engineering, Group for Nanoelectronics and Photonics, University of Belgrade, Serbia",
-            "2007-2008 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
-            "2003-2007 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
-        ]
+      "id": 2,
+      "name": "Aleksandra Maluckov",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "+381 (0)11 3408 396",
+      "fax": "+381 (0)11 8066 425",
+      "email": "sandram@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "Aleksandra_Maluckov.pdf",
+      "publications": "PublicationsAM.pdf",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Nonlinear dynamics and chaos",
+        "Nonlinear optics",
+        "Localization, transport and extreme events",
+        "Cold-atom physics",
+        "Numerical modeling"
+      ],
+      "professional_positions": [
+        "2012- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+        "2007-2012 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as an Associate Professor",
+        "2002-2007 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as an Assistant Professor",
+        "1997-2002 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as a Teaching Assistant",
+        "1992-1997 Department of Physics, Faculty of Sciences and Mathematics, University of Niš, as a Junior Assistant",
+        "1989-1997 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate"
+      ],
+      "education": [
+        "1998-2001 PhD in Physics, National Institute for Fusion Science, School of Mathematical and Physical Science, The Graduate University for Advanced Studies, Hayama, Japan",
+        "1991-1997 Magister in Physics, Faculty of Natural Sciences, University of Belgrade, Serbia",
+        "1986-1991 Diploma in Physics, Faculty of Sciences and Mathematics, University of Niš, Serbia"
+      ]
     },
 
     {
-        "id": 3,
-        "name": "Goran Gligorić",
-        "academic_title": "Dr",
-        "job_title": "Research Associate Professor",
-        "tel": "+381 (0)11 3408 638",
-        "fax": "+381 (0)11 8066 425",
-        "email": "goran79@vin.bg.ac.rs",
-        "photo":"avatar.png",
-        "cv":"fakecv.pdf",
-        "publications":"fakepublications.pdf",
-        "on_project":[
-            "TeamA",
-            "TeamB",
-            "TeamC"
-        ],
-        "research_interest": [
-            "Nonlinear dynamics and complex systems", 
-            "Numerical and analytical studies of continual and discrete nonlinear systems", 
-            "Dynamics of localized structures in Bose-Einstein condensates", 
-            "Nonlinear Matter Waves", 
-            "Solitons and breathers in nonlinear optical systems"
-        ],
-        "professional_positions": [
-            "2015-... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor", 
-            "2010-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
-            "2010-2012 Max Planck Instutute for the Physics of Complex Systems, Dresden, Germany, as a Guest Scientist",
-            "2008-2010 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
-        ],
-        "education": [
-            "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
-            "2004-2008 Magister in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
-            "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
-        ]
+      "id": 3,
+      "name": "Milutin Stepić",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "+381 (0)11 3408 770",
+      "fax": "+381 (0)11 8066 425",
+      "email": "mstepic@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "milutin_stepic.jpg",
+      "cv": "Milutin_Stepic_CV_en.pdf",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Nonlinear optics and photonics",
+        "Nonlinear dynamics",
+        "Nonlinear waveguides, couplers, arrays",
+        "Photorefractive crystals, photonic crystals and fibres",
+        "All-optical devices and communications"
+      ],
+      "professional_positions": [
+        "2009- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+        "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+        "2006-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2006-2007 National Institute of Metrology (PTB), Braunschweig, Germany, as a Postdoctoral Research Fellow",
+        "2004-2006 IPPT, Clausthal University of Technology, Clausthal-Zellerfeld, Germany, as a Postdoctoral Research Fellow",
+        "2002-2006 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2002-2004 Institute of Physics and Physics Technologies (IPPT), Clausthal University of Technology, Clausthal-Zellerfeld, Germany, as a Research Assistant",
+        "1999-2002 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant",
+        "1998-1999 'D. Maksimović' Primary-school, and EMŠ 'Zemun' High-school, both in Zemun, Serbia, as a Physics Teacher"
+      ],
+      "education": [
+        "2002-2004 PhD in Natural Sciences (Physics), Institute of Physics and Physical Technologies (IPPT), Clausthal University of Technology, Germany",
+        "1999-2001 Magister in Theoretical Physics of Plasmas, Faculty of Physics, University of Belgrade, Serbia",
+        "1989-1997 Diploma in Theoretical and Experimental Physics, Faculty of Physics, University of Belgrade, Serbia"
+      ]
     },
 
     {
-        "id": 4,
-        "name": "MM",
-        "academic_title": "Dr",
-        "job_title": "Research Associate Professor",
-        "tel": "+381",
-        "fax": "+381",
+      "id": 4,
+      "name": "Marijana Petković",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "",
+      "fax": "",
+      "email": "",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [""],
+      "professional_positions": [""],
+      "education": [""]
+    },
+
+    {
+      "id": 5,
+      "name": "Jovana Petrović",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "+381 (0)11 3408 638",
+      "fax": "+381 (0)11 8066 425",
+      "email": "jovanap@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "jovana_petrovic.jpg",
+      "cv": "JovanaPetrovic_CV_detailed.pdf",
+      "publications": "JovanaPetrovic_Publications.pdf",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Fibre-grating sensors",
+        "Ultrafast optics",
+        "Femtosecond laser inscription",
+        "Cold-atom physics",
+        "Numerical modelling"
+      ],
+      "professional_positions": [
+        "2019- Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+        "2018-2020 Deutsches Elektronen-Synchrotron DESY,Hamburg, Germany, Laser Scientist",
+        "2013-2019 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+        "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2010-2011 Laboratory for Nonlinear Spectroscopy (LENS), Florence, Italy, as a Postdoctoral Researcher",
+        "2007-2009 University of Oxford, UK, as a Postdoctoral Research Associate",
+        "2006-2007 Aston University, UK, as a Postdoctoral Research Fellow"
+      ],
+      "education": [
+        "2008-2009 Postgraduate Diploma in Learning and Teaching in Higher Education, Institute of Learning, University of Oxford, UK",
+        "2002-2006 PhD in Photonics, Photonics Research Group, Aston University, UK",
+        "1997-2002 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "Goran Gligorić",
+      "academic_title": "Dr.",
+      "job_title": "Principal Research Fellow",
+      "tel": "+381 (0)11 3408 638",
+      "fax": "+381 (0)11 8066 425",
+      "email": "goran79@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "goran_gligoric.jpg",
+      "cv": "Goran_Gligoric_CV.pdf",
+      "publications": "Goran_Gligoric_Publication.pdf",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Nonlinear dynamics and complex systems",
+        "Numerical and analytical studies of continual and discrete nonlinear systems",
+        "Dynamics of localized structures in Bose-Einstein condensates",
+        "Nonlinear Matter Waves",
+        "Solitons and breathers in nonlinear optical systems"
+      ],
+      "professional_positions": [
+        "2015-... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+        "2010-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2010-2012 Max Planck Instutute for the Physics of Complex Systems, Dresden, Germany, as a Guest Scientist",
+        "2008-2010 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+      ],
+      "education": [
+        "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+        "2004-2008 Magister in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+        "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "Petra Beličev",
+      "academic_title": "Dr.",
+      "job_title": "Senior Research Associate",
+      "tel": "+381 (0)11 3408 396",
+      "fax": "+381 (0)11 8066 425",
+      "email": "petrab@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "petra_belicev.jpg",
+      "cv": "Petra_Belicev_CV.pdf",
+      "publications": "Petra_Belicev_publication.pdf",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [
+        "Nonlinear optics and photonics",
+        "Numerical and analytical studies of continual and discrete nonlinear systems",
+        "Solitons and breathers in nonlinear optical systems",
+        "Fiber-optics, fiber-grating sensors",
+        "Metamaterials"
+      ],
+      "professional_positions": [
+        "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
+        "2013-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2009-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+      ],
+      "education": [
+        "2009-2012 PhD in Electrical Engineering, School of Electrical Engineering, Group for Nanoelectronics and Photonics, University of Belgrade, Serbia",
+        "2007-2008 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+        "2003-2007 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 8,
+      "name": "Iva Popović",
+      "academic_title": "Dr.",
+      "job_title": "Research Associate",
+      "tel": "",
+      "fax": "",
+      "email": "",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [""],
+      "professional_positions": [""],
+      "education": [""]
+    },
+
+    {
+      "id": 9,
+      "name": "Maja Nešić",
+      "academic_title": "Dr.",
+      "job_title": "Research Associate",
+      "tel": "",
+      "fax": "",
+      "email": "",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+      "research_interest": [""],
+      "professional_positions": [""],
+      "education": [""]
+    },
+
+    {
+        "id": 10,
+        "name": "Marija Ivanović",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "marijap@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"marija_ivanovic.jpg",
+        "cv":"marija_ivanovic_CV.pdf",
+        "publications":"marija_ivanovic_publication.pdf",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            "Machine and deep learning", 
+            "Medical diagnostic devices", 
+            "Biomedical signal processing", 
+            "Electrophysiological measurements", 
+            "Fibre-grating sensors"
+        ],
+        "professional_positions": [
+            "2015- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2011-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2010-2011 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2009-2014 PhD in Fiber-optical sensors for applications in medical diagnostic, Department of Biomedical and Environmental Engineering, University of Belgrade, Serbia",
+            "2008-2009 Master Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2004-2008 Bachelor Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University in Belgrade, Serbia"
+        ]
+      },
+
+      {
+        "id": 11,
+        "name": "Marija Nišavić",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate",
+        "tel": "",
+        "fax": "",
         "email": "",
+        "personal_url": "",
         "photo":"avatar.png",
-        "cv":"fakecv.pdf",
-        "publications":"fakepublications.pdf",
-        "on_project":[
-            "TeamB",
-            "TeamE"
-        ],
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
         "research_interest": [
-            "Nonlinear Matter Waves", 
-            "Solitons and breathers in nonlinear optical systems"
+            ""
         ],
         "professional_positions": [
-            "2004-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+            ""
         ],
         "education": [
-            "2008-2010 PhD in Electrical Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
-            "1998-2004 Diploma in Optoelectronics and Laser Engineering, School of Electrical Engineering, University of Belgrade, Serbia"
+            ""
         ]
-    }
+      },
 
-    ]
-    
-   
+      {
+        "id": 12,
+        "name": "Danka Stojanović",
+        "academic_title": "Dr.",
+        "job_title": "Research Associate",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "dankas@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"danka_stojanovic.jpg",
+        "cv":"Danka_Stojanovic_CV.pdf",
+        "publications":"Danka_Stojanovic_Publications.pdf",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            "Modelling of optical properties of metamaterials and metasurfaces", 
+            "Chiral structures", 
+            "Terahertz frequency range", 
+            "Sensing applications of photonic structures"
+        ],
+        "professional_positions": [
+            "2019- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
+            "2013-2019 present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+            "2012-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2012-2018 PhD in Nanoelectronics and photonics, School of Electrical Engineering, University of Belgrade, Serbia",
+            "2011-2012 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+            "2006-2011 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+        ]
+      },
+
+      {
+        "id": 13,
+        "name": "Marjan Miletić",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "+381 (0)11 3408 632",
+        "fax": "+381 (0)11 8066 425",
+        "email": "marjanmil@vin.bg.ac.rs",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"CV_Marjan Miletic.pdf",
+        "publications":"Publications_MarjanMiletic.pdf",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            "Medical diagnostic devices", 
+            "Biomedical signal processing", 
+            "Image processing", 
+            "Fibre-grating sensors"
+        ],
+        "professional_positions": [
+            "2016-...present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate", 
+            "2014-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+        ],
+        "education": [
+            "2002-2013 Master Diploma in Optoelectronics and Laser Engineering, Faculty of Electrical Engineering, Department for Optoelectronics and Laser Engineering, University of Belgrade, Belgrade, Serbia"
+        ]
+      },
+
+      {
+        "id": 14,
+        "name": "Milica Matijević",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 15,
+        "name": "Jelena Kršić",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 16,
+        "name": "Aleksandar Atić",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 17,
+        "name": "Irena Miler",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 18,
+        "name": "Mirjana Stojanović",
+        "academic_title": "M. Sc.",
+        "job_title": "PhD student",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Vinca_Institute_of_Nuclear_Sciences",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 19,
+        "name": "Jelena Radovanović",
+        "academic_title": "Dr.",
+        "job_title": "Full Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 20,
+        "name": "Nikola Vuković",
+        "academic_title": "Dr.",
+        "job_title": "Teaching Assistant",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 21,
+        "name": "Ana Mančić",
+        "academic_title": "Dr.",
+        "job_title": "Associate Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Faculty_of_Sciences_and_Mathematics_University_of_Nis",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 22,
+        "name": "Biljana Petrović",
+        "academic_title": "Dr.",
+        "job_title": "Full Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      },
+
+      {
+        "id": 23,
+        "name": "Jovana Bogojevski",
+        "academic_title": "Dr.",
+        "job_title": "Assistant Professor",
+        "tel": "",
+        "fax": "",
+        "email": "",
+        "personal_url": "",
+        "photo":"avatar.png",
+        "cv":"",
+        "publications":"",
+        "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
+        "groups": ["VincaInstituteOfNuclearSciences", "TeamB"],
+        "research_interest": [
+            ""
+        ],
+        "professional_positions": [
+            ""
+        ],
+        "education": [
+            ""
+        ]
+      }
+
+
+  ]
 }
