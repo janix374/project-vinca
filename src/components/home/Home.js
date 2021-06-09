@@ -6,9 +6,14 @@ const Home = () => {
 	const a = 'dddd';
 	return (
 		<Container fluid>
-			<Row>
+			{/* <Row>
 				<Col>
 					<SliderComponent />
+				</Col>
+			</Row> */}
+			<Row>
+				<Col className='homeComponent'>
+					<h1>WELCOME TO COHERENCE PRESENTATION WEBPAGE!</h1>
 				</Col>
 			</Row>
 		</Container>

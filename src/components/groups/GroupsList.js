@@ -11,17 +11,45 @@ const GroupsList = (props) => {
 		return <p>list members cannot be loaded</p>;
 	}
 
-	const membersOfTeam = data.members.filter((item) =>
-		item.on_project.includes(teamName)
+	const membersOfTeam = data.members.filter((item) => {
+		const teamMembers =
+			item.groups.includes(teamName) && !item.group_leader.includes(teamName);
+		return teamMembers;
+	});
+
+	const teamGroupLeader = data.members.filter((item) =>
+		item.group_leader.includes(teamName)
 	);
 
+	const sortarray = membersOfTeam.sort((a, b) => {
+		if (a.level > b.level) {
+			return -1;
+		}
+		if (a.level < b.level) {
+			return 1;
+		}
+		return 0;
+	});
+
 	return (
-		<div>
+		<div className='mt-3 mb-3 group-list'>
 			<ListGroup>
-				{membersOfTeam.map((item) => (
-					<ListGroup.Item key={item.id}>
-						<Link to={`${url}/${item.id}`}>
-							{item.academic_title} {item.name} ({item.job_title})
+				<ListGroup.Item key={teamGroupLeader[0].id} className='group-list-item'>
+					<Link
+						to={`/members/${teamGroupLeader[0].id}`}
+						style={{ textDecoration: 'none', color: '#000' }}
+					>
+						{teamGroupLeader[0].academic_title} {teamGroupLeader[0].name} (Group
+						leader)
+					</Link>
+				</ListGroup.Item>
+				{sortarray.map((item, index) => (
+					<ListGroup.Item key={item.id} className='group-list-item'>
+						<Link
+							to={`/members/${item.id}`}
+							style={{ textDecoration: 'none', color: '#000' }}
+						>
+							{item.academic_title} {item.name}
 						</Link>
 					</ListGroup.Item>
 				))}

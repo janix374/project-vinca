@@ -12,14 +12,11 @@ const Navigation = () => (
 					<Nav.Link>Home</Nav.Link>
 				</LinkContainer>
 				<NavDropdown title='About' id='basic-nav-dropdown'>
-					<LinkContainer to='/about/history'>
-						<NavDropdown.Item variant='dark'>History</NavDropdown.Item>
+					<LinkContainer to='/about/center'>
+						<NavDropdown.Item>Center</NavDropdown.Item>
 					</LinkContainer>
 					<LinkContainer to='/about/gallery'>
 						<NavDropdown.Item variant='dark'>Gallery</NavDropdown.Item>
-					</LinkContainer>
-					<LinkContainer to='/about/documents'>
-						<NavDropdown.Item>Documents</NavDropdown.Item>
 					</LinkContainer>
 					<LinkContainer to='/about/contact'>
 						<NavDropdown.Item>Contact</NavDropdown.Item>

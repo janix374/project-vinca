@@ -35,11 +35,11 @@ const Groups = () => {
 				<Col sm={6} xs={12} className='mt-5'>
 					<Row>
 						<Col xs={12} className=''>
-							<h3>Vinča Institute of Nuclear Sciences</h3>
+							<h3>Group for opto-biomedical engineering</h3>
 							<p>description</p>
 							<GroupsList
 								data={teamMembers}
-								teamName='VincaInstituteOfNuclearSciences'
+								teamName='Group_for_opto_biomedical_engineering'
 							/>
 						</Col>
 					</Row>
@@ -47,36 +47,27 @@ const Groups = () => {
 				<Col sm={6} xs={12} className='mt-5'>
 					<Row>
 						<Col xs={12} className=''>
-							<h3>Team B</h3>
+							<h3>
+								Group for investigation of complex systems in biology and
+								physics
+							</h3>
 							<p>description</p>
-							<GroupsList data={teamMembers} teamName='TeamB' />
+							<GroupsList
+								data={teamMembers}
+								teamName='Group_for_investigation_of_complex_systems_in_biology_and_physics'
+							/>
 						</Col>
 					</Row>
 				</Col>
 				<Col sm={6} xs={12} className='mt-5'>
 					<Row>
 						<Col xs={12} className=''>
-							<h3>Team C</h3>
+							<h3>Group for photodynamic therapy development </h3>
 							<p>description</p>
-							<GroupsList data={teamMembers} teamName='TeamC' />
-						</Col>
-					</Row>
-				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Visitors</h3>
-							<p>description</p>
-							<GroupsList data={teamMembers} teamName='Visitors' />
-						</Col>
-					</Row>
-				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Collaborators</h3>
-							<p>description</p>
-							<GroupsList data={teamMembers} teamName='Collaborators' />
+							<GroupsList
+								data={teamMembers}
+								teamName='Group_for_photodynamic_therapy_development'
+							/>
 						</Col>
 					</Row>
 				</Col>

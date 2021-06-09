@@ -8,9 +8,8 @@ import {
 import NavigationComponent from './navigation/NavigationComponent';
 import Home from './home/Home';
 import Publication from './publication/Publication';
-import History from './about/History';
 import Gallery from './about/gallery/Gallery';
-import Documents from './about/Documents';
+import Center from './about/Center';
 import Contact from './about/Contact';
 import Project from './project/Project';
 import Header from './header/Header';
@@ -29,14 +28,11 @@ const AppComponent = () => (
 				<Route path='/' exact>
 					<Home />
 				</Route>
-				<Route path='/about/history' exact>
-					<History />
-				</Route>
 				<Route path='/about/gallery' exact>
 					<Gallery />
 				</Route>
-				<Route path='/about/documents' exact>
-					<Documents />
+				<Route path='/about/center' exact>
+					<Center />
 				</Route>
 				<Route path='/about/contact' exact>
 					<Contact />
