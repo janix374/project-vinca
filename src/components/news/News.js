@@ -1,9 +1,16 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const News = () => (
-	<div>
-		<p>news</p>
-	</div>
-);
-
+const News = () => {
+	const a = 'cao';
+	return (
+		<Container>
+			<Row className='mt-5'>
+				<Col>
+					<p>news</p>
+				</Col>
+			</Row>
+		</Container>
+	);
+};
 export default News;

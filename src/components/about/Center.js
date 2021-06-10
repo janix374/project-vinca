@@ -31,7 +31,7 @@ const Center = () => {
 			<Row>
 				<Col>
 					<div className='centerInstitution'>
-						<ou>
+						<ul>
 							<li>
 								<a
 									href='https://www.vin.bg.ac.rs/en/'
@@ -70,7 +70,7 @@ const Center = () => {
 									Kragujevac{' '}
 								</a>
 							</li>
-						</ou>
+						</ul>
 					</div>
 				</Col>
 			</Row>

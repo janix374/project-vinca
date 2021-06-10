@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Row, Col, ListGroup, Button } from 'react-bootstrap';
 
-const MemberList = ({ data }) => {
+const MemberList = ({ data, handleGoBack }) => {
 	const a = 'cao';
 	return (
 		<div className='teamMemberContainer'>
@@ -84,30 +84,40 @@ const MemberList = ({ data }) => {
 				</Col>
 			</Row>
 			<Row>
-				{data.cv && (
-					<a
-						href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
-						className='btn btn-info btn-lg active buttonPDFTeamMember'
-						role='button'
-						aria-pressed='true'
-						target='_blank'
-						rel='noreferrer'
+				<Col xs={6}>
+					{data.cv && (
+						<a
+							href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
+							className='btn btn-info btn-lg buttonPDFTeamMember'
+							role='button'
+							aria-pressed='true'
+							target='_blank'
+							rel='noreferrer'
+						>
+							resume
+						</a>
+					)}
+					{data.publications && (
+						<a
+							href={data.publications}
+							className='btn btn-info btn-lg buttonPDFTeamMember'
+							role='button'
+							aria-pressed='true'
+							target='_blank'
+							rel='noreferrer'
+						>
+							publications
+						</a>
+					)}
+					<Button
+						variant='info'
+						onClick={handleGoBack}
+						size='lg'
+						className='buttonPDFTeamMember'
 					>
-						resume
-					</a>
-				)}
-				{data.publications && (
-					<a
-						href={data.publications}
-						className='btn btn-info btn-lg active buttonPDFTeamMember'
-						role='button'
-						aria-pressed='true'
-						target='_blank'
-						rel='noreferrer'
-					>
-						publications
-					</a>
-				)}
+						go back
+					</Button>
+				</Col>
 			</Row>
 		</div>
 	);

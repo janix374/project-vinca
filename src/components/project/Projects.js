@@ -1,11 +1,17 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-function Projects() {
+const Projects = () => {
+	const a = 'cao';
 	return (
-		<div>
-			<p>projects</p>
-		</div>
+		<Container>
+			<Row className='mt-5'>
+				<Col>
+					<p>project</p>
+				</Col>
+			</Row>
+		</Container>
 	);
-}
+};
 
 export default Projects;

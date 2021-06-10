@@ -2,13 +2,17 @@
 
 @import './component//navigation.scss';
 
-@import './component/home.scss';
+@import './component/header.scss';
+
+@import './component/home/home.scss';
 
 @import './component/about/gallery.scss';
 @import './component/about/center.scss';
 @import './component/about/partners.scss';
 
-@import './component/header.scss';
-@import './component/members.scss';
+@import './component/members/members.scss';
+
+@import './component/groups/groups.scss';
+
 @import './component/errorMsg.scss';
-@import './component/groups.scss';
+
