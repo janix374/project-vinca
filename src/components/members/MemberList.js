@@ -98,7 +98,7 @@ const MemberList = ({ data }) => {
 				)}
 				{data.publications && (
 					<a
-						href={`${process.env.PUBLIC_URL}/assets/pdf/publications/${data.publications}`}
+						href={data.publications}
 						className='btn btn-info btn-lg active buttonPDFTeamMember'
 						role='button'
 						aria-pressed='true'
