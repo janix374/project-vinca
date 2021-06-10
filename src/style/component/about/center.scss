@@ -1,0 +1,35 @@
+.centerText { 
+    text-align: justify;
+}
+
+.centerComponentGoals {
+    color: blue;
+}
+
+.centerInstitution {
+    li {
+        margin-top: 20px;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    };
+
+    a:visited {
+        color: #000;
+    };
+
+    a:focus {
+    };
+
+    a:hover {
+        font-weight: bold;
+    };
+}
+
+.centerOurMission {
+     margin-top: 30px;
+     span {
+         font-weight: bold;
+     }
+}
