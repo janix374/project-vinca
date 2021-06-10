@@ -23,9 +23,10 @@ const Collaborators = () => {
 					{' '}
 					<h5>List of collaborators:</h5>
 				</Col>
-				<Col xs={6}>
-					<p>Opto-biomedical engineering</p>
-					<div className='centerInstitution'>
+				<Col xs={12} sm={3} />
+				<Col xs={12} sm={6} className='mt-3 mb-3'>
+					<h5>Opto-biomedical engineering</h5>
+					<div className='collaboratorsInstitution'>
 						<ul>
 							<li>
 								<a
@@ -100,12 +101,23 @@ const Collaborators = () => {
 									Beth Israel Deaconess Medical Center | Harvard Medical School
 								</a>
 							</li>
+							<li>
+								<a
+									href='http://www.kcs.ac.rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									University Clinical Center of Serbia, Belgrade
+								</a>
+							</li>
 						</ul>
 					</div>
 				</Col>
-				<Col xs={6}>
-					<p>Investigation of complex systems in biology and physics</p>
-					<div className='centerInstitution'>
+				<Col xs={12} sm={3} />
+				<Col xs={12} sm={3} />
+				<Col xs={12} sm={6} className='mt-3 mb-3'>
+					<h5>Investigation of complex systems in biology and physics</h5>
+					<div className='collaboratorsInstitution'>
 						<ul>
 							<li>
 								<a
@@ -198,9 +210,264 @@ const Collaborators = () => {
 									Shandong University
 								</a>
 							</li>
+							<li>
+								<a
+									href='https://www.qatar.tamu.edu/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Texas A&M University at Qata
+								</a>
+							</li>
+							<li>
+								<a
+									href='http://www.ipb.ac.rs/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Institute of Physics
+								</a>
+							</li>
+							<li>
+								<a href='https://www.umb.edu/' target='_blank' rel='noreferrer'>
+									University of Massachusetts Boston
+								</a>
+							</li>
+							<li>
+								<a
+									href='http://www.tf.ni.ac.rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Technical Faculty, Leskovac
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.ni.ac.rs/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Faculty of Electronics, Nis
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://english.nsu.ru/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Novosibirsk State University (NSU)
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.csem.ch/Home'
+									target='_blank'
+									rel='noreferrer'
+								>
+									CSEM SA
+								</a>
+							</li>
+							<li>
+								<a
+									href='http://ipmras.ru/en/index'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Institute for Physics of Microstructures RAS
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://en.iyte.edu.tr/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									İzmir Institute of Technology
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.quantumlah.org/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Centre for Quantum Technologies: CQT
+								</a>
+							</li>
 						</ul>
 					</div>
 				</Col>
+				<Col xs={12} sm={3} />
+				<Col xs={12} sm={3} />
+				<Col xs={12} sm={6} className='mt-3 mb-3'>
+					<h5>Photodynamic therapy development</h5>
+					<div className='collaboratorsInstitution'>
+						<ul>
+							<li>
+								<a
+									href='https://www.uni-leipzig.de/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Universität Leipzig
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.uma.es/?set_language=en#gsc.tab=0'
+									target='_blank'
+									rel='noreferrer'
+								>
+									University of Malaga
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.fudan.edu.cn/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Fudan University
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.uma.pt/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Universidade da Madeira
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.cells.es/en/about/welcome'
+									target='_blank'
+									rel='noreferrer'
+								>
+									ALBA Synchrotron
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.meduniwien.ac.at/web/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									MedUni Wien
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.ffh.bg.ac.rs/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Faculty of Physical Chemistry, Belgrade
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.kc-kg.rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Clinical Center Kragujevac
+								</a>
+							</li>
+							<li>
+								<a
+									href='http://www.izjzkg.rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Institute of Public Health Kragujevac
+								</a>
+							</li>
+							<li>
+								<a href='https://www.fau.eu/' target='_blank' rel='noreferrer'>
+									Friedrich-Alexander-Universität Erlangen-Nürnberg
+								</a>
+							</li>
+							<li>
+								<a href='http://uninp.edu.rs/' target='_blank' rel='noreferrer'>
+									University of Novi Pazar, Novi Pazar
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.tu-braunschweig.de/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Technische Universität Braunschweig
+								</a>
+							</li>
+							<li>
+								<a
+									href='http://www.itn.sanu.ac.rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									SANU
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://en.uj.edu.pl/en_GB/start'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Jagiellonian University
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://ihtm.bg.ac.rs/rs/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Institute of Chemistry, Technology and Metallurgy Belgrade
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.chem.bg.ac.rs/index-en.html'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Faculty of Chemistry, Belgrade
+								</a>
+							</li>
+							<li>
+								<a href='https://www.irb.hr/' target='_blank' rel='noreferrer'>
+									Institut Ruđer Bošković
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.avcr.cz/en/'
+									target='_blank'
+									rel='noreferrer'
+								>
+									Czech Academy of Sciences, Prague, Czech Republic
+								</a>
+							</li>
+							<li>
+								<a
+									href='https://www.unifi.it/changelang-eng.html'
+									target='_blank'
+									rel='noreferrer'
+								>
+									University of Florence, Florence, Italy
+								</a>
+							</li>
+						</ul>
+					</div>
+				</Col>
+				<Col xs={12} sm={3} />
 			</Row>
 		</Container>
 	);
