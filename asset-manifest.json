@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project-vinca/static/css/main.08b617d4.chunk.css",
-    "main.js": "/project-vinca/static/js/main.f196b1a4.chunk.js",
-    "main.js.map": "/project-vinca/static/js/main.f196b1a4.chunk.js.map",
+    "main.js": "/project-vinca/static/js/main.82f336bc.chunk.js",
+    "main.js.map": "/project-vinca/static/js/main.82f336bc.chunk.js.map",
     "runtime-main.js": "/project-vinca/static/js/runtime-main.c96e366a.js",
     "runtime-main.js.map": "/project-vinca/static/js/runtime-main.c96e366a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/project-vinca/static/css/2.4c97ca4f.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.b9db492a.chunk.js",
     "static/css/main.08b617d4.chunk.css",
-    "static/js/main.f196b1a4.chunk.js"
+    "static/js/main.82f336bc.chunk.js"
   ]
 }
