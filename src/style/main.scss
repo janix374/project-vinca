@@ -1,8 +1,11 @@
 @import './abstracts/mixins';
+@import './base/globals';
 
-@import './component//navigation.scss';
+@import './layout/header.scss';
+@import './layout/footer.scss';
+@import './layout/mainpage.scss';
 
-@import './component/header.scss';
+@import './component/navigation.scss';
 
 @import './component/home/home.scss';
 
