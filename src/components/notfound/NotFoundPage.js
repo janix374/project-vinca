@@ -1,9 +1,14 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const NotFoundPage = () => (
-	<div>
-		<p>Page not found</p>
-	</div>
+	<Container fluid>
+		<Row>
+			<Col className='pagenotfound'>
+				<h3>Page Not Found!</h3>
+			</Col>
+		</Row>
+	</Container>
 );
 
 export default NotFoundPage;

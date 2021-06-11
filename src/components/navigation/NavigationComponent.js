@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
-	<Navbar expand='lg' className='jubotron-class'>
+	<Navbar expand='lg'>
 		<Navbar.Brand href='/'>COHERENCE</Navbar.Brand>
 		<Navbar.Toggle aria-controls='basic-navbar-nav' />
 		<Navbar.Collapse id='basic-navbar-nav'>

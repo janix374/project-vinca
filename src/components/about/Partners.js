@@ -40,7 +40,7 @@ const Partners = () => {
 				</Col>
 			</Row>
 			<Row className='mt-5 partnersrow mb-5'>
-				<Col xs={12}>
+				<Col xl={12}>
 					<h4>School of Electrical Engineering, University of Belgrade</h4>
 					<p className='text-justify mt-3 mb-3'>
 						The School of Electrical Engineering at the University of Belgrade
@@ -72,7 +72,7 @@ const Partners = () => {
 				</Col>
 			</Row>
 			<Row className='mt-5 partnersrow mb-5'>
-				<Col xs={12}>
+				<Col md={12}>
 					<h4>Faculty of Sciences and Mathematics, University of Niš</h4>
 					<p className='text-justify mt-3 mb-3'>
 						The Faculty of Sciences and Mathematics (UNFSM), University of Niš,
@@ -104,7 +104,7 @@ const Partners = () => {
 				</Col>
 			</Row>
 			<Row className='mt-5 partnersrow mb-5'>
-				<Col xs={12}>
+				<Col md={12}>
 					<h4>
 						Department of Chemistry, Faculty of Science, University of
 						Kragujevac

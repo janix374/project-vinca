@@ -1,45 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllPictures } from '../../../store/actions/galleryActions';
+import { selectGalleries } from '../../../store/selectors/selector';
 import GalleryComponent from './GalleryComponent';
+import ErrorsMsg from '../../common/ErrorsMsg';
+import LoadingComponent from '../../common/LoadingComponent';
 
 const Gallery = () => {
-	const [images, setImages] = useState([]);
-	const [errors, setErrors] = useState(false);
-
-	const getGalleryImage = async () => {
-		try {
-			const data = await fetch(`${process.env.PUBLIC_URL}/db/gallery.json`, {
-				headers: {
-					'Content-Type': 'application/json',
-					Accept: 'application/json',
-				},
-			});
-			const gallerySlider = await data.json();
-			setImages(gallerySlider.images);
-		} catch (error) {
-			setErrors(true);
-		}
-	};
+	const dispatch = useDispatch();
+	const { pictures, loading, error } = useSelector(selectGalleries);
 
 	useEffect(() => {
-		getGalleryImage();
-	}, []);
+		dispatch(getAllPictures());
+	}, [dispatch]);
 
-	if (errors) {
+	if (error) {
 		return (
-			<Container>
-				<Row>
-					<Col>something went wrong</Col>
-				</Row>
-			</Container>
+			<ErrorsMsg>
+				<h2>Something went wrong!</h2>
+			</ErrorsMsg>
 		);
+	}
+
+	if (loading) {
+		return <LoadingComponent />;
 	}
 
 	return (
 		<Container>
 			<Row>
 				<Col>
-					<GalleryComponent images={images} />
+					{pictures.images && pictures.images.length ? (
+						<GalleryComponent images={pictures.images} />
+					) : (
+						''
+					)}
 				</Col>
 			</Row>
 		</Container>
