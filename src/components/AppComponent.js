@@ -3,7 +3,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
-	// HashRouter,
+	HashRouter,
 } from 'react-router-dom';
 import NavigationComponent from './navigation/NavigationComponent';
 import Home from './home/Home';
@@ -22,7 +22,7 @@ import Groups from './groups/Groups';
 import Collaborators from './about/Collaborators';
 
 const AppComponent = () => (
-	<Router basename='/coherence'>
+	<HashRouter basename='/coherence'>
 		<div>
 			<Header />
 			<NavigationComponent />
@@ -67,7 +67,7 @@ const AppComponent = () => (
 			</div>
 			<Footer />
 		</div>
-	</Router>
+	</HashRouter>
 );
 
 export default AppComponent;
