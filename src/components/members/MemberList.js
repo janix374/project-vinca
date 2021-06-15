@@ -88,34 +88,33 @@ const MemberList = ({ data, handleGoBack }) => {
 					{data.cv && (
 						<a
 							href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
-							className='btn btn-info btn-lg buttonPDFTeamMember'
+							className='btn btn-info buttonPDFTeamMember'
 							role='button'
 							aria-pressed='true'
 							target='_blank'
 							rel='noreferrer'
 						>
-							resume
+							RESUME
 						</a>
 					)}
 					{data.publications && (
 						<a
 							href={data.publications}
-							className='btn btn-info btn-lg buttonPDFTeamMember'
+							className='btn btn-info buttonPDFTeamMember'
 							role='button'
 							aria-pressed='true'
 							target='_blank'
 							rel='noreferrer'
 						>
-							publications
+							PUBLICATIONS
 						</a>
 					)}
 					<Button
 						variant='info'
 						onClick={handleGoBack}
-						size='lg'
 						className='buttonPDFTeamMember'
 					>
-						go back
+						GO BACK
 					</Button>
 				</Col>
 			</Row>

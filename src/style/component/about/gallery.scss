@@ -1,6 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .gallery-all {
-    column-count: 3;
-    column-width: 33%;
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-width: 33%;
+       -moz-column-width: 33%;
+            column-width: 33%;
     padding: 0 12px;
     margin: 50px 0;
    
@@ -9,17 +20,25 @@
         img {
             width: 100%;
             margin-top: 10px;
+            -webkit-transition: -webkit-transform 1.5s;
+            transition: -webkit-transform 1.5s;
+            -o-transition: transform 1.5s;
             transition: transform 1.5s;
+            transition: transform 1.5s, -webkit-transform 1.5s;
         }
 
         img:hover {
-            transform: scale(1.4);
+            -webkit-transform: scale(1.4);
+                -ms-transform: scale(1.4);
+                    transform: scale(1.4);
         }
         
     }
 }
 
 .gallery-all .gallery-pics {
+    -webkit-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 12px;
@@ -31,12 +50,20 @@
     position: fixed;
     top: 0;
     left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     justify-items: center;
     background-color: black;
     visibility: hidden;
+    -webkit-transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
+    transition: opacity .4s ease, visibility .4s ease, -webkit-transform .5s ease-in-out;
+    -o-transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
     transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
-    transform: scale(0);
+    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
     opacity: 1;
     overflow: hidden;
     z-index: 20;
@@ -45,7 +72,9 @@
 .open-model {
     visibility: visible;
     opacity: 1;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
 }
 
 .model-gallery-img {
@@ -59,12 +88,15 @@
     max-height: 100%;
     display: block;
     line-height: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 20px 0 20px;
     margin: 0 auto;
 }
 
 .active-model-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -91,12 +123,16 @@
 .close_image:hover {
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
 }
 
 @include breakpint(tablet){
     .gallery-all {
-        column-count: 2; 
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2; 
     }
     .model-gallery {
         display: none;
@@ -105,7 +141,9 @@
 
 @include breakpint(mobile){
     .gallery-all {
-        column-count: 1; 
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1; 
     }
     .model-gallery {
         display: none;
