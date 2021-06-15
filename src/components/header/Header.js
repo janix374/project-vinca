@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import Navigation from './NavigationComponent';
 
 const Header = () => (
 	<header>
-		<Container>
+		<Container fluid>
 			<Row>
 				<Col xs={6} md={4}>
 					<Image
@@ -12,6 +13,9 @@ const Header = () => (
 						className='logoPhoton'
 					/>
 				</Col>
+			</Row>
+			<Row>
+				<Navigation />
 			</Row>
 		</Container>
 	</header>

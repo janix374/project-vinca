@@ -12,8 +12,8 @@ const Home = () => {
 				</Col>
 			</Row> */}
 			<Row>
-				<Col className='homeComponent'>
-					<h1>WELCOME TO COHERENCE PRESENTATION WEBPAGE!</h1>
+				<Col className='home-component'>
+					<p>WELCOME TO COHERENCE PRESENTATION WEBPAGE!</p>
 				</Col>
 			</Row>
 		</Container>

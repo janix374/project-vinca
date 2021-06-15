@@ -7,7 +7,7 @@ import { selectAllMembers } from '../../store/selectors/selector';
 import ErrorsMsg from '../common/ErrorsMsg';
 import LoadingComponent from '../common/LoadingComponent';
 
-const Groups = () => {
+const Groups = ({ teamName, title, description }) => {
 	const dispatch = useDispatch();
 	const { members: teamMembers, loading, error } = useSelector(
 		selectAllMembers
@@ -31,44 +31,16 @@ const Groups = () => {
 
 	return (
 		<Container>
-			<Row>
-				<Col sm={6} xs={12} className='mt-5'>
+			<Row className='mt-5'>
+				<Col xs={12}>
+					<h3>{title}</h3>
+					<p>{description}</p>
 					<Row>
-						<Col xs={12} className=''>
-							<h3>Group for opto-biomedical engineering</h3>
-							<p>description</p>
-							<GroupsList
-								data={teamMembers}
-								teamName='Group_for_opto_biomedical_engineering'
-							/>
+						<Col xs={12} sm={2} md={3} />
+						<Col xs={12} sm={8} md={6}>
+							<GroupsList data={teamMembers} teamName={teamName} />
 						</Col>
-					</Row>
-				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>
-								Group for investigation of complex systems in biology and
-								physics
-							</h3>
-							<p>description</p>
-							<GroupsList
-								data={teamMembers}
-								teamName='Group_for_investigation_of_complex_systems_in_biology_and_physics'
-							/>
-						</Col>
-					</Row>
-				</Col>
-				<Col sm={6} xs={12} className='mt-5'>
-					<Row>
-						<Col xs={12} className=''>
-							<h3>Group for photodynamic therapy development </h3>
-							<p>description</p>
-							<GroupsList
-								data={teamMembers}
-								teamName='Group_for_photodynamic_therapy_development'
-							/>
-						</Col>
+						<Col xs={12} sm={2} md={3} />
 					</Row>
 				</Col>
 			</Row>
