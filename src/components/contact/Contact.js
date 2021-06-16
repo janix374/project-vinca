@@ -5,7 +5,7 @@ import GoogleMapIframe from './GoogleMapIframe';
 const Contact = () => {
 	const a = 'cao';
 	return (
-		<Container>
+		<Container className='contact-container'>
 			<Row className='mt-5 mb-5'>
 				<Col className='contact-text'>
 					<p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListGroup } from 'react-bootstrap';
+import { ListGroup, Image } from 'react-bootstrap';
 import { Link, useRouteMatch } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -27,7 +27,12 @@ const MembersList = (props) => {
 							to={`${url}/${item.id}`}
 							style={{ textDecoration: 'none', color: '#000' }}
 						>
-							{item.academic_title} {item.name} ({item.job_title})
+							{item.academic_title} {item.name} ({item.job_title}){' '}
+							{/* <img
+								className='members-institution-list-item-photo'
+								src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${item.photo}`}
+								alt='personal photos'
+							/> */}
 						</Link>
 					</ListGroup.Item>
 				))}

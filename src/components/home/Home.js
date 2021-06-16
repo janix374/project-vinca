@@ -11,9 +11,16 @@ const Home = () => {
 					<SliderComponent />
 				</Col>
 			</Row> */}
-			<Row>
-				<Col className='home-component'>
-					<p>WELCOME TO COHERENCE PRESENTATION WEBPAGE!</p>
+			<Row className='mt-5'>
+				<Col xs={12} className='mb-4'>
+					<p className='text-center'>
+						WELCOME TO COHERENCE PRESENTATION WEBPAGE!
+					</p>
+				</Col>
+				<Col xs={12} className='home-component'>
+					<div className='sphere'>
+						<p>COHERENCE</p>
+					</div>
 				</Col>
 			</Row>
 		</Container>

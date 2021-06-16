@@ -128,6 +128,36 @@
     transition: all 0.5s ease-in;
 }
 
+.slide_prev, .slide_next {
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+    font-size: 30px;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    background-color: rgba(78, 73, 73, 0.6);
+}
+
+.slide_prev:hover, .slide_next:hover {
+    color: #ffffff;
+    background-color: rgba(212, 181, 181, 0.6);
+    transition: all 0.5s ease-in;
+}
+
+.slide_next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.slide_prev {
+    left: 0;
+    border-radius: 5px 0 0 5px;
+}
+
 @include breakpint(tablet){
     .gallery-all {
         -webkit-column-count: 2;

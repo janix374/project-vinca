@@ -1,4 +1,6 @@
-
+.members-container {
+    color: $maincolor;
+}
 // member component
 .memberNotExist {
     // border: 1px solid red;
@@ -41,10 +43,19 @@
 
 .members-institution-list {
     margin: 0 auto;
-    width: 500px;
+    max-width: 500px;
 
     .members-institution-list-item:hover {
         font-weight: bold;
     }
+
+    // .members-institution-list-item-photo {
+    //     max-width: 100px;
+    //     max-height: 120px;
+    //     border-radius: 50%;
+    //     background-color: aqua;
+    //     float: right;
+    //     background-size: cover;
+    // }
 }
 

@@ -16,6 +16,7 @@ const MemberList = ({ data, handleGoBack }) => {
 						<Image
 							className='personImg'
 							src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${data.photo}`}
+							fluid
 						/>
 					</div>
 				</Col>

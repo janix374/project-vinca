@@ -2,6 +2,44 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-    height: 250px;
-    background-color: #f8f8f8;
+    min-height: 200px;
+    background-color: $footerBackgroundColor;
+    margin-top: 100px;
+    color: $maincolor;
+
+    .footer-contact{
+        margin-top: 30px;
+    }
+
+    .footer-list-container {
+        margin-top: 30px;
+        .footer-list {
+            ul {
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: $maincolor;
+            }
+
+            a:hover {
+                font-weight: bold;
+            }
+
+
+        }
+    }
+      
+}
+
+
+@include breakpint(mobile) {
+    footer {
+        margin-top: 50px;
+        font-size: 12px;
+    }
 }

@@ -1,8 +1,12 @@
+.centar-container {
+    color: $maincolor;
+}
+
 .centerText { 
     text-align: justify;
 }
 
-.centerComponentGoals {
+.center-componentGoals {
     font-weight: bold;
 }
 
@@ -12,21 +16,24 @@
     }
     li {
         margin-top: 20px;
+        color: $maincolor;
     }
     a {
-        color: #000;
+        color: $maincolor;
         text-decoration: none;
     };
 
     a:visited {
-        color: #000;
+        color: $maincolor;
     };
 
     a:focus {
+        color: $maincolor;
     };
 
     a:hover {
         font-weight: bold;
+        color: $maincolor;
     };
 }
 

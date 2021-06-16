@@ -6,12 +6,12 @@
         margin-top: 20px;
     }
     a {
-        color: #000;
+        color: $maincolor;
         text-decoration: none;
     };
 
     a:visited {
-        color: #000;
+        color: $maincolor;
     };
 
     a:focus {

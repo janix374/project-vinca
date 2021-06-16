@@ -30,7 +30,7 @@ const Members = () => {
 	}
 
 	return (
-		<Container>
+		<Container className='members-container'>
 			<Row>
 				<Col xs={12} className='membersinstitution'>
 					<h3>Vinča Institute of Nuclear Sciences</h3>

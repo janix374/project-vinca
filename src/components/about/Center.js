@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Center = () => {
 	const a = 'sss';
 	return (
-		<Container>
+		<Container className='centar-container'>
 			<Row className='mt-5'>
 				<Col>
 					<p className='text-justify'>
@@ -16,7 +16,7 @@ const Center = () => {
 						interdisciplinary research center gathering researchers from
 						different scientific fields: physics, chemistry, photonics,
 						biomedicine and engineering sharing the same interest and goal
-						<span className='centerComponentGoals'>
+						<span className='center-componentGoals'>
 							- achieving excellence in scientific research in physics,
 							chemistry, biomedicine and optobiomedical engineering based on the
 							application of light.
