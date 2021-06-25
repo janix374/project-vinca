@@ -2,45 +2,63 @@
   "images": [
     {
       "id": 1,
-      "name": "imagea.jpg",
+      "name": "image1.jpg",
       "description": "photo",
-      "height": 1300
+      "height": 800
     },
     {
       "id": 2,
-      "name": "imageb.jpg",
+      "name": "image2.jpg",
       "description": "photo",
-      "height": 668
+      "height": 800
     },
     {
       "id": 3,
-      "name": "imagec.jpg",
+      "name": "image10.jpg",
       "description": "photo",
-      "height": 666
+      "height": 800
     },
     {
       "id": 4,
-      "name": "imaged.jpg",
+      "name": "image9.jpg",
       "description": "photo",
-      "height": 600
+      "height": 800
     },
     {
       "id": 5,
-      "name": "imagee.jpg",
+      "name": "image6.jpg",
       "description": "photo",
-      "height": 580
+      "height": 800
     },
     {
       "id": 6,
-      "name": "imagef.jpg",
+      "name": "image7.jpg",
       "description": "photo",
       "height": 800
     },
     {
       "id": 7,
-      "name": "imageh.jpg",
+      "name": "image8.jpg",
       "description": "photo",
-      "height": 456
+      "height": 800
+    },
+    {
+      "id": 8,
+      "name": "image4.jpg",
+      "description": "photo",
+      "height": 800
+    },
+    {
+      "id": 9,
+      "name": "image3.jpg",
+      "description": "photo",
+      "height": 800
+    },
+    {
+      "id": 10,
+      "name": "image5.jpg",
+      "description": "photo",
+      "height": 800
     }
   ]
 }
