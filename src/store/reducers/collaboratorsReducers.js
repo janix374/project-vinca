@@ -1,36 +1,36 @@
 import * as types from '../constants/actionTypes';
 
 const INITIAL_STATE = {
-	news: [],
+	collaborators: [],
 	loading: false,
 	error: null,
 };
 
-const newsReducers = (state = INITIAL_STATE, action) => {
+const collaboratorsReducers = (state = INITIAL_STATE, action) => {
 	switch (action.type) {
-		case types.GET_ALL_NEWS_REQUEST:
+		case types.GET_ALL_COLLABORATORS_REQUEST:
 			return {
 				...state,
 				loading: true,
 				error: null,
 			};
-		case types.GET_ALL_NEWS_SUCCESS:
+		case types.GET_ALL_COLLABORATORS_SUCCESS:
 			return {
 				...state,
 				loading: false,
 				error: null,
-				news: action.payload,
+				collaborators: action.payload,
 			};
-		case types.GET_ALL_NEWS_FAILURE:
+		case types.GET_ALL_COLLABORATORS_FAILURE:
 			return {
 				...state,
 				loading: false,
 				error: action.error,
-				news: [],
+				collaborators: [],
 			};
 		default:
 			return state;
 	}
 };
 
-export default newsReducers;
+export default collaboratorsReducers;

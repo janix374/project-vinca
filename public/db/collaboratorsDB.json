@@ -1,0 +1,54 @@
+{
+    "opto_biomedical_engineering" : [
+        {
+            "id": 1,
+            "name_of_collaborator": "Aston University",
+            "link": "https://www.aston.ac.uk/"
+        },
+        {
+            "id": 2,
+            "name_of_collaborator": "LENS",
+            "link": "https://lens.unifi.it/"
+        },
+        {
+            "id": 3,
+            "name_of_collaborator": "Brescia University",
+            "link": "https://www.brescia.edu/"
+        },
+        {
+            "id": 4,
+            "name_of_collaborator": "Technical University of Denmark - DTU",
+            "link": "https://www.dtu.dk/english"
+        },
+        {
+            "id": 5,
+            "name_of_collaborator": "Univerzitet u Beogradu, Medicinski fakultet",
+            "link": "http://med.bg.ac.rs/"
+        },
+        {
+            "id": 6,
+            "name_of_collaborator": "SANU",
+            "link": "http://www.itn.sanu.ac.rs/"
+        },
+        {
+            "id": 7,
+            "name_of_collaborator": "KBC",
+            "link": "https://www.ikvbd.com/"
+        },
+        {
+            "id": 8,
+            "name_of_collaborator": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+            "link": "https://www.fau.eu/"
+        },
+        {
+            "id": 9,
+            "name_of_collaborator": "Beth Israel Deaconess Medical Center | Harvard Medical School",
+            "link": "https://www.bidmc.org/"
+        },
+        {
+            "id": 10,
+            "name_of_collaborator": "University Clinical Center of Serbia, Belgrade",
+            "link": "http://www.kcs.ac.rs/"
+        }
+    ]
+}
