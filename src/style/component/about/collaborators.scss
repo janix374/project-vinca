@@ -15,9 +15,14 @@
     };
 
     a:focus {
+        color: $maincolor;
     };
 
     a:hover {
         font-weight: bold;
     };
+}
+
+.collaborators-class {
+    color: $maincolor;
 }
