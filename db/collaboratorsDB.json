@@ -1,0 +1,260 @@
+{
+    "opto_biomedical_engineering" : [
+        {
+            "id": 1,
+            "name_of_collaborator": "Aston University",
+            "link": "https://www.aston.ac.uk/"
+        },
+        {
+            "id": 2,
+            "name_of_collaborator": "LENS",
+            "link": "https://lens.unifi.it/"
+        },
+        {
+            "id": 3,
+            "name_of_collaborator": "Brescia University",
+            "link": "https://www.brescia.edu/"
+        },
+        {
+            "id": 4,
+            "name_of_collaborator": "Technical University of Denmark - DTU",
+            "link": "https://www.dtu.dk/english"
+        },
+        {
+            "id": 5,
+            "name_of_collaborator": "Univerzitet u Beogradu, Medicinski fakultet",
+            "link": "http://med.bg.ac.rs/"
+        },
+        {
+            "id": 6,
+            "name_of_collaborator": "SANU",
+            "link": "http://www.itn.sanu.ac.rs/"
+        },
+        {
+            "id": 7,
+            "name_of_collaborator": "KBC",
+            "link": "https://www.ikvbd.com/"
+        },
+        {
+            "id": 8,
+            "name_of_collaborator": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+            "link": "https://www.fau.eu/"
+        },
+        {
+            "id": 9,
+            "name_of_collaborator": "Beth Israel Deaconess Medical Center | Harvard Medical School",
+            "link": "https://www.bidmc.org/"
+        },
+        {
+            "id": 10,
+            "name_of_collaborator": "University Clinical Center of Serbia, Belgrade",
+            "link": "http://www.kcs.ac.rs/"
+        }
+    ],
+
+    "investigation_of_complex_systems_in_biology_and_physics": [
+        {
+            "id": 1,
+            "name_of_collaborator": "Institute for Basic Science",
+            "link": "https://www.ibs.re.kr/eng.do"
+        },
+        {
+            "id": 2,
+            "name_of_collaborator": "University of Leeds",
+            "link": "http://www.leeds.ac.uk/"
+        },
+        {
+            "id": 3,
+            "name_of_collaborator": "Tel Aviv University",
+            "link": "https://english.tau.ac.il/"
+        },
+        {
+            "id": 4,
+            "name_of_collaborator": "University of Crete",
+            "link": "https://en.uoc.gr/"
+        },
+        {
+            "id": 5,
+            "name_of_collaborator": "University of Rostock",
+            "link": "https://www.uni-rostock.de/en/"
+        },
+        {
+            "id": 6,
+            "name_of_collaborator": "Universidad de Chile",
+            "link": "https://www.uchile.cl/english"
+        },
+        {
+            "id": 7,
+            "name_of_collaborator": "Linköping University",
+            "link": "https://liu.se/en"
+        },
+        {
+            "id": 8,
+            "name_of_collaborator": "LENS",
+            "link": "https://lens.unifi.it/"
+        },
+        {
+            "id": 9,
+            "name_of_collaborator": "Aston University",
+            "link": "https://www.aston.ac.uk/"
+        },
+        {
+            "id": 10,
+            "name_of_collaborator": "Helmut Schmidt University",
+            "link": "https://www.hsu-hh.de/en/"
+        },
+        {
+            "id": 11,
+            "name_of_collaborator": "Shandong University",
+            "link": "https://en.sdu.edu.cn/"
+        },
+        {
+            "id": 12,
+            "name_of_collaborator": "Texas A&M University at Qata",
+            "link": "https://www.qatar.tamu.edu/"
+        },
+        {
+            "id": 13,
+            "name_of_collaborator": "Institute of Physics",
+            "link": "http://www.ipb.ac.rs/en/"
+        },
+        {
+            "id": 14,
+            "name_of_collaborator": "University of Massachusetts Boston",
+            "link": "https://www.umb.edu/"
+        },
+        {
+            "id": 15,
+            "name_of_collaborator": "Technical Faculty, Leskovac",
+            "link": "http://www.tf.ni.ac.rs/"
+        },
+        {
+            "id": 16,
+            "name_of_collaborator": "Faculty of Electronics, Nis",
+            "link": "https://www.ni.ac.rs/en/"
+        },
+        {
+            "id": 17,
+            "name_of_collaborator": "Novosibirsk State University (NSU)",
+            "link": "https://english.nsu.ru/"
+        },
+        {
+            "id": 18,
+            "name_of_collaborator": "CSEM SA",
+            "link": "https://www.csem.ch/Home"
+        },
+        {
+            "id": 19,
+            "name_of_collaborator": "Institute for Physics of Microstructures RAS",
+            "link": "http://ipmras.ru/en/index"
+        },
+        {
+            "id": 20,
+            "name_of_collaborator": "İzmir Institute of Technology",
+            "link": "https://en.iyte.edu.tr/"
+        },
+        {
+            "id": 21,
+            "name_of_collaborator": "Centre for Quantum Technologies: CQT",
+            "link": "https://www.quantumlah.org/"
+        }
+    ],
+
+    "photodynamic_therapy_development": [
+        {
+            "id": 1,
+            "name_of_collaborator": "Universität Leipzig",
+            "link": "https://www.uni-leipzig.de/en/"
+        },
+        {
+            "id": 2,
+            "name_of_collaborator": "University of Malaga",
+            "link": "https://www.uma.es/?set_language=en#gsc.tab=0"
+        },
+        {
+            "id": 3,
+            "name_of_collaborator": "Fudan University",
+            "link": "https://www.fudan.edu.cn/en/"
+        },
+        {
+            "id": 4,
+            "name_of_collaborator": "Universidade da Madeira",
+            "link": "https://www.uma.pt/en/"
+        },
+        {
+            "id": 5,
+            "name_of_collaborator": "ALBA Synchrotron",
+            "link": "https://www.cells.es/en/about/welcome"
+        },
+        {
+            "id": 6,
+            "name_of_collaborator": "MedUni Wien",
+            "link": "https://www.meduniwien.ac.at/web/"
+        },
+        {
+            "id": 7,
+            "name_of_collaborator": "Faculty of Physical Chemistry, Belgrade",
+            "link": "https://www.ffh.bg.ac.rs/en/"
+        },
+        {
+            "id": 8,
+            "name_of_collaborator": "Clinical Center Kragujevac",
+            "link": "https://www.kc-kg.rs/"
+        },
+        {
+            "id": 9,
+            "name_of_collaborator": "Institute of Public Health Kragujevac",
+            "link": "http://www.izjzkg.rs/"
+        },
+        {
+            "id": 10,
+            "name_of_collaborator": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+            "link": "https://www.fau.eu/"
+        },
+        {
+            "id": 11,
+            "name_of_collaborator": "University of Novi Pazar, Novi Pazar",
+            "link": "http://uninp.edu.rs/"
+        },
+        {
+            "id": 12,
+            "name_of_collaborator": "Technische Universität Braunschweig",
+            "link": "https://www.tu-braunschweig.de/"
+        },
+        {
+            "id": 13,
+            "name_of_collaborator": "SANU",
+            "link": "http://www.itn.sanu.ac.rs/"
+        },
+        {
+            "id": 14,
+            "name_of_collaborator": "Jagiellonian University",
+            "link": "https://en.uj.edu.pl/en_GB/start"
+        },
+        {
+            "id": 15,
+            "name_of_collaborator": "Institute of Chemistry, Technology and Metallurgy Belgrade",
+            "link": "https://ihtm.bg.ac.rs/rs/"
+        },
+        {
+            "id": 16,
+            "name_of_collaborator": "Faculty of Chemistry, Belgrade",
+            "link": "https://www.chem.bg.ac.rs/index-en.html"
+        },
+        {
+            "id": 17,
+            "name_of_collaborator": "Institut Ruđer Bošković",
+            "link": "https://www.irb.hr/"
+        },
+        {
+            "id": 18,
+            "name_of_collaborator": "Czech Academy of Sciences, Prague, Czech Republic",
+            "link": "https://www.avcr.cz/en/"
+        },
+        {
+            "id": 19,
+            "name_of_collaborator": "University of Florence, Florence, Italy",
+            "link": "https://www.unifi.it/changelang-eng.html"
+        }
+    ]
+}
