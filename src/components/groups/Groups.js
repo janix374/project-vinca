@@ -30,11 +30,11 @@ const Groups = ({ teamName, title, description }) => {
 	}
 
 	return (
-		<Container>
+		<Container className='groups-component'>
 			<Row className='mt-5'>
 				<Col xs={12}>
-					<h3>{title}</h3>
-					<p>{description}</p>
+					<h3 className='mb-3'>{title}</h3>
+					<p className='mt-3'>{description}</p>
 					<Row>
 						<Col xs={12} sm={2} md={3} />
 						<Col xs={12} sm={8} md={6}>

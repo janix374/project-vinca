@@ -27,7 +27,7 @@ const Collaborators = () => {
 	}
 
 	return (
-		<Container>
+		<Container className='collaborators'>
 			<Row className='mt-5'>
 				<Col xs={12}>
 					<p className='text-justify collaborators-class'>

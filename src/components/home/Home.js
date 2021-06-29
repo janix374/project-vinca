@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SliderComponent from './Slider/SliderComponent';
+import ReactVanilaEffect from './VanilaEfect/ReactVanilaEffect';
 
 const Home = () => {
 	const a = 'dddd';
 	return (
-		<Container fluid>
+		<Container fluid className='home-component'>
 			{/* <Row>
 				<Col>
 					<SliderComponent />
@@ -17,10 +18,8 @@ const Home = () => {
 						WELCOME TO COHERENCE PRESENTATION WEBPAGE!
 					</p>
 				</Col>
-				<Col xs={12} className='home-component'>
-					<div className='sphere'>
-						<p>COHERENCE</p>
-					</div>
+				<Col xs={12}>
+					<ReactVanilaEffect />
 				</Col>
 			</Row>
 		</Container>

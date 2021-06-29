@@ -1,5 +1,6 @@
 .members-container {
     color: $maincolor;
+    font-size: $centarFontSize;
 }
 // member component
 .memberNotExist {
@@ -39,6 +40,7 @@
 .membersinstitution {
     margin-top: 50px;
     margin-bottom: 20px;
+    font-size: $normalFontSize;
 }
 
 .members-institution-list {

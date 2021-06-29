@@ -1,28 +1,34 @@
-.collaboratorsInstitution {
-    ul {
-        list-style-type: square;
+.collaborators {
+    font-size: $centarFontSize;
+
+    .collaboratorsInstitution {
+        ul {
+            list-style-type: square;
+        }
+        li {
+            margin-top: 20px;
+        }
+        a {
+            color: $maincolor;
+            text-decoration: none;
+            font-size: $normalFontSize;
+        };
+    
+        a:visited {
+            color: $maincolor;
+        };
+    
+        a:focus {
+            color: $maincolor;
+        };
+    
+        a:hover {
+            font-weight: bold;
+        };
     }
-    li {
-        margin-top: 20px;
+    
+    .collaborators-class {
+        color: $maincolor;
     }
-    a {
-        color: $maincolor;
-        text-decoration: none;
-    };
 
-    a:visited {
-        color: $maincolor;
-    };
-
-    a:focus {
-        color: $maincolor;
-    };
-
-    a:hover {
-        font-weight: bold;
-    };
-}
-
-.collaborators-class {
-    color: $maincolor;
 }

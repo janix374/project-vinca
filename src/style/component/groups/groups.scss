@@ -1,6 +1,11 @@
+.groups-component {
+    font-size: $centarFontSize;
+}
+
 .group-list {
     margin: 0 auto;
     color: black;
+    font-size: $normalFontSize;
 
     .group-list-item:hover {
         font-weight: bold;

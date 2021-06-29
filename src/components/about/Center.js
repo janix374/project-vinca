@@ -75,14 +75,14 @@ const Center = () => {
 				</Col>
 			</Row>
 			<Row className='mt-5'>
-				<Col xs={12} className='text-justify centerOurMission'>
+				<Col xs={12} sm={6} className='text-justify centerOurMission'>
 					<span>OUR MISSION</span>: to connect groups and institutions involved
 					in different aspects of the application of light in scientific fields
 					and disciplines, to improve and accelerate process of innovation and
 					application of research results using comprehensive multidisciplinary
 					approach.
 				</Col>
-				<Col xs={12} className='text-justify centerOurMission'>
+				<Col xs={12} sm={6} className='text-justify centerOurMission'>
 					<span>OUR VISION</span>: to become the leading center for the
 					application of light in various areas of scientific work in the region
 					and recognizable in the European research area.
