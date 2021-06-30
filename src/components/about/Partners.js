@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import ButtonLink from '../common/buttons/ButtonLink';
 
 const Partners = () => {
 	const a = 'sss';
@@ -28,14 +29,10 @@ const Partners = () => {
 						Republic of Serbia is a member.
 					</p>
 					<div className='text-center'>
-						<a
-							href='https://www.vin.bg.ac.rs/en/'
-							target='_blank'
-							rel='noreferrer'
-							className='btn btn-outline-info'
-						>
-							VISIT SITE
-						</a>
+						<ButtonLink
+							title='visit site'
+							link='https://www.vin.bg.ac.rs/en/'
+						/>
 					</div>
 				</Col>
 			</Row>
@@ -60,14 +57,10 @@ const Partners = () => {
 						the structural parameters.
 					</p>
 					<div className='text-center'>
-						<a
-							href='https://www.etf.bg.ac.rs/en#gsc.tab=0'
-							target='_blank'
-							rel='noreferrer'
-							className='btn btn-outline-info'
-						>
-							VISIT SITE
-						</a>
+						<ButtonLink
+							title='visit site'
+							link='https://www.etf.bg.ac.rs/en#gsc.tab=0'
+						/>
 					</div>
 				</Col>
 			</Row>
@@ -92,14 +85,10 @@ const Partners = () => {
 						the previous years.
 					</p>
 					<div className='text-center'>
-						<a
-							href='https://www.ni.ac.rs/en/faculties/faculty-of-sciences-and-mathematics'
-							target='_blank'
-							rel='noreferrer'
-							className='btn btn-outline-info'
-						>
-							VISIT SITE
-						</a>
+						<ButtonLink
+							title='visit site'
+							link='https://www.ni.ac.rs/en/faculties/faculty-of-sciences-and-mathematics'
+						/>
 					</div>
 				</Col>
 			</Row>
@@ -124,14 +113,7 @@ const Partners = () => {
 						abroad.
 					</p>
 					<div className='text-center'>
-						<a
-							href='http://chem.pmf.kg.ac.rs'
-							target='_blank'
-							rel='noreferrer'
-							className='btn btn-outline-info'
-						>
-							VISIT SITE
-						</a>
+						<ButtonLink title='visit site' link='http://chem.pmf.kg.ac.rs' />
 					</div>
 				</Col>
 			</Row>

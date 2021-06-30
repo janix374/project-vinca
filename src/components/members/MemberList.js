@@ -1,5 +1,7 @@
 import React from 'react';
 import { Image, Row, Col, ListGroup, Button } from 'react-bootstrap';
+import ButtonLink from '../common/buttons/ButtonLink';
+import ButtonAction from '../common/buttons/ButtonAction';
 
 const MemberList = ({ data, handleGoBack }) => {
 	const a = 'cao';
@@ -85,38 +87,25 @@ const MemberList = ({ data, handleGoBack }) => {
 				</Col>
 			</Row>
 			<Row>
-				<Col xs={6}>
-					{data.cv && (
-						<a
-							href={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
-							className='btn btn-info buttonPDFTeamMember'
-							role='button'
-							aria-pressed='true'
-							target='_blank'
-							rel='noreferrer'
-						>
-							RESUME
-						</a>
-					)}
-					{data.publications && (
-						<a
-							href={data.publications}
-							className='btn btn-info buttonPDFTeamMember'
-							role='button'
-							aria-pressed='true'
-							target='_blank'
-							rel='noreferrer'
-						>
-							PUBLICATIONS
-						</a>
-					)}
-					<Button
-						variant='info'
-						onClick={handleGoBack}
-						className='buttonPDFTeamMember'
-					>
-						GO BACK
-					</Button>
+				<Col xs={12}>
+					<div className='buttons-for-member'>
+						<div className='buttons-items-for-member'>
+							{data.cv && (
+								<ButtonLink
+									title='resume'
+									link={`${process.env.PUBLIC_URL}/assets/pdf/cv/${data.cv}`}
+								/>
+							)}
+						</div>
+						<div className='buttons-items-for-member'>
+							{data.publications && (
+								<ButtonLink title='publications' link={data.publications} />
+							)}
+						</div>
+						<div className='buttons-items-for-member'>
+							<ButtonAction title='go back' handleClick={handleGoBack} />
+						</div>
+					</div>
 				</Col>
 			</Row>
 		</div>

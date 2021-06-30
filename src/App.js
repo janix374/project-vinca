@@ -3,7 +3,7 @@ import AppComponent from './components/AppComponent';
 
 function App() {
 	return (
-		<div>
+		<div className='main-wraper'>
 			<AppComponent />
 		</div>
 	);
