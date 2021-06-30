@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SliderComponent from './Slider/SliderComponent';
-import ReactVanilaEffect from './VanilaEfect/ReactVanilaEffect';
 
 const Home = () => {
 	const a = 'dddd';
@@ -17,9 +16,6 @@ const Home = () => {
 					<p className='text-center'>
 						WELCOME TO COHERENCE PRESENTATION WEBPAGE!
 					</p>
-				</Col>
-				<Col xs={12}>
-					<ReactVanilaEffect />
 				</Col>
 			</Row>
 		</Container>

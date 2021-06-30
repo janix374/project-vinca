@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ReactVanilaEffect = () => {
+const CardVanilaEffect = ({ title, text }) => {
 	console.log('ddd');
 	return (
 		<div className='flex-container'>
@@ -17,14 +17,9 @@ const ReactVanilaEffect = () => {
 					<span className='t_over' />
 					<div className='tilt-box'>
 						<div className='title-box-img'>
-							{/* <img
-								src={`${process.env.PUBLIC_URL}/assets/images/logo/logo_coherence.jpg`}
-								alt='coherence'
-							/> */}
-							<h4>COHERENCE</h4>
+							<h4>{title}</h4>
+							<p>{text}</p>
 						</div>
-
-						{/* <h5>WELCOME TO COHERENCE PRESENTATION WEBPAGE!</h5> */}
 					</div>
 				</div>
 			</div>
@@ -32,4 +27,4 @@ const ReactVanilaEffect = () => {
 	);
 };
 
-export default ReactVanilaEffect;
+export default CardVanilaEffect;

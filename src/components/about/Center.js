@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import CardVanilaEffect from '../common/vanilaeffect/CardVanilaEffect';
 
 const Center = () => {
-	const a = 'sss';
+	console.log('sss');
 	return (
 		<Container className='centar-container'>
 			<Row className='mt-5'>
@@ -15,10 +16,10 @@ const Center = () => {
 						research, in which light is used. Center COHERENCE is an
 						interdisciplinary research center gathering researchers from
 						different scientific fields: physics, chemistry, photonics,
-						biomedicine and engineering sharing the same interest and goal
+						biomedicine and engineering sharing the same interest and goal -
 						<span className='center-componentGoals'>
-							- achieving excellence in scientific research in physics,
-							chemistry, biomedicine and optobiomedical engineering based on the
+							achieving excellence in scientific research in physics, chemistry,
+							biomedicine and optobiomedical engineering based on the
 							application of light.
 						</span>
 					</p>
@@ -31,7 +32,11 @@ const Center = () => {
 			<Row>
 				<Col>
 					<div className='centerInstitution'>
-						<ul>
+						<ul
+							style={{
+								listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_red.png)`,
+							}}
+						>
 							<li>
 								<a
 									href='https://www.vin.bg.ac.rs/en/'
@@ -75,17 +80,23 @@ const Center = () => {
 				</Col>
 			</Row>
 			<Row className='mt-5'>
-				<Col xs={12} sm={6} className='text-justify centerOurMission'>
-					<span>OUR MISSION</span>: to connect groups and institutions involved
+				<Col sm={12} md={6} className='text-justify centerOurMission'>
+					<CardVanilaEffect
+						title='OUR MISSION'
+						text='To connect groups and institutions involved
 					in different aspects of the application of light in scientific fields
 					and disciplines, to improve and accelerate process of innovation and
 					application of research results using comprehensive multidisciplinary
-					approach.
+					approach.'
+					/>
 				</Col>
-				<Col xs={12} sm={6} className='text-justify centerOurMission'>
-					<span>OUR VISION</span>: to become the leading center for the
-					application of light in various areas of scientific work in the region
-					and recognizable in the European research area.
+				<Col sm={12} md={6} className='text-justify centerOurMission'>
+					<CardVanilaEffect
+						title='OUR VISION'
+						text='To become the leading center for the
+						application of light in various areas of scientific work in the region
+						and recognizable in the European research area.'
+					/>
 				</Col>
 			</Row>
 		</Container>

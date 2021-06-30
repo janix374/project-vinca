@@ -53,7 +53,12 @@ const Collaborators = () => {
 						<ul>
 							{collaborators.opto_biomedical_engineering &&
 								collaborators.opto_biomedical_engineering.map((item) => (
-									<li key={item.id}>
+									<li
+										key={item.id}
+										style={{
+											listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
+										}}
+									>
 										<a href={item.link} target='_blank' rel='noreferrer'>
 											{item.name_of_collaborator}
 										</a>
@@ -73,7 +78,12 @@ const Collaborators = () => {
 							{collaborators.investigation_of_complex_systems_in_biology_and_physics &&
 								collaborators.investigation_of_complex_systems_in_biology_and_physics.map(
 									(item) => (
-										<li key={item.id}>
+										<li
+											key={item.id}
+											style={{
+												listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
+											}}
+										>
 											<a href={item.link} target='_blank' rel='noreferrer'>
 												{item.name_of_collaborator}
 											</a>
@@ -93,7 +103,12 @@ const Collaborators = () => {
 						<ul>
 							{collaborators.photodynamic_therapy_development &&
 								collaborators.photodynamic_therapy_development.map((item) => (
-									<li key={item.id}>
+									<li
+										key={item.id}
+										style={{
+											listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
+										}}
+									>
 										<a href={item.link} target='_blank' rel='noreferrer'>
 											{item.name_of_collaborator}
 										</a>

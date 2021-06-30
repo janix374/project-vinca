@@ -1,46 +1,43 @@
 .centar-container {
-    color: $maincolor;
-    font-size: $centarFontSize;
+  color: $maincolor;
+  font-size: $centarFontSize;
 }
 
-.centerText { 
-    text-align: justify;
+.centerText {
+  text-align: justify;
 }
 
 .center-componentGoals {
-    font-weight: bold;
+color: #dd3932;
+//   background: rgb(247, 242, 242);
 }
 
 .centerInstitution {
-    ul {
-        list-style-type: square;
-    }
-    li {
-        margin-top: 20px;
-        color: $maincolor;
-    }
-    a {
-        color: $maincolor;
-        text-decoration: none;
-    };
+  li {
+    margin-top: 20px;
+    color: $maincolor;
+  }
+  a {
+    color: $maincolor;
+    text-decoration: none;
+  }
 
-    a:visited {
-        color: $maincolor;
-    };
+  a:visited {
+    color: $maincolor;
+  }
 
-    a:focus {
-        color: $maincolor;
-    };
+  a:focus {
+    color: $maincolor;
+  }
 
-    a:hover {
-        font-weight: bold;
-        color: $maincolor;
-    };
+  a:hover {
+    color: #dd3932;
+  }
 }
 
 .centerOurMission {
-     margin-top: 30px;
-     span {
-         font-weight: bold;
-     }
+  margin-top: 30px;
+  span {
+    font-weight: bold;
+  }
 }
