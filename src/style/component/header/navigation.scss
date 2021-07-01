@@ -1,33 +1,12 @@
-// .navigation-bg {
-//   background-color: #085dcb;
-//   color: #ffffff;
-// }
-
-// div.show {
-//   background-color: #085dcb;
-// }
-
-// a.dropdown-item {
-//   color: #84aee3;
-// }
-
-// a.dropdown-item:hover {
-//   background-color: #0751B3;
-//   color: #ffffff;
-// }
-
-// a.dropdown-item.active {
-//   background-color:#0751B3;
-// }
 
 .navbar-component {
     width: 100%;
-    background-color: #fff;
+    // background-color: #fff;
 }
-$bgDefault      : #1fa0e1;
-$bgHighlight    : #1a7eaf;
-$colDefault     : #ecf0f1;
-$colHighlight   : #ecf0f1;
+$bgDefault      : #ffffff;
+$bgHighlight    : #dadbdb;
+$colDefault     : #292b2c;
+$colHighlight   : #292b2c;
 $dropDown       : true;
 .navbar {
   background-color: $bgDefault;

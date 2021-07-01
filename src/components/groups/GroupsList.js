@@ -33,7 +33,7 @@ const GroupsList = (props) => {
 
 	return (
 		<div className='group-list'>
-			<ListGroup>
+			<ListGroup variant='flush'>
 				<ListGroup.Item key={teamGroupLeader[0].id} className='group-list-item'>
 					<Link
 						to={`/members/${teamGroupLeader[0].id}`}

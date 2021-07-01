@@ -1,22 +1,23 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
-	<Navbar
-		collapseOnSelect
-		expand='lg'
-		className='navbar-component'
-		variant='dark'
-	>
-		<Navbar.Brand href='/'>COHERENCE</Navbar.Brand>
+	<Navbar collapseOnSelect expand='lg' className='navbar-component'>
+		<Navbar.Brand href='/'>
+			<Image
+				src={`${process.env.PUBLIC_URL}/assets/images/logo/logo_temp.png`}
+				rounded
+				className='logoPhoton'
+			/>
+		</Navbar.Brand>
 		<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 		<Navbar.Collapse>
 			<Nav>
 				<LinkContainer to='/'>
-					<Nav.Link>HOME</Nav.Link>
+					<Nav.Link>Home</Nav.Link>
 				</LinkContainer>
-				<NavDropdown title='ABOUT'>
+				<NavDropdown title='About'>
 					<LinkContainer to='/about/center'>
 						<NavDropdown.Item>Center</NavDropdown.Item>
 					</LinkContainer>
@@ -31,9 +32,9 @@ const Navigation = () => (
 					</LinkContainer>
 				</NavDropdown>
 				<LinkContainer to='/members'>
-					<Nav.Link>MEMBERS</Nav.Link>
+					<Nav.Link>Members</Nav.Link>
 				</LinkContainer>
-				<NavDropdown title='GROUPS'>
+				<NavDropdown title='Groups'>
 					<LinkContainer to='/groups/optobiomedical'>
 						<NavDropdown.Item>Opto-biomedical engineering</NavDropdown.Item>
 					</LinkContainer>
@@ -49,13 +50,13 @@ const Navigation = () => (
 					</LinkContainer>
 				</NavDropdown>
 				<LinkContainer to='/projects'>
-					<Nav.Link>PROJECTS</Nav.Link>
+					<Nav.Link>Projects</Nav.Link>
 				</LinkContainer>
 				<LinkContainer to='/news'>
-					<Nav.Link>NEWS</Nav.Link>
+					<Nav.Link>News</Nav.Link>
 				</LinkContainer>
 				<LinkContainer to='/contact'>
-					<Nav.Link>CONTACT</Nav.Link>
+					<Nav.Link>Contact</Nav.Link>
 				</LinkContainer>
 			</Nav>
 		</Navbar.Collapse>

@@ -34,7 +34,7 @@ const Member = ({ match }) => {
 			) : (
 				<Row>
 					<Col>
-						<h1 className='memberNotExist'>Member does not exist</h1>
+						<h1 className='member-not-exist'>Member does not exist</h1>
 					</Col>
 				</Row>
 			)}

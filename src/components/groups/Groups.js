@@ -34,12 +34,13 @@ const Groups = ({ teamName, title, description, picture }) => {
 			<Row className='mt-5 groups-border'>
 				<Col xs={12}>
 					<h3 className='mb-3'>{title}</h3>
-					<p className='mt-3'>{description}</p>
+					<p className='mt-3 text-justify'>{description}</p>
 				</Col>
 			</Row>
 			<Row>
 				<Col xs={12} sm={6} className='groups-picture'>
 					<Image src={picture} fluid />
+					<p>{title}</p>
 				</Col>
 				<Col xs={12} sm={(6, { order: 'first' })}>
 					<GroupsList data={teamMembers} teamName={teamName} />

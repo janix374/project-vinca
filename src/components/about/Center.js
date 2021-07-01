@@ -81,22 +81,21 @@ const Center = () => {
 			</Row>
 			<Row className='mt-5'>
 				<Col sm={12} md={6} className='text-justify centerOurMission'>
-					<CardVanilaEffect
-						title='OUR MISSION'
-						text='To connect groups and institutions involved
-					in different aspects of the application of light in scientific fields
-					and disciplines, to improve and accelerate process of innovation and
-					application of research results using comprehensive multidisciplinary
-					approach.'
-					/>
+					<h4 className='text-center'>OUR MISSION</h4>
+					<p>
+						To connect groups and institutions involved in different aspects of
+						the application of light in scientific fields and disciplines, to
+						improve and accelerate process of innovation and application of
+						research results using comprehensive multidisciplinary approach.
+					</p>
 				</Col>
 				<Col sm={12} md={6} className='text-justify centerOurMission'>
-					<CardVanilaEffect
-						title='OUR VISION'
-						text='To become the leading center for the
-						application of light in various areas of scientific work in the region
-						and recognizable in the European research area.'
-					/>
+					<h4 className='text-center'>OUR VISION</h4>
+					<p>
+						To become the leading center for the application of light in various
+						areas of scientific work in the region and recognizable in the
+						European research area.
+					</p>
 				</Col>
 			</Row>
 		</Container>

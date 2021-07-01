@@ -1,6 +1,10 @@
 .centar-container {
   color: $maincolor;
   font-size: $centarFontSize;
+
+  p {
+    color: $fontColorText;
+  }
 }
 
 .centerText {
@@ -8,27 +12,27 @@
 }
 
 .center-component-goals {
-  opacity: 0.8;
-  background-color: #fffbce;
+  color: $maincolor;
+  font-style: italic;
 }
 
 .centerInstitution {
   li {
     margin-top: 20px;
-    color: $maincolor;
+    color: $fontColorText;
   }
   a {
-    color: $maincolor;
+    color: $fontColorText;
     text-decoration: none;
   }
 
   a:visited {
-    color: $maincolor;
+    color: $fontColorText;
     text-decoration: none;
   }
 
   a:focus {
-    color: $maincolor;
+    color: $fontColorText;
     text-decoration: none;
   }
 

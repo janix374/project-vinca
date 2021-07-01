@@ -6,7 +6,7 @@ import ButtonAction from '../common/buttons/ButtonAction';
 const MemberList = ({ data, handleGoBack }) => {
 	const a = 'cao';
 	return (
-		<div className='teamMemberContainer'>
+		<div className='team-member-container'>
 			<Row className='mb-4'>
 				<Col xs={12}>
 					<h2>{data.name}</h2>
@@ -14,9 +14,9 @@ const MemberList = ({ data, handleGoBack }) => {
 			</Row>
 			<Row>
 				<Col xs={12} sm={6}>
-					<div className='personImg_container'>
+					<div className='person-img-container'>
 						<Image
-							className='personImg'
+							className='person-img'
 							src={`${process.env.PUBLIC_URL}/assets/images/personal_image/${data.photo}`}
 							fluid
 						/>
@@ -32,7 +32,7 @@ const MemberList = ({ data, handleGoBack }) => {
 							href={`${data.personal_url}`}
 							target='_blank'
 							rel='noreferrer'
-							className='btn btn-info btn-lg active buttonPDFTeamMember'
+							className='btn btn-info btn-lg active button-PDF-team-member'
 							role='button'
 							aria-pressed='true'
 						>

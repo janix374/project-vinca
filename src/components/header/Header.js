@@ -5,7 +5,7 @@ import Navigation from './NavigationComponent';
 const Header = () => (
 	<header>
 		<Container fluid>
-			<Row>
+			{/* <Row>
 				<Col xs={6} md={4}>
 					<Image
 						src={`${process.env.PUBLIC_URL}/assets/images/logo/logo.png`}
@@ -13,7 +13,7 @@ const Header = () => (
 						className='logoPhoton'
 					/>
 				</Col>
-			</Row>
+			</Row> */}
 			<Row>
 				<Navigation />
 			</Row>

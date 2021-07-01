@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-top: 100px;
 
   .tilt-container {
     .tilt-box-wrap {
       width: 90%;
-      height: 300px;
+      height: 400px;
       position: relative;
       transition: all 0.6s ease-out;
       perspective: 1000px;
@@ -102,12 +102,12 @@
         height: 100%;
         position: relative;
         display: flex;
-        justify-content: space-between;
         transition: all 0.6s ease-out;
         transform: rotateX(0deg) rotateY(0deg);
         perspective: 1000px;
         transform-style: preserve-3d;
         padding: 10px;
+        align-items:center;
       }
 
       h4 {
@@ -121,9 +121,14 @@
       }
 
       .title-box-img {
-        padding: 20px;
         transform: translateZ(40px);
         width: 100%;
+        text-align: center;
+        position: relative;
+      }
+
+      .title-box-img img{
+        width: 80%;
       }
 
 

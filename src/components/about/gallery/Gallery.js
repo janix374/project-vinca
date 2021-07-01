@@ -31,7 +31,7 @@ const Gallery = () => {
 		<Container>
 			<Row className='mt-5'>
 				<Col xs={12}>
-					<h3 className='text-center'>GALLERIES</h3>
+					<h3 className='text-center'>Gallery</h3>
 				</Col>
 				<Col xs={12}>
 					{pictures.images && pictures.images.length ? (

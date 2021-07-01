@@ -48,7 +48,7 @@ const Collaborators = () => {
 				</Col>
 				<Col xs={12} sm={3} />
 				<Col xs={12} sm={6} className='mt-3 mb-3'>
-					<h5 className='collaborators-class'>Opto-biomedical engineering</h5>
+					<h5>Opto-biomedical engineering</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
 							{collaborators.opto_biomedical_engineering &&
@@ -70,9 +70,7 @@ const Collaborators = () => {
 				<Col xs={12} sm={3} />
 				<Col xs={12} sm={3} />
 				<Col xs={12} sm={6} className='mt-3 mb-3'>
-					<h5 className='collaborators-class'>
-						Investigation of complex systems in biology and physics
-					</h5>
+					<h5>Investigation of complex systems in biology and physics</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
 							{collaborators.investigation_of_complex_systems_in_biology_and_physics &&
@@ -96,9 +94,7 @@ const Collaborators = () => {
 				<Col xs={12} sm={3} />
 				<Col xs={12} sm={3} />
 				<Col xs={12} sm={6} className='mt-3 mb-3'>
-					<h5 className='collaborators-class'>
-						Photodynamic therapy development
-					</h5>
+					<h5>Photodynamic therapy development</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
 							{collaborators.photodynamic_therapy_development &&

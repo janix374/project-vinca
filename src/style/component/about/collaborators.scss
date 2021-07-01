@@ -6,26 +6,27 @@
             margin-top: 20px;
         }
         a {
-            color: $maincolor;
+            color: $fontColorText;
             text-decoration: none;
             font-size: $normalFontSize;
         };
     
         a:visited {
-            color: $maincolor;
+            color: $fontColorText;
         };
     
         a:focus {
-            color: $maincolor;
+            color: $fontColorText;
         };
     
         a:hover {
             font-weight: bold;
+            color: $maincolor;
         };
     }
     
-    .collaborators-class {
-        color: $maincolor;
+    .collaborators-class{
+        color: $fontColorText;
     }
 
 }

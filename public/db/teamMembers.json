@@ -5,7 +5,7 @@
       "name": "Ljupčo Hadžievski",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
+      "level": 4,
       "tel": "+381 (0)11 3408 629",
       "fax": "+381 (0)11 8066 425",
       "email": "ljupcoh@vin.bg.ac.rs",
@@ -15,7 +15,10 @@
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=6602497159",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "Group_for_opto_biomedical_engineering",
-      "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
       "research_interest": [
         "Nonlinear and turbulent processes in plasma",
         "Relativistic laser-plasma interactions",
@@ -45,7 +48,7 @@
       "name": "Aleksandra Maluckov",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
+      "level": 4,
       "tel": "+381 (0)11 3408 396",
       "fax": "+381 (0)11 8066 425",
       "email": "sandram@vin.bg.ac.rs",
@@ -55,7 +58,10 @@
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=6603650267",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "Group_for_investigation_of_complex_systems_in_biology_and_physics",
-      "groups": ["Group_for_investigation_of_complex_systems_in_biology_and_physics", "TeamB"],
+      "groups": [
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "TeamB"
+      ],
       "research_interest": [
         "Nonlinear dynamics and chaos",
         "Nonlinear optics",
@@ -83,7 +89,7 @@
       "name": "Milutin Stepić",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
+      "level": 4,
       "tel": "+381 (0)11 3408 770",
       "fax": "+381 (0)11 8066 425",
       "email": "mstepic@vin.bg.ac.rs",
@@ -93,7 +99,10 @@
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=8579327600",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
-      "groups": ["Group_for_investigation_of_complex_systems_in_biology_and_physics", "Group_for_photodynamic_therapy_development"],
+      "groups": [
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "Group_for_photodynamic_therapy_development"
+      ],
       "research_interest": [
         "Nonlinear optics and photonics",
         "Nonlinear dynamics",
@@ -124,10 +133,10 @@
       "name": "Marijana Petković",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
-      "tel": "",
+      "level": 4,
+      "tel": "+381 3408 770",
       "fax": "",
-      "email": "",
+      "email": "petkovic.marijana.71@gmail.com",
       "personal_url": "",
       "photo": "avatar.png",
       "cv": "CV_Marijana_Petkovic.pdf",
@@ -135,9 +144,29 @@
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "Group_for_photodynamic_therapy_development",
       "groups": ["Group_for_photodynamic_therapy_development"],
-      "research_interest": [""],
-      "professional_positions": [""],
-      "education": [""]
+      "research_interest": [
+        "Development of nanoparticle-based substrates for qualitative and quantitative analyses of small molecules",
+        "Interaction of transition metal complexes with proteins",
+        "Development of the photosensitive nano-composite systems for metallo-drug delivery and therapy of carcinoma"
+      ],
+      "professional_positions": [
+        "2018 – Present, Research Professor, Department of Atomics Physics ,“Vinča” Institute of Nuclear sciences, University of Belgrade, Belgrade, Serbia",
+        "January 2019 – August 2020. Senior Researcher CQM- Centro de Química da Madeira, Universidade da Madeira, Funchal",
+        "June – July 2018. Guest Scientist,  Institute of Medical Physics and Biophysics, Faculty of Medicine, University of Leipzig, Germany",
+        "2012 – 2018. Research Professor, Head of the Small Molecules Mass Spectrometry and Omics Sector Department of Physical Chemistry, “Vinča” Institute of Nuclear Sciences, University of Belgrade",
+        "Sept. 2012 – Sept. 2014, President of the Scientific Council of the “Vinča” Institute of Nuclear Sciences Department of Physical Chemistry,“ Vinča” Institute of Nuclear Sciences, University of Belgrade",
+        "2008 – 2012. Associate Research Professor, Department of Physical Chemistry,“Vinča” Institute of Nuclear sciences, University of Belgrade",
+        "Dec. 2006 – 2008. Associate Research Professor, Institute of Technical Sciences, Serbian Academy of Sciences and Arts, Belgrade, Serbia",
+        "2004 – July 2005. Postdoc Research Assistant, Institute of Medical Physics and Biphysics, Medical Faculty, University of Leipzig, Leipzig, Germany",
+        "Dec 1999 - Nov 2002. Research Assistant/PhD student,  Institute of Medical Physics and Biphysics, Medical Faculty, University of Leipzig, Leipzig, Germany",
+        "1994 - Dec 1999. Research Trainee, “Vinča” Institute of Nuclear Sciences, University of Belgrade"
+      ],
+      "education": [
+        "Dec 1999 – Oct 2002. Doctor Rerum Naturalium Chemistry/Biochemistry (Magna Cum Laude). PhD, Faculty of Chemistry and Mineralogy, University of Leipzig, Leipzig, Germany",
+        "Nostrified in 2007 at University of Belgrade as PhD in Chemical Sciences",
+        "1995 – 2000. Master of Biomedical Engineering, University of Belgrade (Centre for Multidisciplinary Studies), Belgrade, Serbia",
+        "1990 – 1994. B.Sci. Biochemistry, Faculty of Chemistry, University of Belgrade"
+      ]
     },
 
     {
@@ -145,7 +174,7 @@
       "name": "Jovana Petrović",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
+      "level": 4,
       "tel": "+381 (0)11 3408 638",
       "fax": "+381 (0)11 8066 425",
       "email": "jovanap@vin.bg.ac.rs",
@@ -155,7 +184,10 @@
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=11541124800",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
-      "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
       "research_interest": [
         "Fibre-grating sensors",
         "Ultrafast optics",
@@ -184,7 +216,7 @@
       "name": "Goran Gligorić",
       "academic_title": "Dr.",
       "job_title": "Principal Research Fellow",
-      "level":4,
+      "level": 4,
       "tel": "+381 (0)11 3408 638",
       "fax": "+381 (0)11 8066 425",
       "email": "goran79@vin.bg.ac.rs",
@@ -194,7 +226,10 @@
       "publications": "https://orcid.org/0000-0003-1890-7324",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
-      "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
       "research_interest": [
         "Nonlinear dynamics and complex systems",
         "Numerical and analytical studies of continual and discrete nonlinear systems",
@@ -221,7 +256,7 @@
       "name": "Petra Beličev",
       "academic_title": "Dr.",
       "job_title": "Senior Research Associate",
-      "level":3,
+      "level": 3,
       "tel": "+381 (0)11 3408 396",
       "fax": "+381 (0)11 8066 425",
       "email": "petrab@vin.bg.ac.rs",
@@ -231,7 +266,10 @@
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=26028271100",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
-      "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
       "research_interest": [
         "Nonlinear optics and photonics",
         "Numerical and analytical studies of continual and discrete nonlinear systems",
@@ -257,10 +295,10 @@
       "name": "Iva Popović",
       "academic_title": "Dr.",
       "job_title": "Research Associate",
-      "level":2,
-      "tel": "",
+      "level": 2,
+      "tel": " +381 60 323 0184",
       "fax": "",
-      "email": "",
+      "email": "ivavukicevic@gmail.com",
       "personal_url": "",
       "photo": "avatar.png",
       "cv": "CV_Iva_Popovic.pdf",
@@ -268,13 +306,21 @@
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
       "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-      "research_interest": [""],
-      "professional_positions": [
-        "2018-... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-        "2012-2018 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant",
-        "2011-2012 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Trainee"
+      "research_interest": [
+        "Proteomics",
+        "Metabolomics",
+        "Mass Spectrometry",
+        "Computational Methods"
       ],
-      "education": [""]
+      "professional_positions": [
+        "2018 – Present, Research associate, Department of Atomic Physics, Vinča” Institute of Nuclear Sciences, University of Belgrade, National Institute of the Republic of Serbia",
+        "2012 – 2018, Research assistant, Department of Physical chemistry, Vinča” Institute of Nuclear Sciences, University of Belgrade, National Institute of the Republic of Serbia",
+        "2011 – 2012, Research Trainee, Department of Physical chemistry, Vinča” Institute of Nuclear Sciences, University of Belgrade, National Institute of the Republic of Serbia"
+      ],
+      "education": [
+        "Feb. 2017, PhD in Chemical science, Faculty of Science, University of Kragujevac, Kragujevac, Republic of Serbia",
+        "Dec 2010, MSc in Biochemistry, Chemical faculty, Biochemistry, University of Belgrade, Belgrade, Republic of Serbia"
+      ]
     },
 
     {
@@ -282,14 +328,279 @@
       "name": "Maja Nešić",
       "academic_title": "Dr.",
       "job_title": "Research Associate",
-      "level":2,
+      "level": 2,
+      "tel": "+381 60 4099044",
+      "fax": "",
+      "email": "maki@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Maja_Nesic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=56559929100",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
+      "research_interest": [
+        "Photodynamic Therapy",
+        "Nanoscience",
+        "Bioinorganic chemistry",
+        "Mass Spectrometry"
+      ],
+      "professional_positions": [
+        "2018 - Present, Research Associate in Institute of nuclear science 'Vinča', Department of Atomic Physics, Belgrade, Serbia",
+        "2017 - 2018. Maternity leave",
+        "2011 - 2017. Research Assistant in Institute of nuclear science 'Vinča', Department of Physical Chemistry, Belgrade, Serbia"
+      ],
+      "education": [
+        "2018 PhD in Chemical sciences, Faculty of Science, University of Kragujevac, Serbia",
+        "2011 M.Sci. in Chemistry, Chemical faculty, University of Belgrade, Serbia",
+        "2010 B.S. in Chemistry 2010, Chemical faculty, University of Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 10,
+      "name": "Marija Ivanović",
+      "academic_title": "Dr.",
+      "job_title": "Research Associate",
+      "level": 2,
+      "tel": "+381 (0)11 3408 632",
+      "fax": "+381 (0)11 8066 425",
+      "email": "marijap@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "marija_ivanovic.jpg",
+      "cv": "CV_Marija_Ivanovic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=57038326200",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
+      "research_interest": [
+        "Machine and deep learning",
+        "Medical diagnostic devices",
+        "Biomedical signal processing",
+        "Electrophysiological measurements",
+        "Fibre-grating sensors"
+      ],
+      "professional_positions": [
+        "2015- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2011-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2010-2011 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+      ],
+      "education": [
+        "2009-2014 PhD in Fiber-optical sensors for applications in medical diagnostic, Department of Biomedical and Environmental Engineering, University of Belgrade, Serbia",
+        "2008-2009 Master Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
+        "2004-2008 Bachelor Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University in Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 11,
+      "name": "Marija Nišavić",
+      "academic_title": "Dr.",
+      "job_title": "Research Associate",
+      "level": 2,
+      "tel": "+45 5031 9000 ",
+      "fax": "",
+      "email": "marija.nisavic@gmail.com",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Marija_Nisavic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=55807892100",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
+      "research_interest": [
+        "Proteomics",
+        "Metabolomics",
+        "Mass Spectrometry",
+        "Inorganic Biochemistry"
+      ],
+      "professional_positions": [
+        "2020 – Present, Postdoctoral Researcher at Department of Chemistry, Aarhus University, Denmark",
+        "2018 – 2020. Postdoctoral Researcher at Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense",
+        "2012 – 2018. Research Associate at “Vinča” Institute of Nuclear Sciences"
+      ],
+      "education": [
+        "March 2020 – Present, Postdoc at Department of Chemistry, Aarhus University, Denmark",
+        "March 2018 – March 2020, Postdoc at Department of Biochemistry and Molecular Biology, University of Southern Denmark",
+        "2011 – 2017. PhD at Faculty of Chemistry, Department of Biochemistry, University of Belgrade, Serbia",
+        "2004 – 2011. Faculty of Chemistry, Department of Biochemistry, University of Belgrade, Serbia (MSc equivalent)"
+      ]
+    },
+
+    {
+      "id": 12,
+      "name": "Danka Stojanović",
+      "academic_title": "Dr.",
+      "job_title": "Research Associate",
+      "level": 2,
+      "tel": "+381 (0)11 3408 632",
+      "fax": "+381 (0)11 8066 425",
+      "email": "dankas@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "danka_stojanovic.jpg",
+      "cv": "CV_Danka_Stojanovic.pdf",
+      "publications": "https://scholar.google.com/citations?user=qgDThh4AAAAJ&hl=sr&oi=ao",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
+      "research_interest": [
+        "Modelling of optical properties of metamaterials and metasurfaces",
+        "Chiral structures",
+        "Terahertz frequency range",
+        "Sensing applications of photonic structures"
+      ],
+      "professional_positions": [
+        "2019- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2013-2019 present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2012-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+      ],
+      "education": [
+        "2012-2018 PhD in Nanoelectronics and photonics, School of Electrical Engineering, University of Belgrade, Serbia",
+        "2011-2012 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
+        "2006-2011 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 13,
+      "name": "Marjan Miletić",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
+      "tel": "+381 (0)11 3408 632",
+      "fax": "+381 (0)11 8066 425",
+      "email": "marjanmil@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Marjan Miletic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=57038553800",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
+      "research_interest": [
+        "Medical diagnostic devices",
+        "Biomedical signal processing",
+        "Image processing",
+        "Fibre-grating sensors"
+      ],
+      "professional_positions": [
+        "2016-...present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
+        "2014-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
+      ],
+      "education": [
+        "2002-2013 Master Diploma in Optoelectronics and Laser Engineering, Faculty of Electrical Engineering, Department for Optoelectronics and Laser Engineering, University of Belgrade, Belgrade, Serbia"
+      ]
+    },
+
+    {
+      "id": 14,
+      "name": "Milica Matijević",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
+      "tel": "+381 60 5578 609",
+      "fax": "",
+      "email": "milica.m@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Milica_Matijevic.pdf",
+      "publications": "https://www.researchgate.net/profile/Milica-Matijevic-2",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
+      "research_interest": [
+        "Photodynamic Therapy",
+        "Chemical Biology",
+        "Nanoscience"
+      ],
+      "professional_positions": [
+        "2018 – Present, Research Assistant,  Department of Atomics Physics, 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade",
+        "2015 – 2018. Junior Researcher, Department of Physical Chemistry, 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade",
+        "2013 – 2015. Chemical Analyst at Anahem, Laboratory for technical testing and analysis, Belgrade"
+      ],
+      "education": [
+        "2015 - … PhD candidate in Chemistry Science, The Faculty of Sciences and Mathematics, University of Niš",
+        "2003 – 2014. Faculty of Technology (MSc equivalent), The Faculty of Technology and Metallurgy, University of Belgrade, Department for Biochemical Engineering and Biotechnology"
+      ]
+    },
+
+    {
+      "id": 15,
+      "name": "Jelena Kršić",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
+      "tel": "+381 11 3408632",
+      "fax": "",
+      "email": "jkrsic@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Jelena_Krsic.pdf",
+      "publications": "https://orcid.org/0000-0002-4851-4401",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
+      "research_interest": [
+        "Biomedicine",
+        "Plasma physics and physics of ionized gases",
+        "Photonics and Lasers",
+        "Fiber-gratings",
+        "Waveguide based sensors",
+        "Optical sensors"
+      ],
+      "professional_positions": [
+        "2021 – Present, Associate laboratory technician at 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade",
+        "2020 – 2021. Associate at 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade",
+        "2017 – 2020. Junior research assistant at 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade"
+      ],
+      "education": [
+        "2019 – Present, PhD studies in Physics, University of Niš Faculty of Sciences and Mathematics",
+        "2016 – 2019, PhD studies in Physics, Faculty of Physics, University of Belgrade",
+        "2013 – 2016 MSc, Faculty of Physics, University of Belgrade",
+        "2009 – 2013, BSc, Faculty of Physics, University of Belgrade"
+      ]
+    },
+
+    {
+      "id": 16,
+      "name": "Aleksandar Atić",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
       "tel": "",
       "fax": "",
       "email": "",
       "personal_url": "",
       "photo": "avatar.png",
-      "cv": "CV_Maja_Nesic.pdf",
-      "publications": "https://www.scopus.com/authid/detail.uri?authorId=56559929100",
+      "cv": "",
+      "publications": "",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": [
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "TeamB"
+      ],
+      "research_interest": [""],
+      "professional_positions": [""],
+      "education": [""]
+    },
+
+    {
+      "id": 17,
+      "name": "Irena Miler",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
+      "tel": "",
+      "fax": "",
+      "email": "",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "",
+      "publications": "",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
       "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
@@ -299,402 +610,220 @@
     },
 
     {
-        "id": 10,
-        "name": "Marija Ivanović",
-        "academic_title": "Dr.",
-        "job_title": "Research Associate",
-        "level":2,
-        "tel": "+381 (0)11 3408 632",
-        "fax": "+381 (0)11 8066 425",
-        "email": "marijap@vin.bg.ac.rs",
-        "personal_url": "",
-        "photo":"marija_ivanovic.jpg",
-        "cv":"CV_Marija_Ivanovic.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=57038326200",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
-        "research_interest": [
-            "Machine and deep learning", 
-            "Medical diagnostic devices", 
-            "Biomedical signal processing", 
-            "Electrophysiological measurements", 
-            "Fibre-grating sensors"
-        ],
-        "professional_positions": [
-            "2015- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
-            "2011-2015 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "2010-2011 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
-        ],
-        "education": [
-            "2009-2014 PhD in Fiber-optical sensors for applications in medical diagnostic, Department of Biomedical and Environmental Engineering, University of Belgrade, Serbia",
-            "2008-2009 Master Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University of Belgrade, Serbia",
-            "2004-2008 Bachelor Diploma in Nuclear and clinical medical devices and their applications, Department of Biomedical and Environmental Engineering, School of Electrical Engineering, University in Belgrade, Serbia"
-        ]
-      },
+      "id": 18,
+      "name": "Mirjana Stojanović",
+      "academic_title": "M. Sc.",
+      "job_title": "PhD student",
+      "level": 1,
+      "tel": "+381 11 3408632",
+      "fax": "",
+      "email": "mirjana.stojanovic@vin.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Mirjana_Stojanovic.pdf",
+      "publications": "https://orcid.org/0000-0002-4376-7610",
+      "institution": "Vinca_Institute_of_Nuclear_Sciences",
+      "group_leader": "",
+      "groups": [
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "TeamB"
+      ],
+      "research_interest": [
+        "Physics",
+        "Optics",
+        "Photonics",
+        "Numerical Simulation"
+      ],
+      "professional_positions": [
+        "2019 - Present, Junior Research Assistant, Laboratory of Atomic Physics, 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade"
+      ],
+      "education": [
+        "2018 – Ongoing, PhD Studies in Physics, Faculty of Sciences and Mathematics, University of Niš",
+        "2015 – 2018. MSc of Science in Physics, Faculty of Sciences and Mathematics, University of Niš",
+        "2012 – 2015. BSc of Science in Physics, Faculty of Sciences and Mathematics, University of Niš"
+      ]
+    },
 
-      {
-        "id": 11,
-        "name": "Marija Nišavić",
-        "academic_title": "Dr.",
-        "job_title": "Research Associate",
-        "level":2,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Marija_Nisavic.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=55807892100",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
+    {
+      "id": 19,
+      "name": "Jelena Radovanović",
+      "academic_title": "Dr.",
+      "job_title": "Full Professor",
+      "level": 4,
+      "tel": "+381 11 3370-163",
+      "fax": "",
+      "email": "radovanovic@etf.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=8907342000",
+      "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
+      "group_leader": "",
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "TeamB"
+      ],
+      "research_interest": [
+        "Electronic structure and optical properties of quantum semiconductor nanostructures based on III-V's and nitride semiconductors",
+        "Global optimization of linear and nonlinear optical properties of quantum semiconductor structures (quantum wells, superlattices, Bragg-confined structures) by methods of optimal control, simulated annealing algorithm and genetic algorithm",
+        "Quantum cascade lasers in magnetic field",
+        "Optimization of spin-dependent properties in nanostructures based on semimagnetic and nonmagnetic semiconductors"
+      ],
+      "professional_positions": [
+        "2005 – Present, Full Professor, Department of microelectronics and engineering physics, Faculty of Electrical Engineering, University of Belgrade",
+        "2001- 2005. Assistant Professor, Department of microelectronics and engineering physics, Faculty of Electrical Engineering, University of Belgrade",
+        "2003 – 2004. Visiting Research Fellow, Institute of Microwaves and Photonics, School of Electronic and Electrical Engineering, University of Leeds, UK.",
+        "2000 – 2005. Assistant Research Professor, Center for solid state physics and new materials, Institute of Physics, Belgrade",
+        "1997 – 2000.  Research Assistant, Department of microelectronics and engineering physics, Faculty of Electrical Engineering"
+      ],
+      "education": [
+        "1999 – 2001. PhD in Electrical Engineering, Faculty of Electrical Engineering, University of Belgrade",
+        "1997 – 1999. MSc in Electrical Engineering, Faculty of Electrical Engineering, University of Belgrade",
+        "1997. BSc in Electrical Engineering, Faculty of Electrical Engineering, University of Belgrade"
+      ]
+    },
 
-      {
-        "id": 12,
-        "name": "Danka Stojanović",
-        "academic_title": "Dr.",
-        "job_title": "Research Associate",
-        "level":2,
-        "tel": "+381 (0)11 3408 632",
-        "fax": "+381 (0)11 8066 425",
-        "email": "dankas@vin.bg.ac.rs",
-        "personal_url": "",
-        "photo":"danka_stojanovic.jpg",
-        "cv":"CV_Danka_Stojanovic.pdf",
-        "publications":"https://scholar.google.com/citations?user=qgDThh4AAAAJ&hl=sr&oi=ao",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
-        "research_interest": [
-            "Modelling of optical properties of metamaterials and metasurfaces", 
-            "Chiral structures", 
-            "Terahertz frequency range", 
-            "Sensing applications of photonic structures"
-        ],
-        "professional_positions": [
-            "2019- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor", 
-            "2013-2019 present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
-            "2012-2013 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
-        ],
-        "education": [
-            "2012-2018 PhD in Nanoelectronics and photonics, School of Electrical Engineering, University of Belgrade, Serbia",
-            "2011-2012 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Nanoelectronics, Optoelectronics and Laser Techniques, University of Belgrade, Serbia",
-            "2006-2011 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, University of Belgrade, Serbia"
-        ]
-      },
+    {
+      "id": 20,
+      "name": "Nikola Vuković",
+      "academic_title": "Dr.",
+      "job_title": "Teaching Assistant",
+      "level": 2,
+      "tel": "+381 11 3218-309",
+      "fax": "",
+      "email": "nvukovic@etf.bg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Nikola_Vukovic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=57191744534",
+      "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
+      "group_leader": "",
+      "groups": [
+        "Group_for_opto_biomedical_engineering",
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics"
+      ],
+      "research_interest": [
+        "Electronic structure and optical properties of semiconductor",
+        "nanostructures",
+        "Quantum cascade laser",
+        "Semiconductor metamaterials",
+        "Ultrafast nonlinear optics",
+        "Instabilities and chaos"
+      ],
+      "professional_positions": [
+        "March 2021 – Present, Assistant Professor (narrower scientific area of Physical Electronics), at the Department of Microelectronics and Engineering Physics, School of Electrical Engineering, University of Belgrade",
+        "2017 – March 2021. Teaching Assistant, School of Electrical Engineering, University of Belgrade",
+        "2014 – 2017. employed at the School of Electrical Engineering in Belgrade in the framework of the project of the Ministry of Education, Science and Technological Development (first as a trainee researcher and then as a research associate), and has been participating in several international projects"
+      ],
+      "education": [
+        "2013 – 2018. PhD in Nanoelectronics and Photonics, School of Electrical Engineering, University of Belgrade",
+        "2012 – 2013. MSc at the module Nanoelectronics, Optoelectronics and Laser Engineering (NOLT), Department of Physical Electronics, School of Electrical Engineering, University of Belgrade",
+        "2012. Diploma of the School of Electrical Engineering, Department of Physical Electronics, NOLT module, University of Belgrade"
+      ]
+    },
 
-      {
-        "id": 13,
-        "name": "Marjan Miletić",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "+381 (0)11 3408 632",
-        "fax": "+381 (0)11 8066 425",
-        "email": "marjanmil@vin.bg.ac.rs",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Marjan Miletic.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=57038553800",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
-        "research_interest": [
-            "Medical diagnostic devices", 
-            "Biomedical signal processing", 
-            "Image processing", 
-            "Fibre-grating sensors"
-        ],
-        "professional_positions": [
-            "2016-...present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate", 
-            "2014-2016 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Student"
-        ],
-        "education": [
-            "2002-2013 Master Diploma in Optoelectronics and Laser Engineering, Faculty of Electrical Engineering, Department for Optoelectronics and Laser Engineering, University of Belgrade, Belgrade, Serbia"
-        ]
-      },
+    {
+      "id": 21,
+      "name": "Ana Mančić",
+      "academic_title": "Dr.",
+      "job_title": "Associate Professor",
+      "level": 2,
+      "tel": "+381 533 015",
+      "fax": "",
+      "email": "anam@pmf.ni.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Ana_Mancic.pdf",
+      "publications": "https://orcid.org/0000-0002-5932-2261",
+      "institution": "Faculty_of_Sciences_and_Mathematics_University_of_Nis",
+      "group_leader": "",
+      "groups": [
+        "Group_for_investigation_of_complex_systems_in_biology_and_physics",
+        "TeamB"
+      ],
+      "research_interest": [
+        "Nonlinear optics",
+        "Nonlinear dynamics",
+        "Machine learning"
+      ],
+      "professional_positions": [
+        "2018 – associate proffesor, Faculty of Sciences and Mathematics, Nis",
+        "2011 - 2018, assistant proffesor, Faculty of Sciences and Mathematics, Nis",
+        "2007 – 2011, assistant, Faculty of Sciences and Mathematics, Nis",
+        "2003 – 2011 junior assistant, Faculty of Sciences and Mathematics, Nis"
+      ],
+      "education": [
+        "2010. PhD, Ecole Polytechnique, Palaiseau, France",
+        "2005. master degree in physics, Faculty of Sciences and Mathematics",
+        "University of Niš, Srbia",
+        "2002. bachelor degree in physics, Faculty of Philosophy, University of Niš"
+      ]
+    },
 
-      {
-        "id": 14,
-        "name": "Milica Matijević",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Milica_Matijevic.pdf",
-        "publications":"https://www.researchgate.net/profile/Milica-Matijevic-2",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
+    {
+      "id": 22,
+      "name": "Biljana Petrović",
+      "academic_title": "Dr.",
+      "job_title": "Full Professor",
+      "level": 4,
+      "tel": "+ 381 34 336 223, ext.363",
+      "fax": "",
+      "email": "biljana.petrovic@pmf.kg.ac.rs",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Biljana_Petrovic.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=7006893739",
+      "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
+      "group_leader": "",
+      "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
+      "research_interest": ["Inorganic chemistry", "Bioinorganic chemistry"],
+      "professional_positions": [
+        "2020 - ... Full professor, Department of Chemistry, Faculty of Science, University of Kragujevac",
+        "2013 – 2020, Associate professor, Department of Chemistry, Faculty od Science University of Kragujevac",
+        "2007 – 2013, Assistant professor, Department of Chemistry Faculty od Science University of Kragujevac",
+        "2006, 2007. Abroad specialization: University of Erlangen-Nurnberg, Germany"
+      ],
+      "education": [
+        "1999 – 2005. PhD, Faculty of Science, University of Kragujevac",
+        "1994 -1999. Magister, Faculty of Science, University of Kragujevac",
+        "1989 – 1994. Diploma in Chemistry, Faculty of Science, University of Kragujevac"
+      ]
+    },
 
-      {
-        "id": 15,
-        "name": "Jelena Kršić",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Jelena_Krsic.pdf",
-        "publications":"https://orcid.org/0000-0002-4851-4401",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 16,
-        "name": "Aleksandar Atić",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"",
-        "publications":"",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_investigation_of_complex_systems_in_biology_and_physics", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 17,
-        "name": "Irena Miler",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"",
-        "publications":"",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 18,
-        "name": "Mirjana Stojanović",
-        "academic_title": "M. Sc.",
-        "job_title": "PhD student",
-        "level":1,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Mirjana_Stojanovic.pdf",
-        "publications":"https://orcid.org/0000-0002-4376-7610",
-        "institution": "Vinca_Institute_of_Nuclear_Sciences",
-        "group_leader": "",
-        "groups": ["Group_for_investigation_of_complex_systems_in_biology_and_physics", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 19,
-        "name": "Jelena Radovanović",
-        "academic_title": "Dr.",
-        "job_title": "Full Professor",
-        "level":4,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=8907342000",
-        "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering","Group_for_investigation_of_complex_systems_in_biology_and_physics", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 20,
-        "name": "Nikola Vuković",
-        "academic_title": "Dr.",
-        "job_title": "Teaching Assistant",
-        "level":2,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Nikola_Vukovic.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=57191744534",
-        "institution": "School_of_Electrical_Engineering_University_of_Belgrade",
-        "group_leader": "",
-        "groups": ["Group_for_opto_biomedical_engineering", "Group_for_investigation_of_complex_systems_in_biology_and_physics"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 21,
-        "name": "Ana Mančić",
-        "academic_title": "Dr.",
-        "job_title": "Associate Professor",
-        "level":2,
-        "tel": "",
-        "fax": "",
-        "email": "anam@pmf.ni.ac.rs",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Ana_Mancic.pdf",
-        "publications":"https://orcid.org/0000-0002-5932-2261",
-        "institution": "Faculty_of_Sciences_and_Mathematics_University_of_Nis",
-        "group_leader": "",
-        "groups": ["Group_for_investigation_of_complex_systems_in_biology_and_physics", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 22,
-        "name": "Biljana Petrović",
-        "academic_title": "Dr.",
-        "job_title": "Full Professor",
-        "level":4,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Biljana_Petrovic.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=7006893739",
-        "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
-        "group_leader": "",
-        "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      },
-
-      {
-        "id": 23,
-        "name": "Jovana Bogojevski",
-        "academic_title": "Dr.",
-        "job_title": "Assistant Professor",
-        "level":2,
-        "tel": "",
-        "fax": "",
-        "email": "",
-        "personal_url": "",
-        "photo":"avatar.png",
-        "cv":"CV_Jovana_Bogojeski.pdf",
-        "publications":"https://www.scopus.com/authid/detail.uri?authorId=36552027300",
-        "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
-        "group_leader": "",
-        "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-        "research_interest": [
-            ""
-        ],
-        "professional_positions": [
-            ""
-        ],
-        "education": [
-            ""
-        ]
-      }
-
-
+    {
+      "id": 23,
+      "name": "Jovana Bogojevski",
+      "academic_title": "Dr.",
+      "job_title": "Assistant Professor",
+      "level": 2,
+      "tel": "",
+      "fax": "",
+      "email": "",
+      "personal_url": "",
+      "photo": "avatar.png",
+      "cv": "CV_Jovana_Bogojeski.pdf",
+      "publications": "https://www.scopus.com/authid/detail.uri?authorId=36552027300",
+      "institution": "Faculty_of_Science_Department_for_Chemistry_University_of_Kragujevac",
+      "group_leader": "",
+      "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
+      "research_interest": [
+        "Solution Chemistry and Coordination Chemistry",
+        "Mechanism",
+        "Kinetics",
+        "Synthesis",
+        "Metal Ions and Complex Formation"
+      ],
+      "professional_positions": [
+        "2016 - …  Assistant Professor, Department of Chemistry, Faculty of Science, University of Kragujevac",
+        "2008 – 2016. Assistant, Department of Chemistry, Faculty of Science, University of Kragujevac"
+      ],
+      "education": [
+        "2013 – 2014. Research Fellow (Professor Mathias Tamm), Institut für Anorganische und Analytische Chemie, University of Braunshweig",
+        "2006 – 2012. PhD in Chemistry, Faculty of Science, University of Kragujevac",
+        "2004 – 2006. MSc Degree in Chemistry, Faculty of Science, University of Kragujevac",
+        "1999 – 2004. Diploma in Chemistry, Faculty of Science, University of Kragujevac"
+      ]
+    }
   ]
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardVanilaEffect = ({ title, text }) => {
+const CardVanilaEffect = () => {
 	console.log('ddd');
 	return (
 		<div className='tilt-flex-container'>
@@ -17,8 +17,10 @@ const CardVanilaEffect = ({ title, text }) => {
 					<span className='t_over' />
 					<div className='tilt-box'>
 						<div className='title-box-img'>
-							<h4>{title}</h4>
-							<p>{text}</p>
+							<img
+								src={`${process.env.PUBLIC_URL}/assets/images/logo/logo.png`}
+								alt='logo'
+							/>
 						</div>
 					</div>
 				</div>

@@ -8,7 +8,7 @@ function Footer() {
 		<footer>
 			<Container className='footer-container'>
 				<Row>
-					<Col xs={12} sm={5}>
+					<Col xs={12} sm={4}>
 						<div className='footer-contact'>
 							<p>
 								Mike Petrovića Alasa 12-14, 11351 Belgrade, Serbia <br />
@@ -17,20 +17,35 @@ function Footer() {
 							</p>
 						</div>
 					</Col>
-					<Col xs={12} sm={7}>
+					<Col xs={12} sm={8}>
 						<div className='footer-list-container'>
 							<Row>
-								<Col xs={12} sm={4} className='footer-list mb-3'>
-									<p>MEMBERS</p>
+								<Col sm={12} md={6} className='footer-list mb-3'>
+									<p>MORE INFORMATION</p>
 									<ul className='list-group'>
 										<li>
-											<Link to='/members'>Members</Link>
+											<Link to='/about/center'>Center</Link>
+										</li>
+										<li>
+											<Link to='/about/institutions'>Partners</Link>
+										</li>
+										<li>
+											<Link to='/about/collaborators'>Collaborators</Link>
+										</li>
+										<li>
+											<Link to='/projects'>Projects</Link>
+										</li>
+										<li>
+											<Link to='/news'>News</Link>
 										</li>
 									</ul>
 								</Col>
-								<Col xs={12} sm={6} className='footer-list mb-3'>
-									<p>GROUPS</p>
+								<Col sm={12} md={6} className='footer-list mb-3'>
+									<p>TEAM MEMBERS</p>
 									<ul className='list-group'>
+										<li>
+											<Link to='/members'>All members</Link>
+										</li>
 										<li>
 											<Link to='/groups/optobiomedical'>
 												Opto-biomedical engineering
