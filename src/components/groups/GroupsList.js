@@ -32,7 +32,7 @@ const GroupsList = (props) => {
 	});
 
 	return (
-		<div className='mt-3 mb-3 group-list'>
+		<div className='group-list'>
 			<ListGroup>
 				<ListGroup.Item key={teamGroupLeader[0].id} className='group-list-item'>
 					<Link

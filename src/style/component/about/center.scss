@@ -7,9 +7,9 @@
   text-align: justify;
 }
 
-.center-componentGoals {
-color: #dd3932;
-//   background: rgb(247, 242, 242);
+.center-component-goals {
+  opacity: 0.8;
+  background-color: #fffbce;
 }
 
 .centerInstitution {
@@ -24,14 +24,18 @@ color: #dd3932;
 
   a:visited {
     color: $maincolor;
+    text-decoration: none;
   }
 
   a:focus {
     color: $maincolor;
+    text-decoration: none;
   }
 
   a:hover {
-    color: #dd3932;
+    color: $maincolor;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
 

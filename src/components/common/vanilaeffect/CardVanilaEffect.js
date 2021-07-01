@@ -3,7 +3,7 @@ import React from 'react';
 const CardVanilaEffect = ({ title, text }) => {
 	console.log('ddd');
 	return (
-		<div className='flex-container'>
+		<div className='tilt-flex-container'>
 			<div className='tilt-container'>
 				<div className='tilt-box-wrap'>
 					<span className='t_over' />

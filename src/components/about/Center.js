@@ -17,7 +17,7 @@ const Center = () => {
 						interdisciplinary research center gathering researchers from
 						different scientific fields: physics, chemistry, photonics,
 						biomedicine and engineering sharing the same interest and goal -
-						<span className='center-componentGoals'>
+						<span className='center-component-goals'>
 							achieving excellence in scientific research in physics, chemistry,
 							biomedicine and optobiomedical engineering based on the
 							application of light.
@@ -34,7 +34,7 @@ const Center = () => {
 					<div className='centerInstitution'>
 						<ul
 							style={{
-								listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_red.png)`,
+								listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
 							}}
 						>
 							<li>

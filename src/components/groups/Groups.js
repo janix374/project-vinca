@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllMembers } from '../../store/actions/membersActions';
 import GroupsList from './GroupsList';
@@ -7,7 +7,7 @@ import { selectAllMembers } from '../../store/selectors/selector';
 import ErrorsMsg from '../common/ErrorsMsg';
 import LoadingComponent from '../common/LoadingComponent';
 
-const Groups = ({ teamName, title, description }) => {
+const Groups = ({ teamName, title, description, picture }) => {
 	const dispatch = useDispatch();
 	const { members: teamMembers, loading, error } = useSelector(
 		selectAllMembers
@@ -31,17 +31,18 @@ const Groups = ({ teamName, title, description }) => {
 
 	return (
 		<Container className='groups-component'>
-			<Row className='mt-5'>
+			<Row className='mt-5 groups-border'>
 				<Col xs={12}>
 					<h3 className='mb-3'>{title}</h3>
 					<p className='mt-3'>{description}</p>
-					<Row>
-						<Col xs={12} sm={2} md={3} />
-						<Col xs={12} sm={8} md={6}>
-							<GroupsList data={teamMembers} teamName={teamName} />
-						</Col>
-						<Col xs={12} sm={2} md={3} />
-					</Row>
+				</Col>
+			</Row>
+			<Row>
+				<Col xs={12} sm={6} className='groups-picture'>
+					<Image src={picture} fluid />
+				</Col>
+				<Col xs={12} sm={(6, { order: 'first' })}>
+					<GroupsList data={teamMembers} teamName={teamName} />
 				</Col>
 			</Row>
 		</Container>

@@ -3,15 +3,20 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
-	<Navbar collapseOnSelect expand='lg' className='navbar-component'>
+	<Navbar
+		collapseOnSelect
+		expand='lg'
+		className='navbar-component'
+		variant='dark'
+	>
 		<Navbar.Brand href='/'>COHERENCE</Navbar.Brand>
 		<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-		<Navbar.Collapse id='responsive-navbar-nav'>
-			<Nav className='mr-auto'>
+		<Navbar.Collapse>
+			<Nav>
 				<LinkContainer to='/'>
-					<Nav.Link>Home</Nav.Link>
+					<Nav.Link>HOME</Nav.Link>
 				</LinkContainer>
-				<NavDropdown title='About' id='basic-nav-dropdown'>
+				<NavDropdown title='ABOUT'>
 					<LinkContainer to='/about/center'>
 						<NavDropdown.Item>Center</NavDropdown.Item>
 					</LinkContainer>
@@ -26,9 +31,9 @@ const Navigation = () => (
 					</LinkContainer>
 				</NavDropdown>
 				<LinkContainer to='/members'>
-					<Nav.Link>Members</Nav.Link>
+					<Nav.Link>MEMBERS</Nav.Link>
 				</LinkContainer>
-				<NavDropdown title='Groups'>
+				<NavDropdown title='GROUPS'>
 					<LinkContainer to='/groups/optobiomedical'>
 						<NavDropdown.Item>Opto-biomedical engineering</NavDropdown.Item>
 					</LinkContainer>
@@ -43,17 +48,14 @@ const Navigation = () => (
 						</NavDropdown.Item>
 					</LinkContainer>
 				</NavDropdown>
-				{/* <LinkContainer to='/groups'>
-					<Nav.Link>Groups</Nav.Link>
-				</LinkContainer> */}
 				<LinkContainer to='/projects'>
-					<Nav.Link>Projects</Nav.Link>
+					<Nav.Link>PROJECTS</Nav.Link>
 				</LinkContainer>
 				<LinkContainer to='/news'>
-					<Nav.Link>News</Nav.Link>
+					<Nav.Link>NEWS</Nav.Link>
 				</LinkContainer>
 				<LinkContainer to='/contact'>
-					<Nav.Link>Contact</Nav.Link>
+					<Nav.Link>CONTACT</Nav.Link>
 				</LinkContainer>
 			</Nav>
 		</Navbar.Collapse>
