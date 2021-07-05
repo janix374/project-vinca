@@ -31,7 +31,7 @@ const Contact = () => {
 								className='email-img-icon'
 							/>
 						</span>
-						goran79@vin.bg.ac.rs
+						coherence@vin.bg.ac.rs
 					</p>
 					<p>
 						<span>

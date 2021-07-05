@@ -13,7 +13,7 @@ function Footer() {
 							<p>
 								Mike Petrovića Alasa 12-14, 11351 Belgrade, Serbia <br />
 								Tel. +381 11 2455 272 <br />
-								E-mail. goran79@vin.bg.ac.rs
+								E-mail. coherence@vin.bg.ac.rs
 							</p>
 						</div>
 					</Col>

@@ -7,3 +7,4 @@ export const selectMembersOfTeam = (teamName) => (state) =>
 	);
 
 export const selectAllCollaborators = (state) => state.collaborators;
+export const selectAllProjects = (state) => state.projects;
