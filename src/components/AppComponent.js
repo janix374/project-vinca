@@ -5,10 +5,9 @@ import {
 	Route,
 	HashRouter,
 } from 'react-router-dom';
-// import NavigationComponent from './header/NavigationComponent';
 import Home from './home/Home';
 import Contact from './contact/Contact';
-import Gallery from './about/gallery/Gallery';
+import Gallery from './gallery/Gallery';
 import Center from './about/Center';
 import Partners from './about/Partners';
 import Projects from './project/Projects';
@@ -22,14 +21,14 @@ import GroupOptoBiomedical from './groups/GroupOptoBiomedical';
 import GroupBiologyAndPhysics from './groups/GroupBiologyAndPhysics';
 import GroupPhotoDynamicTherapy from './groups/GroupPhotoDynamicTherapy';
 import Collaborators from './about/Collaborators';
+import Laboratories from './about/Laboratories';
 
 const AppComponent = () => {
-	console.log('ddd');
+	console.log('');
 	return (
 		<HashRouter basename='/coherence'>
 			<div>
 				<Header />
-				{/* <NavigationComponent /> */}
 				<div className='page-container'>
 					<Switch>
 						<Route path='/' exact>
@@ -44,7 +43,10 @@ const AppComponent = () => {
 						<Route path='/about/collaborators' exact>
 							<Collaborators />
 						</Route>
-						<Route path='/about/gallery' exact>
+						<Route path='/about/laboratories' exact>
+							<Laboratories />
+						</Route>
+						<Route path='/gallery' exact>
 							<Gallery />
 						</Route>
 						<Route exact path='/members'>

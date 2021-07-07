@@ -4,14 +4,9 @@ import SliderComponent from './Slider/SliderComponent';
 import CardVanilaEffect from '../common/vanilaeffect/CardVanilaEffect';
 
 const Home = () => {
-	const a = 'dddd';
+	console.log(Array(7));
 	return (
 		<Container fluid className='home-component'>
-			{/* <Row>
-				<Col>
-					<SliderComponent />
-				</Col>
-			</Row> */}
 			<Row className='mt-5'>
 				<Col xs={12} className='mb-4'>
 					<p className='text-center'>

@@ -22,9 +22,11 @@ footer {
 
             a {
                 text-decoration: none;
+                color: $footerFontColor;
             }
 
             a:visited {
+                text-decoration: none;
                 color: $footerFontColor;
             }
 

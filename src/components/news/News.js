@@ -1,13 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useDispatch, useSelector } from 'react-redux';
+import ErrorsMsg from '../common/ErrorsMsg';
+import LoadingComponent from '../common/LoadingComponent';
+import SingleNews from './SingleNews';
+import { getAllNews } from '../../store/actions/newsActions';
+import { selectAllNews } from '../../store/selectors/selector';
 
 const News = () => {
-	const a = 'cao';
+	const dispatch = useDispatch();
+	const { news, loading, error } = useSelector(selectAllNews);
+
+	console.log(news);
+	useEffect(() => {
+		dispatch(getAllNews());
+	}, [dispatch]);
+
+	if (error) {
+		return (
+			<ErrorsMsg>
+				<h2>Something went wrong!</h2>
+			</ErrorsMsg>
+		);
+	}
+
+	if (loading) {
+		return <LoadingComponent />;
+	}
 	return (
 		<Container>
 			<Row className='mt-5'>
 				<Col>
-					<p>news</p>
+					<SingleNews />
 				</Col>
 			</Row>
 		</Container>

@@ -27,8 +27,8 @@ const Navigation = () => (
 					<LinkContainer to='/about/collaborators'>
 						<NavDropdown.Item>Collaborators</NavDropdown.Item>
 					</LinkContainer>
-					<LinkContainer to='/about/gallery'>
-						<NavDropdown.Item variant='dark'>Gallery</NavDropdown.Item>
+					<LinkContainer to='/about/laboratories'>
+						<NavDropdown.Item>Laboratories</NavDropdown.Item>
 					</LinkContainer>
 				</NavDropdown>
 				<LinkContainer to='/members'>
@@ -49,6 +49,9 @@ const Navigation = () => (
 						</NavDropdown.Item>
 					</LinkContainer>
 				</NavDropdown>
+				<LinkContainer to='/gallery'>
+					<Nav.Link>Gallery</Nav.Link>
+				</LinkContainer>
 				<LinkContainer to='/projects'>
 					<Nav.Link>Projects</Nav.Link>
 				</LinkContainer>

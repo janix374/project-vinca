@@ -1,0 +1,17 @@
+.laboratories-picture img{
+    border: 3px solid #dfdfdf;
+    margin-bottom: 15px;
+    opacity: 1;
+    box-shadow: 10px 10px 10px #8a8787;
+    transition: all 1s linear;
+}
+
+.laboratories-show {
+    color: $maincolor;
+    font-size: $centarFontSize;
+    padding: 10px;
+
+    p {
+        color: $fontColorText;
+    }
+}

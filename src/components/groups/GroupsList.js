@@ -21,6 +21,7 @@ const GroupsList = (props) => {
 		item.group_leader.includes(teamName)
 	);
 
+	// sorting team members
 	const sortarray = membersOfTeam.sort((a, b) => {
 		if (a.level > b.level) {
 			return -1;

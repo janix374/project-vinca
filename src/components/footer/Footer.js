@@ -3,7 +3,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-	const a = 'cao';
 	return (
 		<footer>
 			<Container className='footer-container'>
