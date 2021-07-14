@@ -4,9 +4,7 @@
         "news_id": 1,
         "news_title": "news",
         "news_description": "news description",
-        "Project_link": "www.google.com",
-        "project_type": "a",
-        "project_pdf": "pdf"
+        "news_date": "www.google.com"
       }
     ]
 }
