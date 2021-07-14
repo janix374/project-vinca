@@ -1,12 +1,14 @@
 footer {
     bottom: 0;
     width: 100%;
-    margin-top: 20px;
     min-height: 200px;
     background-color: $footerBackgroundColor;
-    margin-top: 100px;
     color: $footerFontColor;
     font-size: 12px;
+
+    .footer-wave {
+        background-color: #ffffff;
+    }
 
     .footer-contact{
         margin-top: 30px;
@@ -37,6 +39,7 @@ footer {
 
         }
     }
+
       
 }
 

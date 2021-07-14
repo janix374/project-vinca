@@ -14,18 +14,23 @@
         margin-bottom: 20px;
     }
 
-    .groups-picture img{
+    .groups-picture img {
         border: 3px solid #dfdfdf;
         margin-bottom: 15px;
-        opacity: 0.8;
+        opacity: 0.7;
         box-shadow: 10px 10px 10px #8a8787;
         transition: all 1s linear;
+
+        &:hover {
+            opacity: 1;
+            // transform: scale(1.03);
+        }
     }
 
-    .groups-picture img:hover{
-        opacity: 1;
-        transform: scale(1.03);
-    }
+    // .groups-picture img:hover{
+    //     opacity: 1;
+    //     transform: scale(1.03);
+    // }
 
 
 }

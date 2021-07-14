@@ -11,6 +11,10 @@ const News = () => {
 	const dispatch = useDispatch();
 	const { news, loading, error } = useSelector(selectAllNews);
 
+	const event = new Date('August 19, 1975 23:15:30 UTC');
+	const jsonDate = event.toJSON();
+	console.log(jsonDate);
+
 	console.log(news);
 	useEffect(() => {
 		dispatch(getAllNews());
@@ -27,12 +31,20 @@ const News = () => {
 	if (loading) {
 		return <LoadingComponent />;
 	}
+
+	console.log(news);
 	return (
 		<Container>
 			<Row className='mt-5'>
-				<Col>
-					<SingleNews />
+				<Col xs={12}>
+					<h3 className='text-center'>News</h3>
 				</Col>
+				{news.news &&
+					news.news.map((item) => (
+						<Col key={item.news_id} sm={12} md={6}>
+							<SingleNews />
+						</Col>
+					))}
 			</Row>
 		</Container>
 	);

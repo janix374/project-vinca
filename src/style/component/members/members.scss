@@ -1,27 +1,27 @@
 .members-container {
-    color: $maincolor;
-    font-size: $centarFontSize;
+  color: $maincolor;
+  font-size: $centarFontSize;
 }
 // member component
 .member-not-exist {
-    margin: 200px auto;
-    text-align: center;
+  margin: 200px auto;
+  text-align: center;
 }
 
 // teamMembers component
 .teamMembers {
-    text-decoration: none;
-    background-color: aqua;
+  text-decoration: none;
+  background-color: aqua;
 }
 
 // teamMember
 .team-member-container {
-    margin-top: 3em;
-    margin-bottom: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .button-PDF-team-member {
-    margin: 1em;
+  margin: 1em;
 }
 
 .person-img {
@@ -31,42 +31,62 @@
 }
 
 .person-img-container {
-    max-width: 400px;
-    max-height: 400px;
-    overflow: hidden;
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
 }
 
 .membersinstitution {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: $normalFontSize;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: $normalFontSize;
 }
 
 .members-institution-list {
-    margin: 0 auto;
-    max-width: 500px;
+  margin: 0 auto;
+  max-width: 600px;
 
-    .members-institution-list-item:hover {
-        font-weight: bold;
+  .members-institution-list-item:hover {
+    font-weight: bold;
+  }
+
+  .list-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.75;
+
+    .list-item-photo {
+      width: 100px;
+      height: 100px;
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      margin-left: auto;
+      border: 3px solid #dfdfdf;
+      box-shadow: 5px 5px 10px #8a8787;
     }
 
-    // .members-institution-list-item-photo {
-    //     max-width: 100px;
-    //     max-height: 120px;
-    //     border-radius: 50%;
-    //     background-color: aqua;
-    //     float: right;
-    //     background-size: cover;
-    // }
+    &:hover {
+        opacity: 1;
+    }
+
+  }
 }
 
 .buttons-for-member {
-    display: flex;
-    flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buttons-items-for-member {
-   margin-left: 20px;
-   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
+@include breakpint(mobile) {
+  .list-item-container {
+    flex-direction: column;
+  }
+}

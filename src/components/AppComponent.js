@@ -62,7 +62,7 @@ const AppComponent = () => {
 						<Route exact path='/groups/photodynamictherapy'>
 							<GroupPhotoDynamicTherapy />
 						</Route>
-						<Route path='/projects' exact>
+						<Route exact path='/projects'>
 							<Projects />
 						</Route>
 						<Route path='/news' exact>
@@ -71,7 +71,6 @@ const AppComponent = () => {
 						<Route path='/contact' exact>
 							<Contact />
 						</Route>
-
 						<Route>
 							<NotFoundPage />
 						</Route>

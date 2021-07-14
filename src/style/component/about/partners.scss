@@ -3,7 +3,33 @@
     font-size: $centarFontSize;
     padding: 10px;
 
+    .emblem {
+        img {
+            border: 3px solid #dfdfdf;
+             box-shadow: 3px 7px 25px 0px rgb(0, 0, 10);
+        }
+    }
+
     p {
         color: $fontColorText;
     }
+    
+
+    &:nth-child(1){
+        background-color: rgb(242, 243, 243);
+    }
+
+    &:nth-child(2){
+        background-color: rgb(242, 243, 243);
+    }
+
+    &:nth-child(3){
+        background-color: rgb(242, 243, 243);
+    }
+
+    &:nth-child(4){
+        background-color: rgb(242, 243, 243);
+    }
+
+   
 }

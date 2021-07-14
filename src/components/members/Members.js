@@ -33,28 +33,32 @@ const Members = () => {
 		<Container className='members-container'>
 			<Row>
 				<Col xs={12} className='membersinstitution'>
-					<h3>Vinča Institute of Nuclear Sciences</h3>
+					<h3 className='text-center'>Vinča Institute of Nuclear Sciences</h3>
 					<MembersList
 						data={teamMembers}
 						teamName='Vinca_Institute_of_Nuclear_Sciences'
 					/>
 				</Col>
 				<Col xs={12} className='membersinstitution'>
-					<h3>School of Electrical Engineering, University of Belgrade</h3>
+					<h3 className='text-center'>
+						School of Electrical Engineering, University of Belgrade
+					</h3>
 					<MembersList
 						data={teamMembers}
 						teamName='School_of_Electrical_Engineering_University_of_Belgrade'
 					/>
 				</Col>
 				<Col xs={12} className='membersinstitution'>
-					<h3>Faculty of Sciences and Mathematics, University of Niš</h3>
+					<h3 className='text-center'>
+						Faculty of Sciences and Mathematics, University of Niš
+					</h3>
 					<MembersList
 						data={teamMembers}
 						teamName='Faculty_of_Sciences_and_Mathematics_University_of_Nis'
 					/>
 				</Col>
 				<Col xs={12} className='membersinstitution'>
-					<h3>
+					<h3 className='text-center'>
 						Faculty of Science, Department for Chemistry, University of
 						Kragujevac
 					</h3>

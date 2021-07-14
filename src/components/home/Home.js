@@ -9,9 +9,9 @@ const Home = () => {
 		<Container fluid className='home-component'>
 			<Row className='mt-5'>
 				<Col xs={12} className='mb-4'>
-					<p className='text-center'>
+					{/* <p className='text-center'>
 						WELCOME TO COHERENCE PRESENTATION WEBPAGE!
-					</p>
+					</p> */}
 				</Col>
 				<Col xs={12} className='mb-4'>
 					<CardVanilaEffect />

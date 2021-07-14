@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import ButtonLink from '../common/buttons/ButtonLink';
 
 const Partners = () => (
 	<Container>
 		<Row className='mt-5 partner-show mb-5'>
-			<Col xs={12}>
+			<Col sm={12} md={8}>
 				<h4>
 					Vinča Institute of Nuclear Sciences, National Institute of the
 					Republic of Serbia
 				</h4>
-				<p className='text-justify mt-3 mb-3'>
+				<p className='text-justify mt-3'>
 					Vinča Institute of Nuclear Sciences (INNV) is regarded as Serbia’s
 					leading scientific institute in fundamental and applied research,
 					owing to its size, scientific productivity, international reputation
@@ -25,13 +25,21 @@ const Partners = () => (
 					Erasmus+, Bilateral, as well as other international scientific
 					research collaborations in which the Republic of Serbia is a member.
 				</p>
-				<div className='text-center'>
+			</Col>
+			<Col sm={12} md={4} className='emblem-container'>
+				<div className='text-center mt-5 mb-5 emblem'>
+					<Image
+						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem1.png`}
+						fluid
+					/>
+				</div>
+				<div className='text-center mt-5 mb-5'>
 					<ButtonLink title='visit site' link='https://www.vin.bg.ac.rs/en/' />
 				</div>
 			</Col>
 		</Row>
 		<Row className='mt-5 partner-show mb-5'>
-			<Col xl={12}>
+			<Col sm={12} md={8}>
 				<h4>School of Electrical Engineering, University of Belgrade</h4>
 				<p className='text-justify mt-3 mb-3'>
 					The School of Electrical Engineering at the University of Belgrade
@@ -49,6 +57,14 @@ const Partners = () => (
 					engineering&quot; that was applied in the design and optimization of
 					the structural parameters.
 				</p>
+			</Col>
+			<Col sm={12} md={4}>
+				<div className='text-center mt-5 mb-5 emblem'>
+					<Image
+						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem2.png`}
+						fluid
+					/>
+				</div>
 				<div className='text-center'>
 					<ButtonLink
 						title='visit site'
@@ -58,7 +74,7 @@ const Partners = () => (
 			</Col>
 		</Row>
 		<Row className='mt-5 partner-show mb-5'>
-			<Col md={12}>
+			<Col sm={12} md={8}>
 				<h4>Faculty of Sciences and Mathematics, University of Niš</h4>
 				<p className='text-justify mt-3 mb-3'>
 					The Faculty of Sciences and Mathematics (UNFSM), University of Niš,
@@ -76,6 +92,14 @@ const Partners = () => (
 					has been a significant contributor, participant, and coordinator of
 					the European Researchers Night in the previous years.
 				</p>
+			</Col>
+			<Col sm={12} md={4}>
+				<div className='text-center mt-5 mb-5 emblem'>
+					<Image
+						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem3.png`}
+						fluid
+					/>
+				</div>
 				<div className='text-center'>
 					<ButtonLink
 						title='visit site'
@@ -85,7 +109,7 @@ const Partners = () => (
 			</Col>
 		</Row>
 		<Row className='mt-5 partner-show mb-5'>
-			<Col md={12}>
+			<Col sm={12} md={8}>
 				<h4>
 					Department of Chemistry, Faculty of Science, University of Kragujevac
 				</h4>
@@ -102,6 +126,14 @@ const Partners = () => (
 					international scientific journals and cooperate with a large number of
 					institutions in the country and abroad.
 				</p>
+			</Col>
+			<Col sm={12} md={4}>
+				<div className='text-center mt-5 mb-5 emblem'>
+					<Image
+						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem4.png`}
+						fluid
+					/>
+				</div>
 				<div className='text-center'>
 					<ButtonLink title='visit site' link='http://chem.pmf.kg.ac.rs' />
 				</div>

@@ -42,12 +42,13 @@ const Collaborators = () => {
 				</Col>
 			</Row>
 			<Row className=''>
-				<Col xs={12} className='mb-3 '>
-					{' '}
-					<h5 className='collaborators-class'>List of collaborators:</h5>
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={8} className='mb-3 '>
+					<h5 className='collaborators-class'>List of collaborators</h5>
 				</Col>
-				<Col xs={12} sm={3} />
-				<Col xs={12} sm={6} className='mt-3 mb-3'>
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={8} className='mt-3 mb-3'>
 					<h5>Opto-biomedical engineering</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
@@ -67,9 +68,9 @@ const Collaborators = () => {
 						</ul>
 					</div>
 				</Col>
-				<Col xs={12} sm={3} />
-				<Col xs={12} sm={3} />
-				<Col xs={12} sm={6} className='mt-3 mb-3'>
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={8} className='mt-3 mb-3'>
 					<h5>Investigation of complex systems in biology and physics</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
@@ -91,9 +92,9 @@ const Collaborators = () => {
 						</ul>
 					</div>
 				</Col>
-				<Col xs={12} sm={3} />
-				<Col xs={12} sm={3} />
-				<Col xs={12} sm={6} className='mt-3 mb-3'>
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={2} />
+				<Col xs={12} sm={8} className='mt-3 mb-3'>
 					<h5>Photodynamic therapy development</h5>
 					<div className='collaboratorsInstitution'>
 						<ul>
@@ -113,7 +114,7 @@ const Collaborators = () => {
 						</ul>
 					</div>
 				</Col>
-				<Col xs={12} sm={3} />
+				<Col xs={12} sm={2} />
 			</Row>
 		</Container>
 	);

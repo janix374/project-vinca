@@ -17,7 +17,12 @@ const Member = ({ match }) => {
 		dispatch(getOneMember(matchId));
 	}, [dispatch]);
 
-	const handleGoBack = () => history.goBack();
+	const handleGoBack = () => {
+		if (history.length > 1) {
+			history.goBack();
+		}
+		history.push('./');
+	};
 
 	if (error) {
 		return <ErrorsMsg>Something went wrong!</ErrorsMsg>;

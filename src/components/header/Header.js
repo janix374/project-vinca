@@ -14,7 +14,7 @@ const Header = () => (
 					/>
 				</Col>
 			</Row> */}
-			<Row>
+			<Row style={{ zIndex: 1090 }}>
 				<Navigation />
 			</Row>
 		</Container>
