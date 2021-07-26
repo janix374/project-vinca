@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-	// BrowserRouter as Router,
+	BrowserRouter as Router,
 	Switch,
 	Route,
-	HashRouter,
+	// HashRouter,
 } from 'react-router-dom';
 import Home from './home/Home';
 import Contact from './contact/Contact';
@@ -26,7 +26,7 @@ import Laboratories from './about/Laboratories';
 const AppComponent = () => {
 	console.log('');
 	return (
-		<HashRouter basename='/coherence'>
+		<Router basename='/coherence'>
 			<div>
 				<Header />
 				<div className='page-container'>
@@ -78,7 +78,7 @@ const AppComponent = () => {
 				</div>
 				<Footer />
 			</div>
-		</HashRouter>
+		</Router>
 	);
 };
 
