@@ -4,12 +4,15 @@
     .collaboratorsInstitution {
 
         li {
-            margin-top: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
         }
         a {
+            display: block;
             color: $fontColorText;
             text-decoration: none;
             font-size: $normalFontSize;
+            transition: transform 1s;
         };
     
         a:visited {
@@ -21,6 +24,7 @@
         };
     
         a:hover {
+            transform: translateX(10px);
             font-weight: bold;
             color: $maincolor;
         };

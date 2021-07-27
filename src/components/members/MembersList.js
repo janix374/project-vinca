@@ -32,10 +32,10 @@ const MembersList = (props) => {
 									{item.academic_title} {item.name} ({item.job_title}){' '}
 								</div>
 								<div
+									className='list-item-photo'
 									style={{
 										backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/personal_image/${item.photo})`,
 									}}
-									className='list-item-photo'
 								/>
 							</div>
 						</Link>

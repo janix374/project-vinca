@@ -5,6 +5,8 @@
     margin-bottom: 30px;
     overflow: hidden;
     position: relative;
+    -webkit-box-shadow: 5px 5px 10px #8a8787;
+    box-shadow: 5px 5px 10px #8a8787;
 
     .card-image {
         width: 100%;
@@ -15,13 +17,21 @@
     }
 
     .container-card-button {
-     display: flex;
-     justify-content: space-between;
-     flex-direction: row;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     &:hover {
-        box-shadow: 5px 5px 10px #8a8787;
+        -webkit-box-shadow: none;
+        box-shadow: none;
     }
 }
 
@@ -29,8 +39,10 @@
 @include breakpint(mobile) {
     .card-class {
     .container-card-button {
-       flex-direction: column;
-
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
        div {
         margin-top: 15px;
        }

@@ -11,11 +11,6 @@ const News = () => {
 	const dispatch = useDispatch();
 	const { news, loading, error } = useSelector(selectAllNews);
 
-	const event = new Date('August 19, 1975 23:15:30 UTC');
-	const jsonDate = event.toJSON();
-	console.log(jsonDate);
-
-	console.log(news);
 	useEffect(() => {
 		dispatch(getAllNews());
 	}, [dispatch]);
@@ -32,7 +27,6 @@ const News = () => {
 		return <LoadingComponent />;
 	}
 
-	console.log(news);
 	return (
 		<Container>
 			<Row className='mt-5'>

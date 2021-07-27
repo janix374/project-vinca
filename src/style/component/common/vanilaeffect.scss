@@ -1,7 +1,13 @@
 .tilt-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 100px;
 
   .tilt-container {
@@ -9,12 +15,19 @@
       width: 90%;
       height: 400px;
       position: relative;
+      -webkit-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
       transition: all 0.6s ease-out;
-      perspective: 1000px;
+      -webkit-perspective: 1000px;
+              perspective: 1000px;
 
       &:hover {
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
         transition: all 0.3s linear;
-        transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+            -ms-transform: scale(1.02);
+                transform: scale(1.02);
       }
 
       .t_over {
@@ -62,39 +75,56 @@
       }
 
       .t_over:nth-child(1):hover ~ .tilt-box{
+        -webkit-transform: rotateX(-10deg) rotateY(10deg);
         transform: rotateX(-10deg) rotateY(10deg);
+        -webkit-box-shadow: -10px -10px 10px #bebebe;
         box-shadow: -10px -10px 10px #bebebe;
       }
       .t_over:nth-child(2):hover ~ .tilt-box {
-        transform: rotateX(-10deg) rotateY(0deg);
-        box-shadow: 0px -10px 10px #bebebe;
+        -webkit-transform: rotateX(-10deg) rotateY(0deg);
+                transform: rotateX(-10deg) rotateY(0deg);
+        -webkit-box-shadow: 0px -10px 10px #bebebe;
+                box-shadow: 0px -10px 10px #bebebe;
 
       }
       .t_over:nth-child(3):hover ~ .tilt-box {
-        transform: rotateX(-10deg) rotateY(-10deg);
-        box-shadow: 10px -10px 10px #bebebe;
+        -webkit-transform: rotateX(-10deg) rotateY(-10deg);
+                transform: rotateX(-10deg) rotateY(-10deg);
+        -webkit-box-shadow: 10px -10px 10px #bebebe;
+                box-shadow: 10px -10px 10px #bebebe;
       }
       .t_over:nth-child(4):hover ~ .tilt-box {
-        transform: rotateX(0deg) rotateY(10deg);
-        box-shadow: -10px 0px 10px #bebebe;
+        -webkit-transform: rotateX(0deg) rotateY(10deg);
+                transform: rotateX(0deg) rotateY(10deg);
+        -webkit-box-shadow: -10px 0px 10px #bebebe;
+                box-shadow: -10px 0px 10px #bebebe;
       }
       .t_over:nth-child(5):hover ~ .tilt-box {
-        transform: rotateX(0deg) rotateY(0deg);
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+                transform: rotateX(0deg) rotateY(0deg);
       }
       .t_over:nth-child(6):hover ~ .tilt-box {
+        -webkit-transform: rotateX(0deg) rotateY(-10deg);
         transform: rotateX(0deg) rotateY(-10deg);
+        -webkit-box-shadow: 10px 0px 10px #bebebe;
         box-shadow: 10px 0px 10px #bebebe;
       }
       .t_over:nth-child(7):hover ~ .tilt-box {
+        -webkit-transform: rotateX(10deg) rotateY(10deg);
         transform: rotateX(10deg) rotateY(10deg);
+        -webkit-box-shadow: -10px 10px 10px #bebebe;
         box-shadow: -10px 10px 10px #bebebe;
       }
       .t_over:nth-child(8):hover ~ .tilt-box {
-        transform: rotateX(10deg) rotateY(0deg);
-        box-shadow: 0px 10px 10px #bebebe;
+        -webkit-transform: rotateX(10deg) rotateY(0deg);
+                transform: rotateX(10deg) rotateY(0deg);
+        -webkit-box-shadow: 0px 10px 10px #bebebe;
+                box-shadow: 0px 10px 10px #bebebe;
       }
       .t_over:nth-child(9):hover ~ .tilt-box {
+        -webkit-transform: rotateX(10deg) rotateY(-10deg);
         transform: rotateX(10deg) rotateY(-10deg);
+        -webkit-box-shadow: 10px 10px 10px #bebebe;
         box-shadow: 10px 10px 10px #bebebe;
       }
 
@@ -102,17 +132,27 @@
         width: 100%;
         height: 100%;
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-transition: all 0.6s ease-out;
+        -o-transition: all 0.6s ease-out;
         transition: all 0.6s ease-out;
-        transform: rotateX(0deg) rotateY(0deg);
-        perspective: 1000px;
-        transform-style: preserve-3d;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+                transform: rotateX(0deg) rotateY(0deg);
+        -webkit-perspective: 1000px;
+                perspective: 1000px;
+        -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
         padding: 10px;
-        align-items:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
       }
 
       .title-box-img {
-        transform: translateZ(140px);
+        -webkit-transform: translateZ(140px);
+                transform: translateZ(140px);
         width: 100%;
         text-align: center;
         position: relative;
@@ -121,11 +161,9 @@
       .title-box-img img{
         width: 80%;
         z-index: 10;
-        filter: drop-shadow(20px 30px 20px #646262);
+        -webkit-filter: drop-shadow(20px 30px 20px #646262);
+                filter: drop-shadow(20px 30px 20px #646262);
       }
-
-
-
 
     }
   }

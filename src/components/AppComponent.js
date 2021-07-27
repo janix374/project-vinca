@@ -23,63 +23,60 @@ import GroupPhotoDynamicTherapy from './groups/GroupPhotoDynamicTherapy';
 import Collaborators from './about/Collaborators';
 import Laboratories from './about/Laboratories';
 
-const AppComponent = () => {
-	console.log('');
-	return (
-		<Router basename='/coherence'>
-			<div>
-				<Header />
-				<div className='page-container'>
-					<Switch>
-						<Route path='/' exact>
-							<Home />
-						</Route>
-						<Route path='/about/center' exact>
-							<Center />
-						</Route>
-						<Route path='/about/institutions' exact>
-							<Partners />
-						</Route>
-						<Route path='/about/collaborators' exact>
-							<Collaborators />
-						</Route>
-						<Route path='/about/laboratories' exact>
-							<Laboratories />
-						</Route>
-						<Route path='/gallery' exact>
-							<Gallery />
-						</Route>
-						<Route exact path='/members'>
-							<Members />
-						</Route>
-						<Route exact path='/members/:memberId' component={Member} />
-						<Route exact path='/groups/optobiomedical'>
-							<GroupOptoBiomedical />
-						</Route>
-						<Route exact path='/groups/biologyandphysics'>
-							<GroupBiologyAndPhysics />
-						</Route>
-						<Route exact path='/groups/photodynamictherapy'>
-							<GroupPhotoDynamicTherapy />
-						</Route>
-						<Route exact path='/projects'>
-							<Projects />
-						</Route>
-						<Route path='/news' exact>
-							<News />
-						</Route>
-						<Route path='/contact' exact>
-							<Contact />
-						</Route>
-						<Route>
-							<NotFoundPage />
-						</Route>
-					</Switch>
-				</div>
-				<Footer />
+const AppComponent = () => (
+	<Router basename='/coherence'>
+		<div>
+			<Header />
+			<div className='page-container'>
+				<Switch>
+					<Route path='/' exact>
+						<Home />
+					</Route>
+					<Route path='/about/center' exact>
+						<Center />
+					</Route>
+					<Route path='/about/institutions' exact>
+						<Partners />
+					</Route>
+					<Route path='/about/collaborators' exact>
+						<Collaborators />
+					</Route>
+					<Route path='/about/laboratories' exact>
+						<Laboratories />
+					</Route>
+					<Route path='/gallery' exact>
+						<Gallery />
+					</Route>
+					<Route exact path='/members'>
+						<Members />
+					</Route>
+					<Route exact path='/members/:memberId' component={Member} />
+					<Route exact path='/groups/optobiomedical'>
+						<GroupOptoBiomedical />
+					</Route>
+					<Route exact path='/groups/biologyandphysics'>
+						<GroupBiologyAndPhysics />
+					</Route>
+					<Route exact path='/groups/photodynamictherapy'>
+						<GroupPhotoDynamicTherapy />
+					</Route>
+					<Route exact path='/projects'>
+						<Projects />
+					</Route>
+					<Route path='/news' exact>
+						<News />
+					</Route>
+					<Route path='/contact' exact>
+						<Contact />
+					</Route>
+					<Route>
+						<NotFoundPage />
+					</Route>
+				</Switch>
 			</div>
-		</Router>
-	);
-};
+			<Footer />
+		</div>
+	</Router>
+);
 
 export default AppComponent;

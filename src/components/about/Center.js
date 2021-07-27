@@ -80,18 +80,19 @@ const Center = () => (
 			<Col sm={12} md={6} className='text-justify centerOurMission'>
 				<h4 className='text-center'>OUR MISSION</h4>
 				<p>
-					To connect groups and institutions involved in different aspects of
-					the application of light in scientific fields and disciplines, to
-					improve and accelerate process of innovation and application of
-					research results using comprehensive multidisciplinary approach.
+					&ldquo; To connect groups and institutions involved in different
+					aspects of the application of light in scientific fields and
+					disciplines, to improve and accelerate process of innovation and
+					application of research results using comprehensive multidisciplinary
+					approach. &bdquo;
 				</p>
 			</Col>
 			<Col sm={12} md={6} className='text-justify centerOurMission'>
 				<h4 className='text-center'>OUR VISION</h4>
 				<p>
-					To become the leading center for the application of light in various
-					areas of scientific work in the region and recognizable in the
-					European research area.
+					&ldquo; To become the leading center for the application of light in
+					various areas of scientific work in the region and recognizable in the
+					European research area. &bdquo;
 				</p>
 			</Col>
 		</Row>

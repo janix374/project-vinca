@@ -4,12 +4,14 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => (
 	<Navbar collapseOnSelect expand='lg' className='navbar-component' fixed='top'>
-		<Navbar.Brand href='/'>
-			<Image
-				src={`${process.env.PUBLIC_URL}/assets/images/logo/logo_temp.png`}
-				rounded
-				className='logoPhoton'
-			/>
+		<Navbar.Brand>
+			<LinkContainer to='/'>
+				<Image
+					src={`${process.env.PUBLIC_URL}/assets/images/logo/logo_temp.png`}
+					rounded
+					className='logoPhoton'
+				/>
+			</LinkContainer>
 		</Navbar.Brand>
 		<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 		<Navbar.Collapse>
