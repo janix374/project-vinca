@@ -35,7 +35,11 @@ const GroupsList = (props) => {
 	return (
 		<div className='group-list'>
 			<ListGroup variant='flush'>
-				<ListGroup.Item key={teamGroupLeader[0].id} className='group-list-item'>
+				<ListGroup.Item
+					key={teamGroupLeader[0].id}
+					className='group-list-item'
+					style={{ animationDuration: '300ms' }}
+				>
 					<Link
 						to={`/members/${teamGroupLeader[0].id}`}
 						style={{ textDecoration: 'none', color: '#000' }}
@@ -45,10 +49,17 @@ const GroupsList = (props) => {
 					</Link>
 				</ListGroup.Item>
 				{sortarray.map((item, index) => (
-					<ListGroup.Item key={item.id} className='group-list-item'>
+					<ListGroup.Item
+						key={item.id}
+						className='group-list-item'
+						style={{ animationDuration: `${index * 100 + 400}ms` }}
+					>
 						<Link
 							to={`/members/${item.id}`}
-							style={{ textDecoration: 'none', color: '#000' }}
+							style={{
+								textDecoration: 'none',
+								color: '#000',
+							}}
 						>
 							{item.academic_title} {item.name}
 						</Link>

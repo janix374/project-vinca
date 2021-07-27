@@ -28,7 +28,7 @@ const Gallery = () => {
 	}
 
 	return (
-		<Container>
+		<Container className='gallery-container'>
 			<Row className='mt-5'>
 				<Col xs={12}>
 					<h3 className='text-center'>Gallery</h3>

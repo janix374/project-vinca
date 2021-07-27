@@ -1,5 +1,7 @@
 .collaborators {
     font-size: $centarFontSize;
+    -webkit-animation: opacityAnimation 0.5s ease-in;
+    animation: opacityAnimation 0.5s ease-in;
 
     .collaboratorsInstitution {
 
@@ -12,7 +14,7 @@
             color: $fontColorText;
             text-decoration: none;
             font-size: $normalFontSize;
-            transition: transform 1s;
+            transition: transform 0.5s;
         };
     
         a:visited {

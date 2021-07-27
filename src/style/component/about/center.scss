@@ -1,6 +1,8 @@
 .centar-container {
   color: $maincolor;
   font-size: $centarFontSize;
+  -webkit-animation: opacityAnimation 0.5s ease-in;
+  animation: opacityAnimation 0.5s ease-in;
 
   p {
     color: $fontColorText;
@@ -22,8 +24,10 @@
     color: $fontColorText;
   }
   a {
+    display: block;
     color: $fontColorText;
     text-decoration: none;
+    transition: transform 0.5s;
   }
 
   a:visited {
@@ -37,6 +41,7 @@
   }
 
   a:hover {
+    transform: translateX(10px);
     color: $maincolor;
     font-weight: bold;
     text-decoration: none;

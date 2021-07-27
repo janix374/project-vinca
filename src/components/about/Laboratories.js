@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Laboratories = () => (
-	<Container>
+	<Container className='laboratories'>
 		<Row className='mt-5 laboratories-show mb-5'>
 			<h4>
 				Center has four equipped laboratories, three of which are located in INN

@@ -28,7 +28,7 @@ const News = () => {
 	}
 
 	return (
-		<Container>
+		<Container className='news-container'>
 			<Row className='mt-5'>
 				<Col xs={12}>
 					<h3 className='text-center'>News</h3>

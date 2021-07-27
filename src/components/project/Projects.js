@@ -28,7 +28,7 @@ const Projects = () => {
 	}
 
 	return (
-		<Container>
+		<Container className='project-container'>
 			<Row className='mt-5'>
 				<Col xs={12}>
 					<h3 className='text-center'>Projects</h3>

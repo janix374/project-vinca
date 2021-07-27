@@ -1,5 +1,7 @@
 .contact-container {
     color: $maincolor;
+    -webkit-animation: opacityAnimation 0.5s ease-in;
+    animation: opacityAnimation 0.5s ease-in;
 }
 
 .contact-text {

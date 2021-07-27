@@ -39,8 +39,10 @@ const Groups = ({ teamName, title, description, picture }) => {
 			</Row>
 			<Row>
 				<Col xs={12} sm={6} className='groups-picture'>
-					<Image src={picture} fluid />
-					<p>{title}</p>
+					<div>
+						<Image src={picture} fluid />
+						<p>{title}</p>
+					</div>
 				</Col>
 				<Col xs={12} sm={(6, { order: 'first' })}>
 					<GroupsList data={teamMembers} teamName={teamName} />

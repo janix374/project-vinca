@@ -1,5 +1,8 @@
 .groups-component {
     font-size: $centarFontSize;
+    -webkit-animation: opacityAnimation 0.5s ease-in;
+    animation: opacityAnimation 0.5s ease-in;
+    overflow: hidden;
 
     p {
         color: $fontColorText;
@@ -11,27 +14,29 @@
     }
 
     .groups-border{
-        margin-bottom: 20px;
+        margin-bottom: 20px;     
     }
 
-    .groups-picture img {
-        border: 3px solid #dfdfdf;
-        margin-bottom: 15px;
-        opacity: 0.7;
-        box-shadow: 10px 10px 10px #8a8787;
-        transition: all 1s linear;
+    .groups-picture  {
 
-        &:hover {
-            opacity: 1;
-            // transform: scale(1.03);
+        div {
+            -webkit-animation: sliderFromRight 1s ease-in;
+            animation: sliderFromRight 1s ease-in;
         }
+
+        img {
+            border: 3px solid #dfdfdf;
+            margin-bottom: 15px;
+            opacity: 0.7;
+            box-shadow: 10px 10px 10px #8a8787;
+            transition: all 1s linear;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+       
     }
-
-    // .groups-picture img:hover{
-    //     opacity: 1;
-    //     transform: scale(1.03);
-    // }
-
 
 }
 
@@ -40,8 +45,18 @@
     color: black;
     font-size: $normalFontSize;
 
+    .group-list-item {
+        -webkit-animation-name: sliderFromLeft;
+        animation-name: sliderFromLeft;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
     .group-list-item:hover {
         font-weight: bold;
     }
 }
+
+
+
 

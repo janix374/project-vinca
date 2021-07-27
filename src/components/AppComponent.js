@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Switch,
 	Route,
 	// HashRouter,
@@ -22,9 +22,11 @@ import GroupBiologyAndPhysics from './groups/GroupBiologyAndPhysics';
 import GroupPhotoDynamicTherapy from './groups/GroupPhotoDynamicTherapy';
 import Collaborators from './about/Collaborators';
 import Laboratories from './about/Laboratories';
+import ScrollToTop from './scrolltotop/ScrollToTop';
 
 const AppComponent = () => (
 	<Router basename='/coherence'>
+		<ScrollToTop />
 		<div>
 			<Header />
 			<div className='page-container'>

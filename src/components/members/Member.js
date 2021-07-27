@@ -33,7 +33,7 @@ const Member = ({ match }) => {
 	}
 
 	return (
-		<Container>
+		<Container className='member-container'>
 			{member ? (
 				<MemberList data={member} handleGoBack={handleGoBack} />
 			) : (

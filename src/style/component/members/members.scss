@@ -1,8 +1,15 @@
 .members-container {
   color: $maincolor;
   font-size: $centarFontSize;
+  -webkit-animation: opacityAnimation 0.5s ease-in;
+  animation: opacityAnimation 0.5s ease-in;
 }
 // member component
+.member-container {
+  -webkit-animation: opacityAnimation 0.5s ease-in;
+  animation: opacityAnimation 0.5s ease-in;
+}
+
 .member-not-exist {
   margin: 200px auto;
   text-align: center;
@@ -96,6 +103,8 @@
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+
 
 @include breakpint(mobile) {
   .list-item-container {
