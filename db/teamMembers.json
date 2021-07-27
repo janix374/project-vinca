@@ -24,7 +24,8 @@
         "Relativistic laser-plasma interactions",
         "Nonlinear optics",
         "Intrinsic localized modes: solitons and breathers",
-        "Nonlinear discrete systems"
+        "Nonlinear discrete systems",
+        "Medical diagnostic devices"
       ],
       "professional_positions": [
         "2005- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
@@ -108,12 +109,13 @@
         "Nonlinear dynamics",
         "Nonlinear waveguides, couplers, arrays",
         "Photorefractive crystals, photonic crystals and fibres",
-        "All-optical devices and communications"
+        "All-optical devices and communications",
+        "Photodynamic cancer therapy",
+        "Nano-biophotonics"
       ],
       "professional_positions": [
-        "2009- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
-        "2008-2009 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
-        "2006-2008 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Assistant Professor",
+        "2013 - present Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Professor",
+        "2008-2013 - Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
         "2006-2007 National Institute of Metrology (PTB), Braunschweig, Germany, as a Postdoctoral Research Fellow",
         "2004-2006 IPPT, Clausthal University of Technology, Clausthal-Zellerfeld, Germany, as a Postdoctoral Research Fellow",
         "2002-2006 Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate",
@@ -271,11 +273,12 @@
         "Group_for_investigation_of_complex_systems_in_biology_and_physics"
       ],
       "research_interest": [
-        "Nonlinear optics and photonics",
         "Numerical and analytical studies of continual and discrete nonlinear systems",
         "Solitons and breathers in nonlinear optical systems",
         "Fiber-optics, fiber-grating sensors",
-        "Metamaterials"
+        "Metamaterials",
+        "Medical diagnostic devices",
+        "Electrophysiological measurements"
       ],
       "professional_positions": [
         "2018- ... Vinča Institute of Nuclear Sciences, Belgrade, Serbia, as a Research Associate Professor",
@@ -537,7 +540,7 @@
       "fax": "",
       "email": "jkrsic@vin.bg.ac.rs",
       "personal_url": "",
-      "photo": "avatar.png",
+      "photo": "Jelena_Krsic.jpg",
       "cv": "CV_Jelena_Krsic.pdf",
       "publications": "https://orcid.org/0000-0002-4851-4401",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
@@ -572,10 +575,10 @@
       "level": 1,
       "tel": "",
       "fax": "",
-      "email": "",
+      "email": "atic@vin.bg.ac.rs",
       "personal_url": "",
       "photo": "Aleksandar_Atic.jpg",
-      "cv": "",
+      "cv": "CV_Aleksandar_Atic.pdf",
       "publications": "",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
@@ -583,9 +586,21 @@
         "Group_for_investigation_of_complex_systems_in_biology_and_physics",
         "TeamB"
       ],
-      "research_interest": [""],
-      "professional_positions": [""],
-      "education": [""]
+      "research_interest": [
+        "Quantum cascade lasers",
+        "Electronic structure and optical properties of oxide semiconductors",
+        "Nanostructures",
+        "Photonics and lasers",
+        "Cold-atom physics"
+      ],
+      "professional_positions": [
+        "2019 - Present, Junior Researcher, Laboratory of Atomic Physics, Vinča Institute of Nuclear Sciences, Belgrade, Serbia"
+      ],
+      "education": [
+        "2019- Ongoing PhD studies in Nanoelectronics and Photonics, School of Electrical Engineering, University of Belgrade, Serbia",
+        "2016-2019 Master Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, Module Nanoelectronics and Photonics, University of Belgrade, Serbia",
+        "2011-2016 Bachelor Diploma in Electrical Engineering, School of Electrical Engineering, Department of Physical Electronics, Module Nanoelectronics, Optoelectronics and Laser Engineering, University of Belgrade, Serbia"
+      ]
     },
 
     {
@@ -733,7 +748,7 @@
       "fax": "",
       "email": "anam@pmf.ni.ac.rs",
       "personal_url": "",
-      "photo": "avatar.png",
+      "photo": "Ana_Mancic.jpg",
       "cv": "CV_Ana_Mancic.pdf",
       "publications": "https://orcid.org/0000-0002-5932-2261",
       "institution": "Faculty_of_Sciences_and_Mathematics_University_of_Nis",
@@ -793,7 +808,7 @@
 
     {
       "id": 23,
-      "name": "Jovana Bogojevski",
+      "name": "Jovana Bogojeski",
       "academic_title": "Dr.",
       "job_title": "Assistant Professor",
       "level": 2,
