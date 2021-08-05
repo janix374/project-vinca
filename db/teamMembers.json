@@ -264,7 +264,7 @@
       "email": "petrab@vin.bg.ac.rs",
       "personal_url": "",
       "photo": "petra_belicev.jpg",
-      "cv": "Petra_Belicev_CV.pdf",
+      "cv": "",
       "publications": "https://www.scopus.com/authid/detail.uri?authorId=26028271100",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
@@ -611,17 +611,31 @@
       "level": 1,
       "tel": "",
       "fax": "",
-      "email": "",
+      "email": "irenamiler@vin.bg.ac.rs, irenamiler10@gmail.com",
       "personal_url": "",
       "photo": "Irena_Miler.jpg",
       "cv": "CV_Irena_Miler.pdf",
-      "publications": "",
+      "publications": "https://orcid.org/0000-0001-9258-8320",
       "institution": "Vinca_Institute_of_Nuclear_Sciences",
       "group_leader": "",
       "groups": ["Group_for_photodynamic_therapy_development", "TeamB"],
-      "research_interest": [""],
-      "professional_positions": [""],
-      "education": [""]
+      "research_interest": [
+        "Biophotonics",
+        "Bioscience",
+        "Cellular biology",
+        "Nonlinear laser scanning microscopy",
+        "Photodynamic therapy"
+      ],
+      "professional_positions": [
+        "2020 - Present, Junior Research Assistant, Laboratory of Atomic Physics, 'VINČA' Institute of Nuclear Sciences - National Institute of thе Republic of Serbia, University of Belgrade",
+        "2019 - 2020, Junior Research Assistant,  Department for Immunochemistry and Glycobiology, INEP Institute for Application of Nuclear Energy,  University of Belgrade"
+      ]
+        ,
+      "education": [
+        "2017 – Ongoing, PhD Studies in Biophotonics, University of Belgrade",
+        "2016 – 2017 MSc of Science in Biology, Faculty of  Biology, University of Belgrade",
+        "2009 – 2014  BSc of Science in Biology, Faculty of  Biology, University of Belgrade"
+      ]
     },
 
     {
@@ -686,11 +700,15 @@
         "Optimization of spin-dependent properties in nanostructures based on semimagnetic and nonmagnetic semiconductors"
       ],
       "professional_positions": [
-        "2005 – Present, Full Professor, Department of microelectronics and engineering physics, Faculty of Electrical Engineering, University of Belgrade",
-        "2001- 2005. Assistant Professor, Department of microelectronics and engineering physics, Faculty of Electrical Engineering, University of Belgrade",
-        "2003 – 2004. Visiting Research Fellow, Institute of Microwaves and Photonics, School of Electronic and Electrical Engineering, University of Leeds, UK.",
-        "2000 – 2005. Assistant Research Professor, Center for solid state physics and new materials, Institute of Physics, Belgrade",
-        "1997 – 2000.  Research Assistant, Department of microelectronics and engineering physics, Faculty of Electrical Engineering"
+        "2015–present, Full Professor, School of Electrical Engineering, Department of microelectronics and engineering physics, University of Belgrade, Serbia; Vice-Head of the Department",
+        "2010–2015. Associate Professor, School of Electrical Engineering, Department of microelectronics and engineering physics, University of Belgrade, Serbia",
+        "2005–2010. Assistant-Professor (full-time), School of Electrical Engineering, Department of microelectronics and engineering physics, University of Belgrade, Serbia",
+        "2002–2005. Research Associate, Institute of Physics, Center for Solid State Physics and New Materials, Belgrade, Serbia",
+        "2001–2005. Assistant Professor (part time contract), School of Electrical Engineering, Department of Microelectronics and Engineering Physics, University of Belgrade",
+        "1.12. 2003 – 1.3.2004. Visiting Research Fellow, Institute of Microwaves and Photonics,  School of Electronic and Electrical Engineering, University of Leeds, UK",
+        "2000-2001. Research Assistant, Institute of Physics, Center for Solid State Physics and New Materials, Belgrade",
+        "2000-2001. Teaching Assistant (part-time contract), School of Electrical Engineering, Department of Microelectronics and Engineering Physics, University of Belgrade",
+        "1997–1999. Research Assistant, School of Electrical Engineering, Department of Microelectronics and Engineering Physics, University of Belgrade, Serbia"
       ],
       "education": [
         "1999 – 2001. PhD in Electrical Engineering, Faculty of Electrical Engineering, University of Belgrade",
@@ -812,9 +830,9 @@
       "academic_title": "Dr.",
       "job_title": "Assistant Professor",
       "level": 2,
-      "tel": "",
+      "tel": "+381 34 336-223",
       "fax": "",
-      "email": "",
+      "email": "jovana.bogojeski@pmf.kg.ac.rs, jrosic@kg.ac.rs",
       "personal_url": "",
       "photo": "Jovana_Bogojeski.jpg",
       "cv": "CV_Jovana_Bogojeski.pdf",
