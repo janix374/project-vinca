@@ -21,12 +21,19 @@ const ProjectCard = ({
 		<Card.Body>
 			<Card.Title>{projectName}</Card.Title>
 			<Card.Text>
-				<ReadMore>{projectDescription}</ReadMore>
+				<div className='card-description'>
+					{projectDescription}
+					{/* <ReadMore>{projectDescription}</ReadMore> */}
+				</div>
 			</Card.Text>
 			<div className='container-card-button'>
 				<div>Project type: {projectType}</div>
 				<div>
-					<ButtonLink title='Link' link={projectLink} />
+					{projectLink.length > 0 ? (
+						<ButtonLink title='Link' link={projectLink} />
+					) : (
+						''
+					)}
 				</div>
 			</div>
 		</Card.Body>

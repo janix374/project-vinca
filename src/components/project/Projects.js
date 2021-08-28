@@ -35,7 +35,7 @@ const Projects = () => {
 				</Col>
 				{projects.projects &&
 					projects.projects.map((item) => (
-						<Col key={item.project_id} sm={12} md={6}>
+						<Col key={item.project_id} sm={12}>
 							<ProjectCard
 								projectDescription={item.project_description}
 								projectImage={item.project_image}

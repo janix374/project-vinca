@@ -4,7 +4,7 @@ import ButtonLink from '../common/buttons/ButtonLink';
 
 const Partners = () => (
 	<Container>
-		<Row className='mt-5 partner-show mb-5'>
+		<Row className='mt-5 partner-show mb-5 pb-5'>
 			<Col sm={12} md={8}>
 				<h4>
 					Vinča Institute of Nuclear Sciences, National Institute of the
@@ -38,7 +38,7 @@ const Partners = () => (
 				</div>
 			</Col>
 		</Row>
-		<Row className='mt-5 partner-show mb-5'>
+		<Row className='mt-5 partner-show mb-5 pb-5'>
 			<Col sm={12} md={8}>
 				<h4>School of Electrical Engineering, University of Belgrade</h4>
 				<p className='text-justify mt-3 mb-3'>
@@ -73,7 +73,7 @@ const Partners = () => (
 				</div>
 			</Col>
 		</Row>
-		<Row className='mt-5 partner-show mb-5'>
+		<Row className='mt-5 partner-show mb-5 pb-5'>
 			<Col sm={12} md={8}>
 				<h4>Faculty of Sciences and Mathematics, University of Niš</h4>
 				<p className='text-justify mt-3 mb-3'>
@@ -108,7 +108,7 @@ const Partners = () => (
 				</div>
 			</Col>
 		</Row>
-		<Row className='mt-5 partner-show mb-5'>
+		<Row className='mt-5 partner-show mb-5 pb-5'>
 			<Col sm={12} md={8}>
 				<h4>
 					Department of Chemistry, Faculty of Science, University of Kragujevac

@@ -21,7 +21,7 @@ const Member = ({ match }) => {
 		if (history.length > 1) {
 			history.goBack();
 		}
-		history.push('./');
+		history.push('/');
 	};
 
 	if (error) {

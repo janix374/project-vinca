@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import plus from '../../../img/plus.png';
+import negative from '../../../img/negative.png';
 
 const ReadMore = ({ children }) => {
 	const text = children;
@@ -7,12 +9,16 @@ const ReadMore = ({ children }) => {
 		setIsReadMore(!isReadMore);
 	};
 
-	if (text.length > 150) {
+	if (text.length > 500) {
 		return (
 			<>
-				{isReadMore ? `${text.slice(0, 150)}...` : text}
+				{isReadMore ? `${text.slice(0, 500)}...` : text}
 				<span onClick={toggleReadMore} className='read-or-hide'>
-					{isReadMore ? 'read more' : ' show less'}
+					{isReadMore ? (
+						<img src={plus} alt='read more' />
+					) : (
+						<img src={negative} alt='show less' />
+					)}
 				</span>
 			</>
 		);

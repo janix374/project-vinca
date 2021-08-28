@@ -6,7 +6,7 @@ import Perfooter from './Perfooter';
 function Footer() {
 	return (
 		<footer>
-			<Perfooter />
+			{/* <Perfooter /> */}
 			<Container className='footer-container'>
 				<Row>
 					<Col xs={12} sm={4}>

@@ -31,7 +31,7 @@ const Groups = ({ teamName, title, description, picture }) => {
 
 	return (
 		<Container className='groups-component'>
-			<Row className='mt-5 groups-border'>
+			<Row className='groups-border'>
 				<Col xs={12}>
 					<h3 className='mb-3'>{title}</h3>
 					<p className='mt-3 text-justify'>{description}</p>

@@ -35,11 +35,11 @@ const GalleryComponent = ({ images }) => {
 				prevImg={prevImg}
 				nextImg={nextImg}
 			/>
-			<div className='gallery-all'>
+			<div className='gallery-container-all-pictures'>
 				{images.map((item, index) => (
 					<div
 						key={item.id}
-						className='gallery-pics'
+						className='gallery-frame'
 						onClick={() => handleGetImg(index)}
 					>
 						<img

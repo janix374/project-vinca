@@ -79,21 +79,24 @@ const Center = () => (
 		<Row className='mt-5'>
 			<Col sm={12} md={6} className='text-justify centerOurMission'>
 				<h4 className='text-center'>OUR MISSION</h4>
-				<p>
-					&ldquo; To connect groups and institutions involved in different
-					aspects of the application of light in scientific fields and
-					disciplines, to improve and accelerate process of innovation and
-					application of research results using comprehensive multidisciplinary
-					approach. &bdquo;
-				</p>
+				<div>
+					<p>
+						To connect groups and institutions involved in different aspects of
+						the application of light in scientific fields and disciplines, to
+						improve and accelerate process of innovation and application of
+						research results using comprehensive multidisciplinary approach.
+					</p>
+				</div>
 			</Col>
 			<Col sm={12} md={6} className='text-justify centerOurMission'>
 				<h4 className='text-center'>OUR VISION</h4>
-				<p>
-					&ldquo; To become the leading center for the application of light in
-					various areas of scientific work in the region and recognizable in the
-					European research area. &bdquo;
-				</p>
+				<div>
+					<p>
+						To become the leading center for the application of light in various
+						areas of scientific work in the region and recognizable in the
+						European research area.
+					</p>
+				</div>
 			</Col>
 		</Row>
 	</Container>

@@ -34,11 +34,14 @@ const News = () => {
 					<h3 className='text-center'>News</h3>
 				</Col>
 				{news.news &&
-					news.news.map((item) => (
-						<Col key={item.news_id} sm={12} md={6}>
-							<SingleNews />
-						</Col>
-					))}
+					news.news
+						.slice(0)
+						.reverse()
+						.map((item) => (
+							<Col key={item.news_id} sm={12}>
+								<SingleNews news={item} />
+							</Col>
+						))}
 			</Row>
 		</Container>
 	);
