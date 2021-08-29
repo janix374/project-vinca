@@ -1,7 +1,5 @@
 import React from 'react';
-import { Card, Button, NavItem } from 'react-bootstrap';
-import { Link, useRouteMatch } from 'react-router-dom';
-import ReadMore from '../common/readmore/ReadMore';
+import { Card } from 'react-bootstrap';
 import ButtonLink from '../common/buttons/ButtonLink';
 
 const ProjectCard = ({
@@ -20,12 +18,7 @@ const ProjectCard = ({
 		/>
 		<Card.Body>
 			<Card.Title>{projectName}</Card.Title>
-			<Card.Text>
-				<div className='card-description'>
-					{projectDescription}
-					{/* <ReadMore>{projectDescription}</ReadMore> */}
-				</div>
-			</Card.Text>
+			<div className='card-description'>{projectDescription}</div>
 			<div className='container-card-button'>
 				<div>Project type: {projectType}</div>
 				<div>

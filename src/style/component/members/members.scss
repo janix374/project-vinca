@@ -82,6 +82,8 @@
       -webkit-box-shadow: 5px 5px 10px #8a8787;
               box-shadow: 5px 5px 10px #8a8787;
       display: block;
+      background-clip: padding-box;
+       backdrop-filter: blur(70px);
     }
 
     &:hover {

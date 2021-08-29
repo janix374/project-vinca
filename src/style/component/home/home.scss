@@ -90,10 +90,15 @@
 
 .home-component {
     font-size: $centarFontSize;
+
+    .for-vanila-effect {
+        overflow: hidden;
+    }
 }
 
 @include breakpint(mobile) {
     .slider_container {
         display: none;
     }
+
 }

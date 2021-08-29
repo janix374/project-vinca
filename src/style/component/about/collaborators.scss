@@ -36,4 +36,55 @@
         color: $fontColorText;
     }
 
+
+// collaboratorsInstitution a,b,c
+.collaboratorsInstitution-container {
+    padding-top: 50px;
+
+    p {
+        font-weight: bold;
+    }
+
+    // .collaboratorsInstitution-a {
+    //     display: none
+    // };
+    // .collaboratorsInstitution-b {
+    //     display: none
+    // };
+    // .collaboratorsInstitution-c {
+    //     display: none
+    // };
+
+    .collaboratorsInstitution-a,.collaboratorsInstitution-b,.collaboratorsInstitution-c {
+        margin-bottom: 100px;
+
+        li {
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+        a {
+            display: block;
+            color: $fontColorText;
+            text-decoration: none;
+            font-size: $normalFontSize;
+            transition: transform 0.5s;
+        };
+    
+        a:visited {
+            color: $fontColorText;
+        };
+    
+        a:focus {
+            color: $fontColorText;
+        };
+    
+        a:hover {
+            transform: translateX(10px);
+            font-weight: bold;
+            color: $maincolor;
+        };
+    }
+
+}
+
 }

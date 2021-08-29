@@ -11,7 +11,7 @@ const Home = () => (
 						WELCOME TO COHERENCE PRESENTATION WEBPAGE!
 					</p> */}
 			</Col>
-			<Col xs={12} className='mb-4'>
+			<Col xs={12} className='mb-4 for-vanila-effect'>
 				<CardVanilaEffect />
 			</Col>
 		</Row>
