@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/project-vinca/static/css/main.ee5630db.chunk.css",
-    "main.js": "/project-vinca/static/js/main.8fbe94fa.chunk.js",
-    "main.js.map": "/project-vinca/static/js/main.8fbe94fa.chunk.js.map",
+    "main.css": "/project-vinca/static/css/main.5a972d42.chunk.css",
+    "main.js": "/project-vinca/static/js/main.63a11fe1.chunk.js",
+    "main.js.map": "/project-vinca/static/js/main.63a11fe1.chunk.js.map",
     "runtime-main.js": "/project-vinca/static/js/runtime-main.c96e366a.js",
     "runtime-main.js.map": "/project-vinca/static/js/runtime-main.c96e366a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/project-vinca/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ffae09d5.chunk.js": "/project-vinca/static/js/2.ffae09d5.chunk.js",
-    "static/js/2.ffae09d5.chunk.js.map": "/project-vinca/static/js/2.ffae09d5.chunk.js.map",
+    "static/js/2.195a1b5a.chunk.js": "/project-vinca/static/js/2.195a1b5a.chunk.js",
+    "static/js/2.195a1b5a.chunk.js.map": "/project-vinca/static/js/2.195a1b5a.chunk.js.map",
     "index.html": "/project-vinca/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/project-vinca/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.ee5630db.chunk.css.map": "/project-vinca/static/css/main.ee5630db.chunk.css.map",
-    "static/js/2.ffae09d5.chunk.js.LICENSE.txt": "/project-vinca/static/js/2.ffae09d5.chunk.js.LICENSE.txt"
+    "static/css/main.5a972d42.chunk.css.map": "/project-vinca/static/css/main.5a972d42.chunk.css.map",
+    "static/js/2.195a1b5a.chunk.js.LICENSE.txt": "/project-vinca/static/js/2.195a1b5a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c96e366a.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ffae09d5.chunk.js",
-    "static/css/main.ee5630db.chunk.css",
-    "static/js/main.8fbe94fa.chunk.js"
+    "static/js/2.195a1b5a.chunk.js",
+    "static/css/main.5a972d42.chunk.css",
+    "static/js/main.63a11fe1.chunk.js"
   ]
 }

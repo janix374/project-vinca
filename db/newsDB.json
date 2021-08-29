@@ -4,7 +4,19 @@
         "news_id": 1,
         "news_title": "news",
         "news_description": "news description",
-        "news_date": "www.google.com"
+        "news_date": "30.05.2021"
+      },
+      {
+        "news_id": 2,
+        "news_title": "news",
+        "news_description": "news description",
+        "news_date": "30.05.2021"
+      },
+      {
+        "news_id": 3,
+        "news_title": "news",
+        "news_description": "news description",
+        "news_date": ""
       }
     ]
 }

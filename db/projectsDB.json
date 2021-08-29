@@ -5,18 +5,18 @@
         "project_name": "project",
         "project_description": "project description",
         "project_image": "projects.jpg",
-        "project_link": "https://www.google.com/",
+        "project_link": "",
         "project_type": "a",
         "project_pdf": "pdf"
       },
       {
         "project_id": 2,
         "project_name": "project1",
-        "project_description": "project description1 project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1",
+        "project_description": "project description1 project     fddddddddddddddddddddddddddddddddddddddr dfgfdggggfgfgffffffffffffffffffffffffffffffffffffffffffffffffffff       dffffffffffffffffffffffffffg description1prfggggggggggggggggggggggggggggggggggggggggoject description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1",
         "project_image": "projects.jpg",
         "project_link": "https://www.google.com/",
         "project_type": "a1",
-        "project_pdf": "pdf"
+        "project_pdf": "sss"
       },
       {
         "project_id": 3,
