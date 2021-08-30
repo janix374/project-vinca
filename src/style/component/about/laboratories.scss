@@ -1,6 +1,11 @@
 .laboratories {
     -webkit-animation: opacityAnimation 0.5s ease-in;
     animation: opacityAnimation 0.5s ease-in;
+    margin-bottom: 100px;
+
+    .laboratories-picture {
+        margin-top: 30px;
+    }
 
     .laboratories-picture img{
         border: 3px solid #dfdfdf;
@@ -21,4 +26,13 @@
             color: $fontColorText;
         }
     }
+}
+
+
+
+@include breakpint(tablet) {
+    .laboratories {
+        font-size: 0.8rem;
+    }
+
 }

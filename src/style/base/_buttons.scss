@@ -83,7 +83,7 @@
     font-size: 14px;
     background: #1fa0e1;
     border: none;
-    border-radius: 2px;
+    border-radius: 20px;
     box-shadow:  6px 6px 12px #dbdbdb,
                 -6px -6px 12px #ffffff;
   }
@@ -94,8 +94,18 @@
                       -6px -6px 12px #ffffff;
   }
   button:focus {
-    border: 2px solid rgb(38, 37, 48);
+    border: 1px solid rgb(38, 37, 48);
     box-shadow:  inset 6px 6px 12px #dbdbdb,
                       -6px -6px 12px #ffffff;
   }
 }
+
+
+@include breakpint(tablet) {
+  .button-action-full-background {
+      button {
+        text-align: justify;
+        font-size: 10px;
+      }
+  }
+} 
