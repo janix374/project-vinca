@@ -2,31 +2,50 @@
     "projects": [
       {
         "project_id": 1,
-        "project_name": "project",
-        "project_description": "project description",
-        "project_image": "projects.jpg",
+        "project_name": "Physics of Complex Systems",
+        "project_description": "We are investigating fundamental phenomena of localization and light (information) transport in photonic systems: topological lattices, chiral metamaterials and metasurfaces, multicore optical fibers, waveguide arrays, attempting to establish and model robust and efficient procedures and structures for slowing, trapping and controlling the light (photon) propagation.  Our endeavor comprises the study of formation and dynamics of protected edge topological modes, compact localized structures, solitons and breathing patterns which are results of the synergy of nonlinearity, topology, irregularity and geometry related effects in different photonic platforms.  We expect to trace new routes towards efficient all light based computing and sensing components and devices, detection and analyses of extreme events in photonics.",
+        "project_image": "projects_home.jpg",
         "project_link": "",
-        "project_type": "a",
-        "project_pdf": "pdf"
+        "project_type": "In-house project (No. 0402106)",
+        "project_pdf": ""
       },
       {
         "project_id": 2,
-        "project_name": "project1",
-        "project_description": "project description1 project     fddddddddddddddddddddddddddddddddddddddr dfgfdggggfgfgffffffffffffffffffffffffffffffffffffffffffffffffffff       dffffffffffffffffffffffffffg description1prfggggggggggggggggggggggggggggggggggggggggoject description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1project description1",
-        "project_image": "projects.jpg",
-        "project_link": "https://www.google.com/",
-        "project_type": "a1",
-        "project_pdf": "sss"
+        "project_name": "Tunable Graphene Based Chiral Metamaterial for Terahertz Wave Polarization Modulation",
+        "project_description": "The development of metamaterials that respond resonantly in interaction with the terahertz (THz) electromagnetic waves is important for the achievement of diverse optical functionalities in this spectral range. One of the types of metamaterials is chiral metamaterials, which consist of chiral resonators interacting differently with the right (RCP) and left (LCP) circularly polarized waves. Interaction of electromagnetic waves with chiral structure produces two phenomena, circular dichroism and optical activity, which for utilization objectives are regarded independently. Active control of these chiral effects in the THz frequency range can be achieved by integrating active material (such as graphene) with metamaterials. By dynamical modulation of the graphene conductivity, the chiral effects can be tuned which allows the realization of modulators which can be implemented in future wireless communication systems and this type of materials is in the focus of our research.",
+        "project_image": "projects_int.jpg",
+        "project_link": "",
+        "project_type": "Bilateral project Serbia-Turkey (2021-2023)",
+        "project_pdf": ""
       },
       {
         "project_id": 3,
-        "project_name": "project3",
-        "project_description": "project description1",
+        "project_name": "Development of nanocomposite systems for photodynamic therapy of cancer",
+        "project_description": "Cancer mortality in Serbia ranks among the highest globally, with the most common cancers in the population being lung and colon cancers. A combination of invasive chemotherapy and surgery is used to combat these cancers, which seriously deteriorate the patients' life quality. Photodynamic therapy (PDT) uses light to activate photosensitive drugs locally, thus initiating a series of events leading to the cell death and elimination of tumor tissue, but this approach is still not yet approved for clinical use. In collaboration with other departments in VINCA and institutions abroad, we are developing photosensitive systems to treat solid cancers, such as melanoma, ovary, lung, pancreas, and cervical. The system is based on two types of nanoparticles: metal-oxide- and carbon-based, both with various shapes and sizes. Furthermore, to improve nanoparticles' stability, biocompatibility, selectivity, and optical properties, their surface is modified with various compounds, some of which are potential therapeutics. During this ongoing project, we investigate the mechanism of the effect of nanoparticles on the cellular level and structural and functional changes in intracellular biomolecules, aiming at finding the most efficient PDT system for cancer elimination that will have minimum side effects for a patient.",
+        "project_image": "projects_home.jpg",
+        "project_link": "",
+        "project_type": "In-house project (No. 0402107)",
+        "project_pdf": ""
+      },
+      {
+        "project_id": 4,
+        "project_name": "KardioPal diagnostics",
+        "project_description": "HeartPal and IntuiS decided to partner up to combine medical device production and distribution capabilities with HeartPal's diagnostic technology, IP, and clinical experience. IntuiS and HeartPal will bring to market the diagnostic technology on a revenue share basis: IntuiS will manufacture and distribute the handheld devices, while HeartPal will be responsible for server-based diagnostic service and continue the work on new IP and R&D. Dedinje hospital is bringing expertise in clinical studies and heart attack treatment to the consortium, while Vinca Institute is bringing expertise in biosignal conditioning and MI (Machine Learning) algorithms. Vinca Institute is developing advanced algorithms for signal processing, including reduction/elimination of the tremor noise and baseline wandering from the ECG signals recorded with a pocket ECG device and machine learning algorithms for automatic detection of acute myocardial infarction.",
         "project_image": "projects.jpg",
-        "project_link": "https://www.google.com/",
-        "project_type": "a1",
-        "project_pdf": "pdf"
+        "project_link": "",
+        "project_type": "COLLABORATIVE GRANT SCHEME Program, Innovation Fund of the Republic of Serbia, ID50258, partner of IntuiS company (2020-2022)",
+        "project_pdf": ""
+      },
+      {
+        "project_id": 5,
+        "project_name": "Baby Bip (mobile fetal well-being monitor)",
+        "project_description": "BabyBip - a fetal ECG signal-based personal alternative to conventional Cardiotocography (CTG) test that will enable mothers to assess the baby's wellbeing at home, with a personal FHR (Fetal Heart Rate) device without any cables or self-adhesive electrodes. The data is transmitted to a portal in the cloud, and the hospital can view the data in the portal in real-time or at a later stage. This remote monitoring service offers pregnant women the benefit of a consultant physician's medical expertise without the hassle of having to travel to the hospital - or, in some cases, having to stay there overnight. Researchers from the Vinca Institute are working on developing algorithms for the extraction of the fetal ECG signals and the calculation of the fetal heart rate.",
+        "project_image": "projects.jpg",
+        "project_link": "",
+        "project_type": "Matching Grants Program, Innovation Fund of the Republic of Serbia, ID 2023, partner of EUROICC company (2021-2023)",
+        "project_pdf": ""
       }
+
     ]
 }
   

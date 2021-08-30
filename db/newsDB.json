@@ -2,21 +2,21 @@
     "news": [
       {
         "news_id": 1,
-        "news_title": "news",
-        "news_description": "news description",
-        "news_date": "30.05.2021"
+        "news_title": "Photonica2021",
+        "news_description": "The Eight International School and Conference on Photonics- Photonica2021 will take place in Belgrade,Serbia (August 23 - August 27, 2021). See you there!",
+        "news_date": "20.08.2021."
       },
       {
         "news_id": 2,
-        "news_title": "news",
-        "news_description": "news description",
-        "news_date": "30.05.2021"
+        "news_title": "Lecture",
+        "news_description": "Prof. Nadezhda Bulgakova from Institute of Physics of the Czech Academy of Sciences in Prague will give lecture: HiLASE Centre - Scientific Laser Applications. The lecture will be held on Tuesday (24/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
+        "news_date": "23.08.2021."
       },
       {
         "news_id": 3,
-        "news_title": "news",
-        "news_description": "news description",
-        "news_date": ""
+        "news_title": "Lecture",
+        "news_description": "Dr. Sinan Gundogdu from Humboldt University in Berlin will give lecture: Direct laser writing waveguides in CR-39 polymer. The lecture will be held on Wednesday (25/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
+        "news_date": "24.08.2021."
       }
     ]
 }
