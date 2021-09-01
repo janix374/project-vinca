@@ -42,6 +42,7 @@ const GalleryComponent = ({ images }) => {
 						className='gallery-frame'
 						onClick={() => handleGetImg(index)}
 					>
+						<div className='gallery-frame-text'>{item.description}</div>
 						<img
 							src={`${process.env.PUBLIC_URL}/assets/images/galleries/${item.name}`}
 							alt={item.name}

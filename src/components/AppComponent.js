@@ -23,6 +23,7 @@ import GroupPhotoDynamicTherapy from './groups/GroupPhotoDynamicTherapy';
 import Collaborators from './about/Collaborators';
 import Laboratories from './about/Laboratories';
 import ScrollToTop from './scrolltotop/ScrollToTop';
+import Publications from './publications/Publications';
 
 const AppComponent = () => (
 	<Router basename='/coherence'>
@@ -64,6 +65,9 @@ const AppComponent = () => (
 					</Route>
 					<Route exact path='/projects'>
 						<Projects />
+					</Route>
+					<Route exact path='/publications'>
+						<Publications />
 					</Route>
 					<Route path='/news' exact>
 						<News />

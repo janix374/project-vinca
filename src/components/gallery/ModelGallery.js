@@ -19,6 +19,7 @@ const ModelGallery = (props) => {
 							: 'inactive-model-img'
 					}
 				>
+					<div className='model-gallery-img-text'>{item.description}</div>
 					<img
 						src={`${process.env.PUBLIC_URL}/assets/images/galleries/${item.name}`}
 						alt='gallery'
