@@ -1,0 +1,120 @@
+ "2021": [
+            {
+                "id": 1,
+                "publication": "S. S. Jovičić Milić, V. V. Jevtić, E.H. Avdović, B. Petrović, M. Međedović, Đ. S. Petrović, M. Milovanović, J. Milovanović, N. Arsenijević, D. Lj. Stojković, G. P. Radić, M. J. Stanković, “DNA binding, molecular docking study and antitumor activity of [PdCl2(R2-(S,S)-eddtrp)] complexes”, Monatshefte für Chemie - Chemical Monthly. 152, 951–958",
+                "coherence_members": ["B. Petrović"],
+                "link": ""
+            },
+            {
+                "id": 2,
+                "publication": "P. P. Beličev, G. Gligorić, A. Maluckov, Lj. Hadžievski, and S. Turitsyn: „Topological Charge Switch in Active Mulit-Core Fibers“, Ann. Phys. 2100108 (1-9) (2021); IF2019=3.317",
+                "coherence_members": ["P. P. Beličev", "G. Gligorić", "A. Maluckov", "Lj. Hadžievski"],
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 3,
+                "publication": "Aston University",
+                "coherence_members": ["B. Petrović"],
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 4,
+                "publication": "Aston University",
+                "coherence_members": ["B. Petrović"],
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 5,
+                "publication": "Aston University",
+                "coherence_members": ["B. Petrović"],
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 6,
+                "publication": "Aston University",
+                "coherence_members": ["B. Petrović"],
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 7,
+                "publication": "Aston University",
+                "coherence_members": ["B. Petrović"],
+                "link": "https://www.aston.ac.uk/"
+            }
+        ],
+
+        "2020": [
+            {
+                "id": 1,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 2,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 3,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 4,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 5,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 6,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 7,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            }
+        ],
+
+        "2019": [
+            {
+                "id": 1,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 2,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 3,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 4,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 5,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 6,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            },
+            {
+                "id": 7,
+                "publication": "Aston University",
+                "link": "https://www.aston.ac.uk/"
+            }
+        ]

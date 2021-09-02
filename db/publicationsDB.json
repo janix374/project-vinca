@@ -1,0 +1,653 @@
+{
+    "publications" : [
+        {
+            "year": 2021,
+            "publications_by_year": [
+                {
+                    "id": 1,
+                    "publication": "S. S. Jovičić Milić, V. V. Jevtić, E.H. Avdović, B. Petrović, M. Međedović, Đ. S. Petrović, M. Milovanović, J. Milovanović, N. Arsenijević, D. Lj. Stojković, G. P. Radić, M. J. Stanković, “DNA binding, molecular docking study and antitumor activity of [PdCl2(R2-(S,S)-eddtrp)] complexes”, Monatshefte für Chemie - Chemical Monthly. 152, 951–958",
+                    "coherence_members": ["B. Petrović"],
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "publication": "P. P. Beličev, G. Gligorić, A. Maluckov, Lj. Hadžievski, and S. Turitsyn: „Topological Charge Switch in Active Mulit-Core Fibers“, Ann. Phys. 2100108 (1-9) (2021); IF2019=3.317",
+                    "coherence_members": ["P. P. Beličev", "G. Gligorić", "A. Maluckov", "Lj. Hadžievski"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 3,
+                    "publication": "D. B. Stojanović, G. Gligorić, P. P. Beličev, M. R. Belić, and Lj. Hadžievski: „Circular Polarization Selective Metamaterial Absorber in Terahertz Frequency Range“, IEEE J. Sel. Top. Quant. 27, 4700506 (1-6) (2021); IF2020=4.544",
+                    "coherence_members": ["D. B. Stojanović", "G. Gligorić", "P. P. Beličev", "Lj. Hadžievski"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 4,
+                    "publication": "Mithun T., Maluckov A., Manda B. Many Skokos C., Bishop A., Saxena A., Khare A., Kevrekidis P. G., “Thermalization in the one-dimensional Salerno model lattice”, Phys. Rev. E 103, 032211 (2021).",
+                    "coherence_members": ["Maluckov A"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 5,
+                    "publication": "N. Chang, S. Gundogdu, D. Leykam, D. G. Angelakis, S. Kou, S. Flach, and A. Maluckov, “Nonlinear Bloch wave dynamics in photonic Aharonov–Bohm cages”, APL Photonics 6, 030801 (2021).",
+                    "coherence_members": ["A. Maluckov"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 6,
+                    "publication": "D. Leykam, E. Smolina, A. Maluckov, S. Flach, and D. A. Smirnova, “Probing Band Topology Using Modulational Instability”,Phys. Rev. Lett. 126, 073901 (2021).",
+                    "coherence_members": ["A. Maluckov"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 7,
+                    "publication": "M. Matijević, J. Žakula, L. Korićanac, M. Radoičić, X. Liang, L. Mi, J. Filipović Tričković, A. Valenta Šobot, M.N. Stanković, Đ. Nakarada, M. Mojović, M. Petković, M. Stepić, and M. D. Nešić: „Controlled killing of human cervical cancer cells by combined action of blue light and C-doped TiO2 nanoparticles“, Photochem. Photobiol. Sci., in press, IF2020=3.982 (Q2)",
+                    "coherence_members": ["M. Matijević", "M. Petković", "M. Stepić", "M. D. Nešić"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 8,
+                    "publication": "D. Houdová, J. Soto, R. Castro, J. Rodrigues, M.S. Pino-González, M. Petković, T.J. Bandosz, and M. Algarra: „Chemically heterogeneous carbon dots enhanced cholesterol detection by MALDI TOF mass spectrometry”, J. Coll. Interface Sci. 591, 373-383 (2021), IF2020=8.128 (Q1)",
+                    "coherence_members": ["M. Petković"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 9,
+                    "publication": "N. Nunes, I. Popović, E. Abreu, D. Maciel, J. Rodrigues, J. Soto, M. Algarra, and M. Petković: „Detection of Ru Potential metallodrug in human urine by MALDI-TOF mass spectrometry: Validation and options to enhance the sensitivity“, TALANTA 222, 121551 (2021). IF2020=6.057 (Q1, Analytical Chemistry)",
+                    "coherence_members": ["I. Popović", "M. Petković"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 10,
+                    "publication": "S. Jovanović-Stević, S. Radisavljević, A. Scheurer, D. Ćoćić, B. Šmit, M. Petković, M.N. Živanović, K. Virijević, and B. Petrović: „Bis(triazinyl)pyridine complexes of Pt(II) and Pd(II): studies of the nucleophilic substitution reactions, DNA/HSA interactions, molecular docking and biological activity“, J. Inorg. Biol. Chem., 26, 625–637 (2021), IF2020=3.358 (Q1, Inorganic Chemistry)",
+                    "coherence_members": ["M. Petković", "B. Petrović"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 11,
+                    "publication": "R. Perestrelo, M. Petković, and C. Luis Silva: „Analytical Platforms for the Determination of Phospholipid Turnover in Breast Cancer Tissue: Role of Phospholipase Activity in Breast Cancer Development“, Metabolites, 11 32; (2021) IF2020=4.932 (Q2, Biochemistry)",
+                    "coherence_members": ["M. Petković"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 12,
+                    "publication": "X. Liang, Y. Xie, J. Wu, J. Wang, M. Petković, M. Stepić, J. Zhao, J. Ma, L. Mi: „Functional titanium dioxide nanoparticle conjugated with phthalocyanine and folic acid as a promising photosensitizer for targeted photodynamic therapy in vitro and in vivo“, J. Photochem. Photobiol. B: Biology, 215, 112122, IF2020=6.252 (Q1, Biophysics)",
+                    "coherence_members": ["M. Petković", "M. Stepić"],
+                    "link": "https://www.aston.ac.uk/"
+                }
+            ]
+        },
+        {
+            "year": 2020,
+            "publications_by_year": [
+                {
+                    "id": 1,
+                    "publication": "Nesic M.D., Ducic T., Liang X., Algarra M., Mi L., Koricanac L., Zakula J., Kop T.J., Bjelakovic M.S., Mitrovic A., Gojgic Cvijovic G.D., Stepic M., Petkovic M.:' SR-FTIR spectro-microscopic interaction study of biochemical changes in HeLa cells induced by Levan-C60, Pullulan-C60, and their cholesterol-derivatives ', International Journal of Biological Macromolecules 165, 2541-2549 (2020).",
+                    "coherence_members": ["Nesic M.D.", "Stepic M", "Petkovic M"],
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "publication": "Stojanovic Krasic M., Stojanovic M., Maluckov A., Maczewsky L.J., Szameit A., Stepic M.:' Localized modes in a two-dimensional lattice with a pluslike geometry ', Physical Review E 102, 032207 (2020).",
+                    "coherence_members": ["Stojanovic M", "Maluckov A", "Stepic M"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 3,
+                    "publication": "Stojanovic M.G., Krasic M.S., Maluckov A., Johansson M., Salinas I.A., Vicencio R.A., Stepic M.:' Localized modes in linear and nonlinear octagonal-diamond lattices with two flat bands ', Physical Review A 102, 023532 (2020).",
+                    "coherence_members": ["Stojanovic M.G", "Maluckov A", "Stepic M"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 4,
+                    "publication": "Gligoric G., Leykam D., Maluckov A.:' Influence of different disorder types on Aharonov-Bohm caging in the diamond chain ', Physical Review A 101, 023839 (2020).",
+                    "coherence_members": ["Gligoric G", "Maluckov A"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 5,
+                    "publication": "Bonet-San-Emeterio M., Algarra M., Petkovic M., del Valle M.:' Modification of electrodes with N-and S-doped carbon dots. Evaluation of the electrochemical response ', Talanta 212, 120806 (2020).",
+                    "coherence_members": ["Petkovic M"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 6,
+                    "publication": "Cocic D., Jovanovic-Stevic S., Jelic R., Matic S., Popovic S., Djurdjevic P., Baskic D., Petrovic B.:' Homo- And hetero-dinuclear Pt(ii)/Pd(ii) complexes: Studies of hydrolysis, nucleophilic substitution reactions, DNA/BSA interactions, DFT calculations, molecular docking and cytotoxic activity ', Dalton Transactions 49, 14411–14431 (2020).",
+                    "coherence_members": ["Petrovic B"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 7,
+                    "publication": "Petrovic A., Zivanovic M., Puchta R., Cocic D., Scheurer A., Milivojevic N., Bogojeski J.:' Experimental and quantum chemical study on the DNA/protein binding and the biological activity of a rhodium(iii) complex with 1,2,4-triazole as an inert ligand', Dalton Transactions 49, 9070–9085 (2020).",
+                    "coherence_members": ["Bogojeski J"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 8,
+                    "publication": "Ivanovic M.D., Hannink J., Ring M., Baronio F., Vukcevic V., Hadzievski L., Eskofier B.:” Predicting defibrillation success in out-of-hospital cardiac arrested patients: Moving beyond feature design ”, Artificial Intelligence in Medicine 110, 101963 (2020).",
+                    "coherence_members": ["Ivanovic M.D", "Hadzievski L"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 9,
+                    "publication": "Gulicovski J., Nenadovic S., Kljajevic L., Mirkovic M., Nisavic M., Kragovic M., Stojmenovic M.:” Geopolymer/CeO2 as solid electrolyte for IT-SOFC”, Polymers 12, 248 (2020).",
+                    "coherence_members": ["Nisavic M"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 10,
+                    "publication": "Petrovic A., Zivanovic M., Puchta R., Cocic D., Scheurer A., Milivojevic N., Bogojeski J.:' Experimental and quantum chemical study on the DNA/protein binding and the biological activity of a rhodium(iii) complex with 1,2,4-triazole as an inert ligand', Dalton Transactions 49, 9070–9085 (2020).",
+                    "coherence_members": ["Bogojeski J"],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 11,
+                    "publication": "Stojanovic D.B., Gligoric G., Belicev P.P., Belic M.R., Hadzievski L. “Circular polarization selective metamaterial absorber in terahertz frequency range“, IEEE J. Sel. Top. Quantum Electron. 27, 4700506 (2020).",
+                    "coherence_members": ["Stojanovic D.B.", "Gligoric G.", "Belicev P.P.", "Hadzievski L."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 12,
+                    "publication": "Ivanovic M., Mancic A., Hermann-Avigliano C., Hadzievski L., Maluckov A.:' Deep learning-based classification of high intensity light patterns in photorefractive crystals ', Journal of Optics 22, 035504 (2020).",
+                    "coherence_members": ["Ivanovic M.", "Mancic A.", "Hadzievski L.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 13,
+                    "publication": "Mithun T., Maluckov A., Kasamatsu K., Malomed B.A., Khare A.:' Modulational instability, inter-component asymmetry, and formation of quantum droplets in one-dimensional binary bose gases ', Symmetry 12, 174 (2020).",
+                    "coherence_members": ["Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 14,
+                    "publication": "Silva C.L., Perestrelo R., Sousa-Ferreira I., Capelinha F., Camara J.S., Petkovic M.:' Lipid biosignature of breast cancer tissues by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry ', Breast Cancer Research and Treatment 182, 9-19 (2020).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 15,
+                    "publication": "Ivanovic M., Kljajevic L., Gulicovski J., Petkovic M., Jankovic-Castvan I., Bucevac D., Nenadovic S.:' The effect of the concentration of alkaline activator and aging time on the structure of metakaolin based geopolymer ', Science of Sintering 52, 219-229 (2020).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 16,
+                    "publication": "Mithun T., Maluckov A., Kasamatsu K., Malomed B.A., Khare A.:' Modulational instability, inter-component asymmetry, and formation of quantum droplets in one-dimensional binary bose gases ', Symmetry 12, 174 (2020).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 17,
+                    "publication": "Matijevic M., Nakarada D., Liang X., Koricanac L., Rajsiglova L., Vannucci L., Nesic M., Vranjes M., Mojovic M., Mi L., Estrela-Lopis I., Bottner J., Saponjic Z., Petkovic M., Stepic M.' Biocompatibility of TiO2 prolate nanospheroids as a potential photosenzitizer in therapy of cancer ', Journal of Nanoparticle Research 22, 175 (2020).",
+                    "coherence_members": ["Matijevic M.", "Nesic M.", "Petkovic M.", "Stepic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 18,
+                    "publication": "Radisavljevic S., Dekovic Kesic A., Cocic D., Puchta R., Senft L., Milutinovic M., Milivojevic N., Petrovic B.:' Studies of the stability, nucleophilic substitution reactions, DNA/BSA interactions, cytotoxic activity, DFT and molecular docking of some tetra- And penta-coordinated gold(iii) complexes ', New Journal of Chemistry 44, 11172–11187 (2020).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 19,
+                    "publication": "Vukovic N., Radovanovic J., Milanovic V., Boiko D.L.:' Numerical study of Risken-Nummedal-Graham-Haken instability in mid-infrared Fabry-Perot quantum cascade lasers ', Optical and Quantum Electronics 52, 91 (2020).",
+                    "coherence_members": ["Vukovic N.", "Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 20,
+                    "publication": "Radisavljevic S., Petrovic B.:' Gold(III) Complexes: An Overview on Their Kinetics, Interactions With DNA/BSA, Cytotoxic Activity, and Computational Calculations ', Frontiers in Chemistry 8, 379 (2020).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 21,
+                    "publication": "Medjedovic M., Simovic A.R., Cocic D., Milutinovic M., Senft L., Blagojevic S., Milivojevic N., Petrovic B.:' Dinuclear ruthenium(II) polypyridyl complexes: Mechanistic study with biomolecules, DNA/BSA interactions and cytotoxic activity ', Polyhedron 178, 114334 (2020).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 22,
+                    "publication": "Popovic-Maneski L., Ivanovic M.D., Atanasoski V., Miletic M., Zdolsek S., Bojovic B., Hadzievski L.:” Properties of different types of dry electrodes for wearable smart monitoring devices ”, Biomedizinische Technik 65, 405–415 (2020).",
+                    "coherence_members": ["Ivanovic M.D.", "Miletic M.", "Hadzievski L."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 23,
+                    "publication": "Simovic A.R., Bogojeski J., Petrovic B., Jovanovic-Stevic S.:' Bis-pyrazolylpyridine complexes of some transition metal ions: Structure-activity relationships and biological activity ', Macroheterocycles 13, 201–209 (2020).",
+                    "coherence_members": ["Bogojeski J.", "Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 24,
+                    "publication": "Petkovic M., Leopold J., Popovic I., Dimic D., Ilic J., Nenadovic M., Rakocevic Z., Schiller J.:' Performances of ionic liquid matrices with butyl ammonium counterion for matrix-assisted laser desorption/ionization mass spectrometric detection and analysis of sucralfate ', Journal of Carbohydrate Chemistry 39, 1–23 (2020).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 25,
+                    "publication": "M. Matijević, M. Stanković, N. Krstić, M. Nikolić, D. Kostić: „Application of oxidation processes in the purification of wastewaters from phenolic compounds“, Revue Roumaine de Chimie 65, 4 (2020).",
+                    "coherence_members": ["M. Matijević"],
+                    "link": "https://www.aston.ac.uk/"
+                }
+            ]
+        },
+        {
+            "year": 2019,
+            "publications_by_year": [
+                {
+                    "id": 1,
+                    "publication": "Zdravkovic S., Chevizovich D., Bugay A.N., Maluckov A.:' Stationary solitary and kink solutions in the helicoidal Peyrard-Bishop model of DNA molecule ', Chaos 29, 053118 (2019).",
+                    "coherence_members": ["Maluckov A."],
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "publication": "Hermann-Avigliano C., Salinas I.A., Rivas D.A., Real B., Mancic A., Mejia-Cortes C., Maluckov A., Vicencio R.A.:' Spatial rogue waves in photorefractive SBN crystals ', Optics Letters 44, 2807-2810 (2019).",
+                    "coherence_members": ["Mancic A.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 3,
+                    "publication": "Pal R., Loomba S., Kumar C.N., Milovic D., Maluckov A. :' Matter wave soliton solutions for driven Grossâ€“Pitaevskii equation with distributed coefficients ', Annals of Physics 401, 116-129 (2019).",
+                    "coherence_members": ["Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 4,
+                    "publication": "Gligoric G., Belicev P.P., Leykam D., Maluckov A.:' Nonlinear symmetry breaking of Aharonov-Bohm cages ', Physical Review A 99 013826 (2019).",
+                    "coherence_members": ["Gligoric G.", "Belicev P.P.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 5,
+                    "publication": "Radisavljevic S., Cocic D., Jovanovic S., Smit B., Petkovic M., Milivojevic N., Planojevic N., Markovic S., Petrovic B.:' Synthesis, characterization, DFT study, DNA/BSA-binding affinity, and cytotoxicity of some dinuclear and trinuclear gold(III) complexes ', Journal of Biological Inorganic Chemistry 24, 1057–1076 (2019).",
+                    "coherence_members": ["Petkovic M.", "Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 6,
+                    "publication": "Franich A.A., Zivkovic M.D., Cocic D., Petrovic B., Milovanovic M., Arsenijevic A., Milovanovic J., Arsenijevic D., Stojanovic B., Djuran M.I., Rajkovic S.:' New dinuclear palladium(II) complexes with benzodiazines as bridging ligands: interactions with CT-DNA and BSA, and cytotoxic activity ', Journal of Biological Inorganic Chemistry 24, 1009–1022 (2019).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 7,
+                    "publication": "Petrovic A., Milutinovic M.M., Petri E.T., Zivanovic M., Milivojevic N., Puchta R., Scheurer A., Korzekwa J., Klisuric O.R., Bogojeski J.:' Synthesis of Camphor-Derived Bis(pyrazolylpyridine) Rhodium(III) Complexes: Structure-Reactivity Relationships and Biological Activity', Inorganic Chemistry 58, 307–319 (2019).",
+                    "coherence_members": ["Bogojeski J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 8,
+                    "publication": "Veljkovic M., Mancic A., Milovic D., Maluckov A.:' Numerical study of high intensity events in the supercontinuum generation in the presence of input chirp ', Optik 196, 163180 (2019).",
+                    "coherence_members": ["Mancic A.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 9,
+                    "publication": "Stojanovic D.B., Belicev P.P., Radovanovic J., Milanovic V.:' Numerical parametric study of chiral effects and group delays in Omega element based terahertz metamaterial ', Physics Letters, Section A: General, Atomic and Solid State Physics 383, 1816-1820 (2019).",
+                    "coherence_members": ["Stojanovic D.B.", "Belicev P.P.", "Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 10,
+                    "publication": "Mangelinckx S., Kostic M., Backx S., Petrovic B., De Kimpe N.:' Synthesis of Racemic 2-(Aminomethyl)cyclopropane-1,1-dicarboxylic Acid as a New Constrained Î³-Amino Dicarboxylic Acid Bypassing Alkyl 3-Aza-2-oxobicyclo[3.1.0]hexane-1-carboxylates ', European Journal of Organic Chemistry 2019, 5187–5189 (2019).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 11,
+                    "publication": "Petrovic B., Jovanovic S., Puchta R., van Eldik R.:' Mechanistic insight on the chemistry of potential Pt antitumor agents as revealed by collaborative research performed in Kragujevac and Erlangen ', Inorganica Chimica Acta 495, 118953 (2019).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 12,
+                    "publication": "Jovanovic S., Bogojeski J., Nikolic M.V., Mijajlovic M.Z., Tomovic D.L., Bukonjic A.M., Knezevic Rangelov S.M., Mijailovic N.R., Ratkovic Z., Jevtic V.V., Petrovic B., Trifunovic R.S., Novakovic S., Bogdanovic G., Radic G.P.:' Interactions of binuclear copper(II) complexes with S-substituted thiosalicylate derivatives with some relevant biomolecules ', Journal of Coordination Chemistry 72, 1603–1620 (2019).",
+                    "coherence_members": ["Bogojeski J.", "Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 13,
+                    "publication": "Pan R., Zapolnova E., Golz T., Krmpot A.J., Rabasovic M.D., Petrovic J., Asgekar V., Faatz B., Tavella F., Perucchi A., Kovalev S., Green B., Geloni G., Tanikawa T., Yurkov M., Schneidmiller E., Gensch M., Stojanovic N.:' Photon diagnostics at the FLASH THz beamline ', Journal of Synchrotron Radiation 29, 700–707 (2019).",
+                    "coherence_members": ["Petrovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 14,
+                    "publication": "Popovic A., Nikolic M., Mijajlovic M., Ratkovic Z., Jevtic V., Trifunovic S.R., Radic G., Zaric M., Canovic P., Milovanovic M., Radisavljevic S., Mededovic M., Petrovic B., Jovanovic I.:' DNA binding and antitumor activities of zinc(II) complexes with some S-alkenyl derivatives of thiosalicylic acid ', Transition Metal Chemistry 44, 219–228 (2019).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 15,
+                    "publication": "Bukonjic A.M., Tomovic D.L., Stankovic A.S., Jevtic V.V., Ratkovic Z.R., Bogojeski J.V., Milovanovic J.Z., Dordevic D.B., Arsenijevic A.N., Milovanovic M.Z., Potocnak I., Trifunovic S.R., Radic G.P.:' Synthesis, characterization and biological activity of copper(II) complexes with ligands derived from Î²-amino acids', Transition Metal Chemistry 44, 65–76 (2019).",
+                    "coherence_members": ["Bogojeski J.V."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 16,
+                    "publication": "Ivanovic M.D., Ring M., Baronio F., Calza S., Vukcevic V., Hadzievski L., Maluckov A., Eskofier B.:' ECG derived feature combination versus single feature in predicting defibrillation success in out-of-hospital cardiac arrested patients ', Biomedical Physics and Engineering Express 5, 015012 (2019).",
+                    "coherence_members": ["Ivanovic M.D.", "Hadzievski L.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 17,
+                    "publication": "Johansson M., Belicev P.P., Gligoric G., Gulevich D.R., Skryabin D.V.:' Nonlinear gap modes and compactons in a lattice model for spin-orbit coupled exciton-polaritons in zigzag chains ', Journal of Physics Communications 3, 015001 (2019).",
+                    "coherence_members": ["Belicev P.P.", "Gligoric G."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 18,
+                    "publication": "Petrovic J.:' Durability of the refractive index change induced by a single femtosecond laser pulse in glass ', Optical Materials: X 1, 100004 (2019).",
+                    "coherence_members": ["Petrovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 19,
+                    "publication": "Ivanovic M.D., Miletic M., Subotic I., Boljevic D.:” Signal Quality in Reconstructed 12-Lead Ambulatory ECGs Recorded Using 3-Lead Device ”, Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBS, 5481–5487 (2019).",
+                    "coherence_members": ["Ivanovic M.D.", "Miletic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 20,
+                    "publication": "Ivanovic M.D., Atanasoski V., Shvilkin A., Hadzievski L., Maluckov A.:' Deep Learning Approach for Highly Specific Atrial Fibrillation and Flutter Detection based on RR Intervals ', Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBS, 1780-1783 (2019).",
+                    "coherence_members": ["B. Petrović"],
+                    "link": "https://www.aston.ac.uk/"
+                }
+            ]
+        },
+        {
+            "year": 2018,
+            "publications_by_year": [
+                {
+                    "id": 1,
+                    "publication": "Nisavic M., Stoiljkovic M., Crnolatac I., Milosevic M., Rilak A., Masnikosa R.:” Highly water-soluble ruthenium(II) terpyridine coordination compounds form stable adducts with blood-borne metal transporting proteins ”, Arabian Journal of Chemistry 11, 291–304 (2018).",
+                    "coherence_members": ["Nisavic M."],
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "publication": "Mancic A., Baronio F., Hadzievski L., Wabnitz S., Maluckov A.:' Statistics of vector Manakov rogue waves ', Physical Review E 98, 012209 (2018).",
+                    "coherence_members": ["Mancic A.", "Hadzievski L.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 3,
+                    "publication": "Cocic D., Jovanovic S., Radisavljevic S., Korzekwa J., Scheurer A., Puchta R., Baskic D., Todorovic D., Popovic S., Matic S., Petrovic B.:' New monofunctional platinum(II) and palladium(II) complexes: Studies of the nucleophilic substitution reactions, DNA/BSA interaction, and cytotoxic activity ', Journal of Inorganic Biochemistry 189, 91–102 (2018).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 4,
+                    "publication": "Petrovic J., Veerman J.J.P.:' A new method for multi-bit and qudit transfer based on commensurate waveguide arrays ', Annals of Physics 392, 128–141 (2018).",
+                    "coherence_members": ["Petrovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 5,
+                    "publication": "Stojanovic D.B., Belicev P.P., Gligoric G., Hadzievski L.:” Terahertz chiral metamaterial based on twisted closed ring resonators ”, Journal of Physics D: Applied Physics 51, 045106 (2018).",
+                    "coherence_members": ["Stojanovic D.B.", "Belicev P.P.", "Gligoric G.", "Hadzievski L."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 6,
+                    "publication": "Nisavic M., Janjic G.V., Hozic A., Petkovic M., Milcic M.K., Vujcic Z., Cindric M.:' Positive and negative nano-electrospray mass spectrometry of ruthenated serum albumin supported by docking studies: An integrated approach towards defining metallodrug binding sites on proteins ', Metallomics 10, 587–594 (2018).",
+                    "coherence_members": ["Nisavic M.", "Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 7,
+                    "publication": "Ivanovic M.D., Petrovic J., Savic A., Gligoric G., Miletic M., Vukcevic M., Bojovic B., Hadzievski L., Allsop T., Webb D.J.:' Real-time chest-wall-motion tracking by a single optical fibre grating: A prospective method for ventilator triggering ', Physiological Measurement 39, 045009 (2018).",
+                    "coherence_members": ["Ivanovic M.D.", "Petrovic J.", "Gligoric G.", "Miletic M.", "Hadzievski L."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 8,
+                    "publication": "Cocic D., Jovanovic S., Rajkovic S., Petrovic B.:' Kinetics and mechanism of the substitution reactions of dinuclear platinum(II) complexes with important bio-molecules ', Inorganica Chimica Acta 482, 635–642 (2018).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 9,
+                    "publication": "Veljkovic M., Milovic D., Maluckov A., Biswas A., Majid F.B., Glenn C.M.:' Chaotic dynamics and supercontinuum generation with cosh-Gaussian pulses in photonic-crystal fibers ', Laser Physics 28, 095109 (2018).",
+                    "coherence_members": ["Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 10,
+                    "publication": "Danieli C., Maluckov A., Flach S.:' Compact discrete breathers on flat-band networks ', Low Temperature Physics 44, 678-687 (2018).",
+                    "coherence_members": ["Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 11,
+                    "publication": "Miletic J., Drakulic D., Pejic S., Petkovic M., Ilic T.V., Miljkovic M., Stefanovic A., Prostran M., Stojanov M.:' Prooxidantâ€“antioxidant balance, advanced oxidation protein products and lipid peroxidation in Serbian patients with Parkinson's disease ', International Journal of Neuroscience 128, 600–607 (2018).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 12,
+                    "publication": "Matijevic M., Nesic M., Stepic M., Radoicic M., Saponjic Z., Petkovic M.:' Light controllable TiO2-Ru nanocomposite system encapsulated in phospholipid unilamellar vesicles for anti-cancer photodynamic therapy ', Optical and Quantum Electronics 50, 232 (2018).",
+                    "coherence_members": ["Matijevic M.", "Nesic M.", "Stepic M.", "Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 13,
+                    "publication": "Rajcic B., Dimitrijevic S.B., Petkovic M., Nisavic M., Cindric M., Veljkovic F., Velickovic S.:' Gold chloride cluster ions generated by vacuum laser ablation ', Optical and Quantum Electronics 50, 218 (2018).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 14,
+                    "publication": "Matijevic M., Nesic M., Stepic M., Radoicic M., Saponjic Z., Petkovic M.:' Light controllable TiO2-Ru nanocomposite system encapsulated in phospholipid unilamellar vesicles for anti-cancer photodynamic therapy ', Optical and Quantum Electronics 50, 232 (2018).",
+                    "coherence_members": ["Matijevic M.", "Nesic M.", "Stepic M.", "Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 15,
+                    "publication": "Rajcic B., Dimitrijevic S.B., Petkovic M., Nisavic M., Cindric M., Veljkovic F., Velickovic S.:' Gold chloride cluster ions generated by vacuum laser ablation ', Optical and Quantum Electronics 50, 218 (2018).",
+                    "coherence_members": ["Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 16,
+                    "publication": "Besser Silconi Z., Benazic S., Milovanovic J., Jurisevic M., Djordjevic D., Nikolic M., Mijajlovic M., Ratkovic Z., Radic G., Radisavljevic S., Petrovic B., Radosavljevic G., Milovanovic M., Arsenijevic N.:' DNA binding and antitumor activities of platinum(IV) and zinc(II) complexes with some S-alkyl derivatives of thiosalicylic acid ', Transition Metal Chemistry 43, 719–729 (2018).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 17,
+                    "publication": "Radisavljevic S., Kesic A.D., Jovanovic S., Petrovic B.:' Kinetics and mechanism of interactions of some monofunctional Au(III) complexes with sulphur nucleophiles ', Transition Metal Chemistry 43, 331–338 (2018).",
+                    "coherence_members": ["Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 18,
+                    "publication": "Dubajic M., Danicic A., Vukovic N., Milanovic V., Radovanovic J.:' Optimization of cubic GaN/AlGaN quantum cascade structures for negative refraction in the THz spectral range ', Optical and Quantum Electronics 50, 373 (2018).",
+                    "coherence_members": ["Vukovic N.", "Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 19,
+                    "publication": "Opacak N., Milanovic V., Radovanovic J.:' Optical transmission singularities in light propagation through double active barrier structure', Modern Physics Letters B 32, 1850261 (2018).",
+                    "coherence_members": ["Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 20,
+                    "publication": "Opacak N., Milanovic V., Radovanovic J.:' Transmission and tunneling time characteristics in light propagation through anisotropic double semiconductor layered structure ', Optical and Quantum Electronics 50, 142 (2018).",
+                    "coherence_members": ["Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 21,
+                    "publication": "Tomovic D.L., Bukonjic A.M., Jevtic V.V., Ratkovic Z.R., Bogojeski J.V., Dekovic A., Radojevic I.D., Comic L.R., Novakovic S.B., Bogdanovic G.A., Trifunovic S.R., Radic G.P., Cupara S.:' DNA binding, antibacterial and antifungal activities of copper(II) complexes with some S-alkenyl derivatives of thiosalicylic acid', Transition Metal Chemistry 43, 137–148 (2018).",
+                    "coherence_members": ["Bogojeski J.V."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 22,
+                    "publication": "Rakovic I.R., Radojevic I.D., Mladenovic K.G., Popovska Jovicic B.D., Petrovic S., Canovic P.P., Comic L.R., Canovic P.S., Bogojeski J.V.:' Antimicrobial, antioxidant and DNA-binding studies of palladium(II) complexes with different chelate ligands containing nitrogen donor atoms ', Journal of the Serbian Chemical Society 83, 1229–1242 (2018).",
+                    "coherence_members": ["Bogojeski J.V."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 23,
+                    "publication": "Stojic I.M., Jakovljevic V.L., Zivkovic V.I., Srejovic I.M., Nikolic T.R., Jeremic J.N., Jeremic N.S., Djuric D.M., Radonjic K.G., Labudovic-Borovic M., Bugarcic Z.D., Bogojeski J., Novokmet S.S.:' The perfusion of cisplatin and cisplatin structural analogues through the isolated rat heart: The effects on coronary flow and cardiodynamic parameters', General Physiology and Biophysics 37, 515–525 (2018).",
+                    "coherence_members": ["Bogojeski J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 24,
+                    "publication": "Abu Hamed T., Adamovic N., Aeberhard U., et al., :' Multiscale in modelling and validation for solar photovoltaics ', EPJ Photovoltaics 9, 10 (2018).",
+                    "coherence_members": [],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 25,
+                    "publication": "Atanasoski V., Ivanovic M.D., Marinkovic M., Gligoric G., Bojovic B., Shvilkin A.V., Petrovic J.:' Unsupervised Classification of Premature Ventricular Contractions Based on RR Interval and Heartbeat Morphology ', 14th Symposium on Neural Networks and Applications, NEUREL 2018, 8586997 (2018).",
+                    "coherence_members": ["Ivanovic M.D.", "Gligoric G.", "Petrovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 26,
+                    "publication": "Vicencio R.A., Salinas I.A., Hermann-Avigliano C., Rivas D.A., Real B., Mejia-Cortes C., Mancic A., Maluckov A.:' Rogue waves in photorefractive SBN crystals ', Optics InfoBase Conference Papers 2018, (2018).",
+                    "coherence_members": ["Mancic A.", "Maluckov A."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 27,
+                    "publication": "Antonov A.A., Kuritsyn D.I., Gajic A., Orlova E.E., Vukovic N., Radovanovic J., Vaks V.V., Boiko D.L.: ' Controlling the Quantum Cascade Laser Frequency Comb via Risken-Nummedal-Graham-Haken Instability ', Conference Digest - IEEE International Semiconductor Laser Conference 2018, 187-188 (2018).",
+                    "coherence_members": ["Vukovic N.", "Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                }
+            ]
+        },
+        {
+            "year": 2017,
+            "publications_by_year": [
+                {
+                    "id": 1,
+                    "publication": "Gligoric G., Radosavljevic A., Petrovic J., Maluckov A., Hadzievski L., Malomed B.A.:' Models of spin-orbit-coupled oligomers ', Chaos 27, 113102 (2017).",
+                    "coherence_members": ["Gligoric G.", "Petrovic J.", "Maluckov A.", "Hadzievski L."],
+                    "link": ""
+                },
+                {
+                    "id": 2,
+                    "publication": "Nisavic M., Hozic A., Hamersak Z., Radic M., Butorac A., Duvnjak M., Cindric M.:” High-Efficiency Microflow and Nanoflow Negative Electrospray Ionization of Peptides Induced by Gas-Phase Proton Transfer Reactions ”, Analytical Chemistry 89, 4847–4854 (2017).",
+                    "coherence_members": ["Nisavic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 3,
+                    "publication": "Belicev P.P., Gligoric G., Maluckov A., Stepic M., Johansson M.:' Localized gap modes in nonlinear dimerized Lieb lattices ', Physical Review A 96, 063838 (2017).",
+                    "coherence_members": ["Belicev P.P.", "Gligoric G.", "Maluckov A.", "Stepic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 4,
+                    "publication": "Radosavljevic A., Gligoric G., Belicev P.P., Maluckov A., Stepic M.:' Light propagation in binary kagome ribbons with evolving disorder ', Physical Review E 96, 012225 (2017).",
+                    "coherence_members": ["Gligoric G.", "Belicev P.P.", "Maluckov A.", "Stepic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 5,
+                    "publication": "Mancic A., Maluckov A., Hadzievski L.:' Influence of disorder on generation and probability of extreme events in Salerno lattices ', Physical Review E 95, 032212 (2017).",
+                    "coherence_members": ["Mancic A.", "Maluckov A.", "Hadzievski L."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 6,
+                    "publication": "Vukovic N.N., Radovanovic J., Milanovic V., Boiko D.L.:' Low-Threshold RNGH Instabilities in Quantum Cascade Lasers ', IEEE Journal of Selected Topics in Quantum Electronics 23, 1200616 (2017).",
+                    "coherence_members": ["Vukovic N.N.", "Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 7,
+                    "publication": "Dimkic I., Stankovic S., Nisavic M., Petkovic M., Ristivojevic P., Fira D., Beric T.:' The profile and antimicrobial activity of Bacillus lipopeptide extracts of five potential biocontrol strains ', Frontiers in Microbiology 8, 925 (2017).",
+                    "coherence_members": ["Nisavic M.", "Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 8,
+                    "publication": "Cocic D., Jovanovic S., Nisavic M., Baskic D., Todorovic D., Popovic S., Bugarcic Z.D., Petrovic B.:' New dinuclear palladium(II) complexes: Studies of the nucleophilic substitution reactions, DNA/BSA interactions and cytotoxic activity ', Journal of Inorganic Biochemistry 175, 67–79 (2017).",
+                    "coherence_members": ["Nisavic M.", "Petrovic B."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 9,
+                    "publication": "Opacak N., Milanovic V., Radovanovic J.:' Infinite dwell time and group delay in resonant electron tunneling through double complex potential barrier ', Superlattices and Microstructures 112, 415-421 (2017).",
+                    "coherence_members": ["Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 10,
+                    "publication": "Opacak N., Milanovic V., Radovanovic J.:' Transmission singularities in resonant electron tunneling through double complex potential barrier ', Physics Letters, Section A: General, Atomic and Solid State Physics 381, 3542-3547 (2017).",
+                    "coherence_members": ["Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 11,
+                    "publication": "Stojanovic Krasic M., Mancic A., Kuzmanovic S., Đoric Veljkovic S., Stepic M.:' Linear and interface defects in composite linear photonic lattice ', Optics Communications 394, 6–13 (2017).",
+                    "coherence_members": ["Mancic A.", "Stepic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 12,
+                    "publication": "Divac V.M., Mijatovic A., Kostic M.D., Bogojeski J.:' The interaction of organoselenium trans-palladium(II) complexes toward small-biomolecules and CT-DNA', Inorganica Chimica Acta 466, 464–469 (2017).",
+                    "coherence_members": ["Bogojeski J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 13,
+                    "publication": "Canovic P., Bogojeski J., Kosaric J.V., Markovic S.D., Zivanovic M.N.:' Pt(IV), pd(II), and rh(III) complexes induced oxidative stress and cytotoxicity in the HCT-116 colon cancer cell line', Turkish Journal of Biology 41, 141–147 (2017).",
+                    "coherence_members": ["Bogojeski J."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 14,
+                    "publication": "Djuric B., Suzic S., Stojadinovic B., Nestorovic Z., Ivanovic M., Suzic-Lazic J., Nesic D., Mazic S., Tenne T., Zikich D., Zikic D.:” An improved design of optical sensor for long-term measurement of arterial blood flow waveform ”, Biomedical Microdevices 19, 48 (2017).",
+                    "coherence_members": ["Ivanovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 15,
+                    "publication": "Nesic M., Zakula J., Koricanac L., Stepic M., Radoicic M., Popovic I., Saponjic Z., Petkovic M.:' Light controlled metallo-drug delivery system based on the TiO2-nanoparticles and Ru-complex ', Journal of Photochemistry and Photobiology A: Chemistry 347, 55–66 (2017).",
+                    "coherence_members": ["Nesic M.", "Stepic M.", "Popovic I.", "Petkovic M."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 16,
+                    "publication": "Nenadovic S.S., Kljajevic L.M., Nesic M.A., Petkovic M.Z., Trivunac K.V., Pavlovic V.B.:' Structure analysis of geopolymers synthesized from clay originated from Serbia ', Environmental Earth Sciences 76, 79 (2017).",
+                    "coherence_members": ["Petkovic M.Z."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 17,
+                    "publication": "Rakic-Kostic T.M., Bogojeski J.V., Popovic I.A., Nesic M.D., Rajcic B.M., Nisavic M.R., Petkovic M.Z., Velickovic S.R.:' Experimental design for optimizing MALDI-TOF-MS analysis of palladium complexes, Primena eksperimentalnog dizajna za optimizaciju MALDI-TOF-MS analize metalnih kompleksa paladijuma', Hemijska Industrija 71, 281–288 (2017).",
+                    "coherence_members": ["Bogojeski J.V.", "Popovic I.A.", "Nesic M.D.", "Nisavic M.R.", "Petkovic M.Z."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 18,
+                    "publication": "Kamceva T.T., Nesic M.D., Stoiljkovic M.M., Popovic I.A., Miletic J.N., Rajcic B.M., Petkovic M.Z., Velickovic S.R.:' Determination of isotopic distribution of lead by a matrix assisted laser desorption/ionization versus a laser desorption/ionization time of flight mass spectrometry, Određivanje izotopa olova spektrometrijom masa uz pomoć laserske desorpcije/jonizacije u prisustvu i vez upotrebe „matrice”', Hemijska Industrija 71, 19-26 (2017).",
+                    "coherence_members": ["Nesic M.D.", "Popovic I.A.", "Petkovic M.Z."],
+                    "link": "https://www.aston.ac.uk/"
+                },
+                {
+                    "id": 19,
+                    "publication": "Antonov A.A., Kuritsyn D.I., Gajic A., Orlova E.E., Radovanovic J., Vaks V.V., Boiko D.L.:' Tailoring risken-nummedal-graham-haken instability in quantum cascade lasers ', Optics InfoBase Conference Papers 2017, (2017).",
+                    "coherence_members": ["Radovanovic J."],
+                    "link": "https://www.aston.ac.uk/"
+                }
+            ]
+        }
+
+
+    ]
+
+
+
+       
+}
