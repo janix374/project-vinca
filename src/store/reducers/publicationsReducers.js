@@ -21,6 +21,13 @@ const publicationsReducers = (state = INITIAL_STATE, action) => {
 				error: null,
 				publications: action.payload,
 			};
+		case types.GET_PUBLICATIONS_BY_YEAR_SUCCESS:
+			return {
+				...state,
+				loading: false,
+				error: null,
+				publicationsByYear: action.payload,
+			};
 		case types.GET_ALL_PUBLICATIONS_FAILURE:
 			return {
 				...state,

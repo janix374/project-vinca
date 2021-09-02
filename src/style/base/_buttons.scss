@@ -29,10 +29,6 @@
       display: inline-block;
       // transform: scale(0.98);
     }
-
-
-
-
 }
 
 .button-action {
@@ -69,7 +65,6 @@
   }
 }
 
-
 .button-action-full-background {
   button {
     position: relative;
@@ -97,6 +92,31 @@
     border: 1px solid rgb(38, 37, 48);
     box-shadow:  inset 6px 6px 12px #dbdbdb,
                       -6px -6px 12px #ffffff;
+  }
+}
+
+.button-action-full-background-two {
+    padding: 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 18px;
+    background: #1fa0e1;
+    border: none;
+
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow:  inset 2px 2px 6px #dbdbdb,
+                       -2px -2px 6px #ffffff;
+  }
+
+  &:focus {
+    border: 1px solid rgb(38, 37, 48);
+    box-shadow:  inset 2px 2px 6px #dbdbdb,
+                      -2px -2px 6px #ffffff;
   }
 }
 

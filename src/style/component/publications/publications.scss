@@ -1,0 +1,30 @@
+.publications-container  {
+    -webkit-animation: opacityAnimation 0.5s ease-in;
+    animation: opacityAnimation 0.5s ease-in;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .publications-button {
+        margin-top: 50px;
+        text-align: center;
+
+        button {
+           margin: 5px;
+        }
+    }
+
+    .publications-container-text{
+        margin-top: 30px;
+        margin-bottom: 70px;
+
+        h4 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        p {
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+}
