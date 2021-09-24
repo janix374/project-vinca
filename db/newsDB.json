@@ -9,14 +9,34 @@
       {
         "news_id": 2,
         "news_title": "Lecture",
-        "news_description": "Prof. Nadezhda Bulgakova from Institute of Physics of the Czech Academy of Sciences in Prague will give lecture: HiLASE Centre - Scientific Laser Applications. The lecture will be held on Tuesday (24/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
+        "news_description": "Prof. Nadezhda Bulgakova from Institute of Physics of the Czech Academy of Sciences in Prague will give lecture: „HiLASE Centre - Scientific Laser Applications“. The lecture will be held on Tuesday (24/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
         "news_date": "23.08.2021."
       },
       {
         "news_id": 3,
         "news_title": "Lecture",
-        "news_description": "Dr. Sinan Gundogdu from Humboldt University in Berlin will give lecture: Direct laser writing waveguides in CR-39 polymer. The lecture will be held on Wednesday (25/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
+        "news_description": "Dr. Sinan Gundogdu from Humboldt University in Berlin will give lecture: „Direct laser writing waveguides in CR-39 polymer“. The lecture will be held on Wednesday (25/08/2021) at 11:00 CET in the common room of the COHERENCE center.",
         "news_date": "24.08.2021."
+      },
+      {
+        "news_id": 4,
+        "news_title": "The first publication with COHERENCE affiliation",
+        "news_description": "The first paper with COHERENCE affiliation: „Detection of Cadmium-related ions by MALDI TOF mass spectrometry correlates with physicochemical properties of Cadmium/matrix adducts“, has been accepted for publication in Polyhedron.",
+        "news_date": "01.09.2021."
+      },
+      {
+        "news_id": 5,
+        "news_title": "Meeting with the Director of the Department for International Cooperation of the Joint Institute for Nuclear Research in Dubna",
+        "news_description": "Member of the Center Dr. Ljupco Hadzievski (Scientific Adviser at the Institute of Nuclear Sciences Vinca - Coordinator for Cooperation of the Joint Coordination Committee of the Ministry of Education, Science and Technological Development and the Institute for Nuclear Research (OINI) in Dubna) has meeting on new opportunities and projects aimed at expanding scientific cooperation with Prof. Dr. Dmitry Kamanin, the Director of the Department for International Cooperation of the Joint Institute for Nuclear Research in Dubna.",
+        "news_date": "03.09.2021."
+      },
+      {
+        "news_id": 6,
+        "news_title": "The cover page of the September issue of Annalen der Physik",
+        "news_description": "Paper: „Topological Charge Switch in Active Multi-Core Fibers“ is on the cover page of September issue of Annalen der Physik.",
+        "news_date": "14.09.2021."
       }
+
+
     ]
 }
