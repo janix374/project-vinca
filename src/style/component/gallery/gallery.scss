@@ -16,7 +16,6 @@
           margin-bottom: 10px;
           max-height: 500px;
           position: relative;
-          background: none;
 
           .gallery-frame-text {
             display: inline-block;
@@ -48,7 +47,7 @@
               -o-transition: transform 10s;
               transition: transform 10s;
               transition: transform 10s, -webkit-transform 10s;
-              border: 1px solid #636060;
+              // border: 1px solid #636060;
               z-index: 20;
           }
 

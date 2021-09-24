@@ -73,51 +73,63 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #ffffff;
     font-size: 14px;
-    background: #1fa0e1;
+    background: #9ed9f8;
     border: none;
     border-radius: 20px;
-    box-shadow:  6px 6px 12px #dbdbdb,
-                -6px -6px 12px #ffffff;
+    // box-shadow:  6px 6px 12px #dbdbdb,
+    //             -6px -6px 12px #ffffff;
+    box-shadow:
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.08),
+    0.7px 0.7px 0px rgba(0, 0, 0, 0.115),
+    1.2px 1.2px 0px rgba(0, 0, 0, 0.15),
+    5px 5px 0px rgba(0, 0, 0, 0.23)
+  ;
   }
   button:hover {
     text-decoration: none;
     color: #ffffff;
-    box-shadow:  inset 6px 6px 12px #dbdbdb,
-                      -6px -6px 12px #ffffff;
+    background: #1fa0e1;
   }
-  button:focus {
+}
+.button-action-full-background-active {
+  button {
+    background: #1fa0e1;
     border: 1px solid rgb(38, 37, 48);
-    box-shadow:  inset 6px 6px 12px #dbdbdb,
-                      -6px -6px 12px #ffffff;
   }
 }
 
 .button-action-full-background-two {
-    padding: 5px 5px;
+    padding: 10px 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #ffffff;
     font-size: 18px;
-    background: #1fa0e1;
+    background: #9ed9f8;
+    // background: #1fa0e1;
     border: none;
-
+    box-shadow:
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.08),
+      0.7px 0.7px 0px rgba(0, 0, 0, 0.115),
+      1.2px 1.2px 0px rgba(0, 0, 0, 0.15),
+      5px 5px 0px rgba(0, 0, 0, 0.23)
+    ;
+  
   &:hover {
     text-decoration: none;
     color: #ffffff;
-    box-shadow:  inset 2px 2px 6px #dbdbdb,
-                       -2px -2px 6px #ffffff;
+    background: #1fa0e1;
   }
 
-  &:focus {
-    border: 1px solid rgb(38, 37, 48);
-    box-shadow:  inset 2px 2px 6px #dbdbdb,
-                      -2px -2px 6px #ffffff;
-  }
+}
+
+.button-action-full-background-two-active {
+  border: 1px solid rgb(38, 37, 48);
+  background: #1fa0e1;
 }
 
 

@@ -32,7 +32,11 @@
 
 @include breakpint(tablet) {
     .laboratories {
-        font-size: 0.8rem;
+
+        h4 {
+            padding: 15px;
+            text-align: justify;
+        }
     }
 
 }

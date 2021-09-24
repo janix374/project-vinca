@@ -1,10 +1,18 @@
 import React from 'react';
 
-const ButtonActionFullBackgrounfTwo = ({ title, handleClick }) => (
+const ButtonActionFullBackgrounfTwo = ({
+	title,
+	handleClick,
+	focusButton = false,
+}) => (
 	<button
 		type='button'
 		onClick={handleClick}
-		className='button-action-full-background-two'
+		className={
+			focusButton === true
+				? 'button-action-full-background-two button-action-full-background-two-active'
+				: 'button-action-full-background-two'
+		}
 	>
 		{title}
 	</button>

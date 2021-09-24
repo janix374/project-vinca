@@ -1,3 +1,4 @@
+// Multy news component
 .news-container {
     -webkit-animation: opacityAnimation 0.5s ease-in;
     animation: opacityAnimation 0.5s ease-in;
@@ -7,8 +8,21 @@
         color: #000000;
     }
 
+    .news-single-container {
+        margin-bottom: 70px;
+    }
+
+    .upcoming-event-text {
+        // color: red;
+    }
+
+    .news-description {
+        color: $fontColorText;
+    }
+
 }
 
+// Single news component
 .single-news {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -25,4 +39,18 @@
         font-size: $smallFontSize;
         color: $fontColorTextBright;
     }
+
+    .image-class {
+        margin: 5px 5px 10px 5px;
+    }
+
+    .upcoming-event {
+        color: red;
+        animation: blinker 3s ease-in-out infinite;
+    }
+
 }
+  
+  @keyframes blinker {  
+    50% { opacity: 0.2; }
+  }

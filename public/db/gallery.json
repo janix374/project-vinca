@@ -3,109 +3,145 @@
     {
       "id": 1,
       "name": "image1.jpg",
-      "description": "photo fdddddddddddd fdddddddddg dfffffffffffffffffffff fggggggggggggggggggggggggggg fgggggggggggggggggggggggggggg",
+      "description": "Laboratory for biomedical engineering",
       "height": 800
     },
     {
       "id": 2,
       "name": "image2.jpg",
-      "description": "photo",
+      "description": "Optical laboratory",
       "height": 800
     },
     {
       "id": 3,
       "name": "image10.jpg",
-      "description": "photo",
+      "description": "Biochemical laboratory",
       "height": 800
     },
     {
       "id": 4,
       "name": "image9.jpg",
-      "description": "photo",
+      "description": "Experiment - Optical laboratory",
       "height": 800
     },
     {
       "id": 5,
       "name": "image6.jpg",
-      "description": "photo",
+      "description": "Experiment - Optical laboratory",
       "height": 800
     },
     {
       "id": 6,
       "name": "image7.jpg",
-      "description": "photo",
+      "description": "Experiment - Optical laboratory",
       "height": 800
     },
     {
       "id": 7,
       "name": "image8.jpg",
-      "description": "photo",
+      "description": "Experiment - Optical laboratory",
       "height": 800
     },
     {
       "id": 8,
       "name": "image4.jpg",
-      "description": "photo",
+      "description": "Results - Biochemical laboratory",
       "height": 800
     },
     {
       "id": 9,
       "name": "image3.jpg",
-      "description": "photo",
+      "description": "Results - Biochemical laboratory",
       "height": 800
     },
     {
       "id": 10,
       "name": "image5.jpg",
-      "description": "photo",
+      "description": "Experiment - Biochemical laboratory",
       "height": 800
     },
     {
       "id": 11,
       "name": "image11.jpg",
-      "description": "photo",
+      "description": "Laboratory for preparation and characterization of transitional metal ions complexes",
       "height": 800
     },
     {
       "id": 12,
       "name": "IMG1.jpg",
-      "description": "photo",
+      "description": "Lecture of Prof. Nadezhda Bulgakova",
       "height": 800
     },
     {
       "id": 13,
       "name": "IMG2.jpg",
-      "description": "photo",
+      "description": "Lecture of Prof. Nadezhda Bulgakova",
       "height": 800
     },
     {
       "id": 14,
       "name": "IMG3.jpg",
-      "description": "photo",
+      "description": "Lecture of Prof. Nadezhda Bulgakova",
       "height": 800
     },
     {
       "id": 15,
       "name": "IMG4.jpg",
-      "description": "photo",
+      "description": "Lecture of Dr. Sinan Gundogdu",
       "height": 800
     },
     {
       "id": 16,
       "name": "IMG5.jpg",
-      "description": "photo",
+      "description": "Lecture of Dr. Sinan Gundogdu",
       "height": 800
     },
     {
       "id": 17,
       "name": "IMG6.jpg",
-      "description": "photo",
+      "description": "Lecture of Dr. Sinan Gundogdu",
       "height": 800
     },
     {
       "id": 18,
       "name": "IMG7.jpg",
-      "description": "photo",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 19,
+      "name": "IMG8.jpg",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 20,
+      "name": "IMG9.jpg",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 21,
+      "name": "IMG10.jpg",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 22,
+      "name": "IMG11.jpg",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 23,
+      "name": "IMG12.jpg",
+      "description": "COHERENCE members at PHOTONICA2021.",
+      "height": 800
+    },
+    {
+      "id": 24,
+      "name": "ADP.jpg",
+      "description": "Cover page of Annalen der Physik.",
       "height": 800
     }
 

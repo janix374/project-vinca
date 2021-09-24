@@ -76,18 +76,21 @@ const Collaborators = () => {
 							<ButtonActionFullBackground
 								title='Opto-biomedical engineering'
 								handleClick={handleClickA}
+								focusButton={displayA}
 							/>
 						</div>
 						<div className='collaborators-buttons mt-3'>
 							<ButtonActionFullBackground
 								title='Investigation of complex systems in biology and physics'
 								handleClick={handleClickB}
+								focusButton={displayB}
 							/>
 						</div>
 						<div className='collaborators-buttons mt-3'>
 							<ButtonActionFullBackground
 								title='Photodynamic therapy development'
 								handleClick={handleClickC}
+								focusButton={displayC}
 							/>
 						</div>
 					</div>
@@ -165,81 +168,6 @@ const Collaborators = () => {
 				</Col>
 				<Col xs={12} sm={2} />
 			</Row>
-			{/* <Row className=''>
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={8} className='mb-3 '>
-					<h5 className='collaborators-class'>List of collaborators</h5>
-				</Col>
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={8} className='mt-3 mb-3'>
-					<h5>Opto-biomedical engineering</h5>
-					<div className='collaboratorsInstitution'>
-						<ul>
-							{collaborators.opto_biomedical_engineering &&
-								collaborators.opto_biomedical_engineering.map((item) => (
-									<li
-										key={item.id}
-										style={{
-											listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
-										}}
-									>
-										<a href={item.link} target='_blank' rel='noreferrer'>
-											{item.name_of_collaborator}
-										</a>
-									</li>
-								))}
-						</ul>
-					</div>
-				</Col>
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={8} className='mt-3 mb-3'>
-					<h5>Investigation of complex systems in biology and physics</h5>
-					<div className='collaboratorsInstitution'>
-						<ul>
-							{collaborators.investigation_of_complex_systems_in_biology_and_physics &&
-								collaborators.investigation_of_complex_systems_in_biology_and_physics.map(
-									(item) => (
-										<li
-											key={item.id}
-											style={{
-												listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
-											}}
-										>
-											<a href={item.link} target='_blank' rel='noreferrer'>
-												{item.name_of_collaborator}
-											</a>
-										</li>
-									)
-								)}
-						</ul>
-					</div>
-				</Col>
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={2} />
-				<Col xs={12} sm={8} className='mt-3 mb-3'>
-					<h5>Photodynamic therapy development</h5>
-					<div className='collaboratorsInstitution'>
-						<ul>
-							{collaborators.photodynamic_therapy_development &&
-								collaborators.photodynamic_therapy_development.map((item) => (
-									<li
-										key={item.id}
-										style={{
-											listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
-										}}
-									>
-										<a href={item.link} target='_blank' rel='noreferrer'>
-											{item.name_of_collaborator}
-										</a>
-									</li>
-								))}
-						</ul>
-					</div>
-				</Col>
-				<Col xs={12} sm={2} />
-			</Row> */}
 		</Container>
 	);
 };

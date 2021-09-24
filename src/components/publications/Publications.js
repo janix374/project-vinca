@@ -12,6 +12,7 @@ const Publications = () => {
 	const { publications, loading, error } = useSelector(selectAllPublications);
 	const [showAllPublication, setShowAllPublication] = useState(true);
 	const [publicationByYear, setPublicationByYear] = useState({});
+	const [focusButtonIndex, setFocusButtonIndex] = useState(null);
 
 	useEffect(() => {
 		dispatch(getAllPublications());
@@ -19,11 +20,14 @@ const Publications = () => {
 
 	const handleOnClickPublicationByyear = (indexYear) => {
 		setPublicationByYear(publications.publications[indexYear]);
+		setFocusButtonIndex(indexYear);
 		setShowAllPublication(false);
 	};
 
 	const handleOnClickaPublication = () => {
 		setShowAllPublication(true);
+		setPublicationByYear({});
+		setFocusButtonIndex(null);
 	};
 
 	if (error) {
@@ -47,6 +51,7 @@ const Publications = () => {
 						<ButtonActionFullBackgrounfTwo
 							title='All'
 							handleClick={handleOnClickaPublication}
+							focusButton={showAllPublication}
 						/>
 						{publications.publications &&
 							publications.publications.map((item, index) => (
@@ -54,14 +59,8 @@ const Publications = () => {
 									key={item.year}
 									title={item.year}
 									handleClick={() => handleOnClickPublicationByyear(index)}
+									focusButton={focusButtonIndex === index}
 								/>
-								// <button
-								// 	key={item.year}
-								// 	type='button'
-								// 	onClick={() => handleOnClickPublicationByyear(index)}
-								// >
-								// 	{item.year}
-								// </button>
 							))}
 					</div>
 				</Col>

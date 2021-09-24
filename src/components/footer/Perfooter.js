@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Perfooter = () => (
 	<div className='footer-wave'>

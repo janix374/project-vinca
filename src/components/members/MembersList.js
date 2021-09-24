@@ -1,7 +1,6 @@
 import React from 'react';
 import { ListGroup, Image } from 'react-bootstrap';
 import { Link, useRouteMatch } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 const MembersList = (props) => {
 	const { data, teamName } = props;
