@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 
-const SingleNews = ({ news }) => {
+const SingleNews = ({ news, extension, classForSingleNewsImage = '' }) => {
 	const dateObject = new Date(news.news_date);
 	const day = dateObject.toLocaleString('en-US', { day: 'numeric' });
 	const month = dateObject.toLocaleString('en-US', { month: 'long' });
@@ -10,9 +10,9 @@ const SingleNews = ({ news }) => {
 		<div className='single-news'>
 			<h4>
 				<Image
-					src={`${process.env.PUBLIC_URL}/assets/images/logo/news.png`}
-					className='image-class'
+					src={`${process.env.PUBLIC_URL}/assets/images/logo/${extension}`}
 					title='NEWS'
+					className={classForSingleNewsImage}
 				/>{' '}
 				<span>{news.news_title}</span>
 			</h4>

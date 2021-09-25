@@ -1,20 +1,12 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
 import ErrorsMsg from '../common/ErrorsMsg';
 import LoadingComponent from '../common/LoadingComponent';
 import SingleNews from './SingleNews';
-import SingleNewsUpcomingEvent from './SingleNewsUpcomingEvent';
-import { getAllNews } from '../../store/actions/newsActions';
-import { selectAllNews } from '../../store/selectors/selector';
+import useNewsSortHooks from '../../customHooks/useNewsSortHooks';
 
 const News = () => {
-	const dispatch = useDispatch();
-	const { news, loading, error } = useSelector(selectAllNews);
-
-	useEffect(() => {
-		dispatch(getAllNews());
-	}, [dispatch]);
+	const { news, loading, error, upcominEvent, pastEvent } = useNewsSortHooks();
 
 	if (error) {
 		return (
@@ -28,29 +20,6 @@ const News = () => {
 		return <LoadingComponent />;
 	}
 
-	const upcominEvent = [];
-	const pastEvent = [];
-	if (news.news) {
-		const eventsObjects = news.news.map((item) => {
-			const dateString = item.news_date.split('.');
-			const stringForParcing = `${dateString[2]}-${dateString[1]}-${dateString[0]}`;
-			return { ...item, news_date: Date.parse(stringForParcing) };
-		});
-
-		const newArray = eventsObjects.sort((a, b) =>
-			// eslint-disable-next-line no-nested-ternary
-			a.news_date > b.news_date ? -1 : b.news_date > a.news_date ? 1 : 0
-		);
-
-		const events = newArray.forEach((element) => {
-			if (element.news_date > Date.now()) {
-				upcominEvent.push(element);
-			} else {
-				pastEvent.push(element);
-			}
-		});
-	}
-
 	return (
 		<Container className='news-container'>
 			{upcominEvent.length > 0 ? (
@@ -60,7 +29,11 @@ const News = () => {
 					</Col>
 					{upcominEvent.map((item) => (
 						<Col key={item.news_id} sm={12}>
-							<SingleNewsUpcomingEvent news={item} />
+							<SingleNews
+								news={item}
+								extension='event.png'
+								classForSingleNewsImage='upcoming-event'
+							/>
 						</Col>
 					))}
 				</Row>
@@ -75,7 +48,7 @@ const News = () => {
 				{pastEvent &&
 					pastEvent.map((item) => (
 						<Col key={item.news_id} sm={12}>
-							<SingleNews news={item} />
+							<SingleNews news={item} extension='news.png' />
 						</Col>
 					))}
 			</Row>
