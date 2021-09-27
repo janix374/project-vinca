@@ -10,6 +10,11 @@ import ButtonActionFullBackground from '../common/buttons/ButtonActionFullBackgr
 const Collaborators = () => {
 	const dispatch = useDispatch();
 	const { collaborators, error, loading } = useSelector(selectAllCollaborators);
+	/**
+	 * displayA - Opto-biomedical engineering
+	 * displayB - Investigation of complex systems in biology and physics
+	 * displayC - Photodynamic therapy development
+	 */
 	const [displayA, setDisplayA] = useState(true);
 	const [displayB, setDisplayB] = useState(false);
 	const [displayC, setDisplayC] = useState(false);
@@ -49,7 +54,7 @@ const Collaborators = () => {
 	}
 
 	return (
-		<Container className='collaborators'>
+		<Container className='collaborators-container'>
 			<Row className='mt-5'>
 				<Col xs={12}>
 					<p className='text-justify collaborators-class'>
@@ -98,9 +103,9 @@ const Collaborators = () => {
 				<Col xs={12} sm={2} />
 				<Col xs={12} sm={2} />
 				<Col xs={12} sm={8} className='mt-3 mb-3'>
-					<div className='collaboratorsInstitution-container'>
+					<div className='collaborators-institution-container'>
 						<div
-							className='collaboratorsInstitution-a'
+							className='collaborators-institution-a'
 							style={{ display: displayA ? 'block' : 'none' }}
 						>
 							<p>Opto-biomedical engineering</p>
@@ -121,7 +126,7 @@ const Collaborators = () => {
 							</ul>
 						</div>
 						<div
-							className='collaboratorsInstitution-b'
+							className='collaborators-institution-b'
 							style={{ display: displayB ? 'block' : 'none' }}
 						>
 							<p>Investigation of complex systems in biology and physics</p>
@@ -144,7 +149,7 @@ const Collaborators = () => {
 							</ul>
 						</div>
 						<div
-							className='collaboratorsInstitution-c'
+							className='collaborators-institution-c'
 							style={{ display: displayC ? 'block' : 'none' }}
 						>
 							<p>Photodynamic therapy development</p>

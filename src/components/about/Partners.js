@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import ButtonLink from '../common/buttons/ButtonLink';
 
 const Partners = () => (
-	<Container>
+	<Container className='partners-container'>
 		<Row className='mt-5 partner-show mb-5 pb-5'>
 			<Col sm={12} md={8}>
 				<h4>
@@ -27,7 +27,7 @@ const Partners = () => (
 				</p>
 			</Col>
 			<Col sm={12} md={4} className='emblem-container'>
-				<div className='text-center mt-5 mb-5 emblem'>
+				<div className='text-center mt-5 mb-5 partner-emblem'>
 					<Image
 						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem1.png`}
 						fluid
@@ -59,7 +59,7 @@ const Partners = () => (
 				</p>
 			</Col>
 			<Col sm={12} md={4}>
-				<div className='text-center mt-5 mb-5 emblem'>
+				<div className='text-center mt-5 mb-5 partner-emblem'>
 					<Image
 						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem2.png`}
 						fluid
@@ -94,7 +94,7 @@ const Partners = () => (
 				</p>
 			</Col>
 			<Col sm={12} md={4}>
-				<div className='text-center mt-5 mb-5 emblem'>
+				<div className='text-center mt-5 mb-5 partner-emblem'>
 					<Image
 						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem3.png`}
 						fluid
@@ -128,7 +128,7 @@ const Partners = () => (
 				</p>
 			</Col>
 			<Col sm={12} md={4}>
-				<div className='text-center mt-5 mb-5 emblem'>
+				<div className='text-center mt-5 mb-5 partner-emblem'>
 					<Image
 						src={`${process.env.PUBLIC_URL}/assets/images/logo/emblem4.png`}
 						fluid

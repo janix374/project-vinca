@@ -16,12 +16,6 @@
   text-align: center;
 }
 
-// teamMembers component
-.teamMembers {
-  text-decoration: none;
-  background-color: aqua;
-}
-
 // teamMember
 .team-member-container {
   margin-top: 3em;
@@ -109,7 +103,7 @@
 
 
 
-@include breakpint(mobile) {
+@include breakpint(tablet) {
   .list-item-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

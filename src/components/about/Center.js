@@ -28,7 +28,7 @@ const Center = () => (
 		</Row>
 		<Row>
 			<Col>
-				<div className='centerInstitution'>
+				<div className='center-institution'>
 					<ul
 						style={{
 							listStyleImage: `url(${process.env.PUBLIC_URL}/assets/images/logo/play_black.png)`,
@@ -76,8 +76,8 @@ const Center = () => (
 				</div>
 			</Col>
 		</Row>
-		<Row className='mt-5'>
-			<Col sm={12} md={6} className='text-justify centerOurMission'>
+		<Row className='mt-5 mb-5'>
+			<Col sm={12} md={6} className='text-justify center-our-mission'>
 				<h4 className='text-center'>OUR MISSION</h4>
 				<div>
 					<p>
@@ -88,7 +88,7 @@ const Center = () => (
 					</p>
 				</div>
 			</Col>
-			<Col sm={12} md={6} className='text-justify centerOurMission'>
+			<Col sm={12} md={6} className='text-justify center-our-mission'>
 				<h4 className='text-center'>OUR VISION</h4>
 				<div>
 					<p>

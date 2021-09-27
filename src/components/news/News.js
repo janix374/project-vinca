@@ -25,7 +25,9 @@ const News = () => {
 			{upcominEvent.length > 0 ? (
 				<Row className='mt-5'>
 					<Col>
-						<h4 className='text-center upcoming-event-text'>Upcoming Events</h4>
+						<h4 className='text-center upcoming-event-text'>
+							Upcoming News and Events
+						</h4>
 					</Col>
 					{upcominEvent.map((item) => (
 						<Col key={item.news_id} sm={12}>

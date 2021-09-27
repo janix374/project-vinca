@@ -1,44 +1,15 @@
-.collaborators {
+.collaborators-container {
     font-size: $centarFontSize;
     -webkit-animation: opacityAnimation 0.5s ease-in;
     animation: opacityAnimation 0.5s ease-in;
-
-    .collaboratorsInstitution {
-
-        li {
-            padding-top: 8px;
-            padding-bottom: 8px;
-        }
-        a {
-            display: block;
-            color: $fontColorText;
-            text-decoration: none;
-            font-size: $normalFontSize;
-            transition: transform 0.5s;
-        };
-    
-        a:visited {
-            color: $fontColorText;
-        };
-    
-        a:focus {
-            color: $fontColorText;
-        };
-    
-        a:hover {
-            transform: translateX(10px);
-            font-weight: bold;
-            color: $maincolor;
-        };
-    }
     
     .collaborators-class{
         color: $fontColorText;
     }
 
 
-// collaboratorsInstitution a,b,c
-.collaboratorsInstitution-container {
+// collaborators-institution a,b,c
+.collaborators-institution-container {
     padding-top: 50px;
 
     p {
@@ -55,7 +26,7 @@
     //     display: none
     // };
 
-    .collaboratorsInstitution-a,.collaboratorsInstitution-b,.collaboratorsInstitution-c {
+    .collaborators-institution-a,.collaborators-institution-b,.collaborators-institution-c {
         margin-bottom: 100px;
 
         li {

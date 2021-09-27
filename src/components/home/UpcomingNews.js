@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const UpcomingNews = ({ upcominEvent }) => {
 	const dateObject = new Date(upcominEvent.news_date);
@@ -13,7 +13,9 @@ const UpcomingNews = ({ upcominEvent }) => {
 				<p>{month}</p>
 			</div>
 			<div className='home-upcoming-news-title'>
-				<p>{upcominEvent.news_title}</p>
+				<Link to='/news'>
+					<p>{upcominEvent.news_title}</p>
+				</Link>
 				<p>
 					{day}.{month}.{year}.{' '}
 				</p>

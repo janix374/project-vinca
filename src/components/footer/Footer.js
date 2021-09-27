@@ -1,12 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Perfooter from './Perfooter';
 
 function Footer() {
 	return (
 		<footer>
-			{/* <Perfooter /> */}
 			<Container className='footer-container'>
 				<Row>
 					<Col xs={12} sm={4}>

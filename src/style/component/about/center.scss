@@ -26,12 +26,7 @@
 
 }
 
-.centerText {
-  text-align: justify;
-}
-
-
-.centerInstitution {
+.center-institution {
   li {
     margin-top: 20px;
     color: $fontColorText;
@@ -61,7 +56,7 @@
   }
 }
 
-.centerOurMission {
+.center-our-mission {
   margin-top: 30px;
   font-weight: 500;
 
@@ -72,7 +67,4 @@
       margin-left: 10px;
     }
   }
-  // span {
-  //   font-weight: bold;
-  // }
 }
